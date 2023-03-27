@@ -6,7 +6,7 @@ Stoss is a single player card game. In France, the game has been known since 168
 
 ## Rules
 
-### Number of decks: 2.
+### Number of decks: 2-5.
 ### Number of cards in the deck: 52.
 ### The seniority of the cards: 2, 3, 4, 5, 6, 7, 8, 9, 10, B, D, K, T.
 ### Purpose of the game: make a pair card with a bank card.
