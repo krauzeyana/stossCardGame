@@ -1,0 +1,12 @@
+.betField {
+    flex-grow: 3;
+
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+
+    width: 60%;
+    //height: 0%;
+}

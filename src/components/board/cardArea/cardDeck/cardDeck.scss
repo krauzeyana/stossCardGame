@@ -1,0 +1,17 @@
+.cardDeck {
+    :nth-child(1) {
+        position: absolute;
+        margin: 6px 0px 0px 6px;
+    }
+    :nth-child(2) {
+        position: absolute;
+        margin: 4px 0px 0px 4px;
+    }
+    :nth-child(3) {
+        position: absolute;
+        margin: 2px 0px 0px 2px;
+    }
+    :nth-child(4) {
+        position: relative;
+    }
+}
