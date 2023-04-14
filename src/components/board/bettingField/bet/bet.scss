@@ -7,4 +7,19 @@
     font-family: "Antiquegr";
     font-size: 45px;
     color: rgba(0,0,0,0.9);
+
+    div{
+        position: absolute;
+    }
+    div:nth-child(1){
+        margin: 8px 0px 0px 8px;
+    }
+
+    div:nth-child(2){
+        margin: 6px 0px 0px 6px;
+    }
+
+    div:nth-child(3){
+        margin: 4px 0px 0px 4px;
+    }
 }

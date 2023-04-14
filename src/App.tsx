@@ -5,9 +5,11 @@ import { StartPage } from "./pages/startPage";
 import { MainPage } from "./pages/mainPage";
 import { StatisticPage } from "./pages/statisticPage";
 import { SettingPage } from "./pages/settingPage";
+import { BankStoreContext, bankStore } from "./store/bankStore/bankStore";
 
 function App() {
     return (
+        <BankStoreContext.Provider value={bankStore}>
         <BrowserRouter>
             <div className="app">
                 <Routes>
@@ -18,6 +20,7 @@ function App() {
                 </Routes>
             </div>
         </BrowserRouter>
+        </BankStoreContext.Provider>
     );
 }
 export default App;
