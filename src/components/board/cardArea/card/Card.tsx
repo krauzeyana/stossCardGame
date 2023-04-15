@@ -5,16 +5,25 @@ interface ICardProps {
 }
 export function Card({ cardName }: ICardProps) {
     const [card, setCard] = useState("");
+    const [isOpen, setIsOpen] = useState(false);
     const getCardIcon = async () => {
         const icon =  (await import(`../../../../assets/images/cards/${cardName}.svg`)).default;
         setCard(icon);
     }
     useEffect(() => {
-        getCardIcon();
+        if(cardName){
+            getCardIcon();
+            setIsOpen(true);
+        }
+        else{
+            setCard("");
+            setIsOpen(false);
+        }
     }, [cardName])
     return (
-        <div>
-            <img src={card} className="" alt="logo" />
-        </div>
+        <>
+            {isOpen && <img src={card} className="" alt="logo" />}
+            {!isOpen && <div className="emptyImg"/>}
+        </>
     );
 }

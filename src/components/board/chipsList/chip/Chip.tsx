@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
-import { ChipValue, useBankStore } from "../../../../store/bankStore/bankStore";
+import { ChipValue } from "../../../../store/bankStore/bankStore";
 import { observer } from "mobx-react-lite";
+import { useRootStore } from "../../../../store";
 
 interface IChipProps {
     value: ChipValue;
@@ -9,7 +10,7 @@ interface IChipProps {
 
 export const Chip = observer(({ value, onClick }: IChipProps) => {
     const [chip, setChip] = useState();
-    const { makeBet } = useBankStore();
+    const { makeBet } = useRootStore().bankStore;
 
     const getChipIcon = async () => {
         const icon = (await import(`../../../../assets/images/chips/${value}.svg`)).default;

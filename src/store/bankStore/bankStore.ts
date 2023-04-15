@@ -1,12 +1,14 @@
-import { action, makeAutoObservable } from "mobx";
+import { action, makeAutoObservable, observable } from "mobx";
 import { chipsList, cardValues, startBalance } from "../../common/gameInfo";
 import React from "react";
+import { RootStore } from "..";
 
 export type ChipValue = typeof chipsList[number];
 export type CardValuesType = typeof cardValues[number];
 let Label: CardValuesType;
 
 export class BankStore {
+    rootStore: RootStore;
     balance: number = startBalance;
     betList = {
         //[Label]: new Array<ChipValue>(),
@@ -51,12 +53,27 @@ export class BankStore {
         return this.betList[label];
     }
 
-    constructor() {
+    getBetBalance(label: CardValuesType){
+
+        return this.betList[label].reduce((acc, val) => acc+= val, 0);
+    }
+
+    changeBalance(value: number){
+        this.balance += value;
+    }
+
+    clearBetLis(label: CardValuesType){
+        this.betList[label] = [];
+        console.log(this.betList[label])
+    }
+
+    constructor(rootStore: RootStore) {
+        this.rootStore = rootStore;
         makeAutoObservable(this, {selectBet: action.bound,
-            makeBet: action.bound, getBetChips: action.bound, removeBet: action.bound});
+            makeBet: action.bound, getBetChips: action.bound, removeBet: action.bound, changeBalance: action.bound, clearBetLis: action.bound, getBetBalance: action.bound});
     }
 }
-
+/*
 export const BankStoreContext = React.createContext<BankStore | null>(null);
 export const bankStore = new BankStore();
 
@@ -66,4 +83,4 @@ export function useBankStore() {
     throw new Error("Wrap element with context first!");
   }
   return context;
-}
+}*/

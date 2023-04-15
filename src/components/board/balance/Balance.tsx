@@ -1,8 +1,8 @@
 import { observer } from "mobx-react-lite";
-import { useBankStore } from "../../../store/bankStore/bankStore";
+import { useRootStore } from "../../../store";
 
 export const Balance: React.FC = observer(() =>  {
-    const {balance} = useBankStore();
+    const {balance} = useRootStore().bankStore;
 
 return <div><h2>{balance}$</h2></div>;
 });

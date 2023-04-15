@@ -1,17 +1,20 @@
 .cardDeck {
-    :nth-child(1) {
+    img:nth-last-child(4) {
         position: absolute;
         margin: 6px 0px 0px 6px;
+        z-index: 4;
     }
-    :nth-child(2) {
+    img:nth-last-child(3) {
         position: absolute;
         margin: 4px 0px 0px 4px;
+        z-index: 3;
     }
-    :nth-child(3) {
+    img:nth-last-child(2) {
         position: absolute;
         margin: 2px 0px 0px 2px;
+        z-index: 2;
     }
-    :nth-child(4) {
+    img:nth-last-child(1) {
         position: relative;
     }
 }

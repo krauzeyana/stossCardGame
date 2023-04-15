@@ -1,14 +1,15 @@
 import { observer } from "mobx-react-lite";
 import "./bet.scss";
-import { CardValuesType, useBankStore } from "../../../../store/bankStore/bankStore";
+import { CardValuesType } from "../../../../store/bankStore/bankStore";
 import { useCallback } from "react";
 import { Chip } from "../../chipsList/chip";
+import { useRootStore } from "../../../../store";
 
 interface IBetProps {
     betValue: CardValuesType;
 }
 export const Bet = observer(({ betValue }: IBetProps) => {
-    const { selectBet, selectedBet, getBetChips, removeBet } = useBankStore();
+    const { selectBet, selectedBet, getBetChips, removeBet } = useRootStore().bankStore;
     const chipsList = getBetChips(betValue);
 
     const from = "246810QA".includes(betValue) ? 1 : 2;
@@ -36,8 +37,8 @@ export const Bet = observer(({ betValue }: IBetProps) => {
     return (
         <div className="bet" style={style} onClick={onClickHandle}>
             {betValue}
-            {chipsList.map((chip) => (
-                <Chip value={chip} onClick={onRemoveBet} />
+            {chipsList.map((chip, index) => (
+                <Chip value={chip} onClick={onRemoveBet} key={`${index}-${chip}`} />
             ))}
         </div>
     );

@@ -1,8 +1,9 @@
 .desk {
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
     height: calc(100vh - 70px);
     width: 100%;
+    flex-direction: column;
 }
 

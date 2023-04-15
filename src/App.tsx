@@ -5,11 +5,11 @@ import { StartPage } from "./pages/startPage";
 import { MainPage } from "./pages/mainPage";
 import { StatisticPage } from "./pages/statisticPage";
 import { SettingPage } from "./pages/settingPage";
-import { BankStoreContext, bankStore } from "./store/bankStore/bankStore";
+import { RootStoreContext, rootStore } from "./store";
 
 function App() {
     return (
-        <BankStoreContext.Provider value={bankStore}>
+        <RootStoreContext.Provider value={rootStore}>
         <BrowserRouter>
             <div className="app">
                 <Routes>
@@ -20,7 +20,7 @@ function App() {
                 </Routes>
             </div>
         </BrowserRouter>
-        </BankStoreContext.Provider>
+        </RootStoreContext.Provider>
     );
 }
 export default App;
