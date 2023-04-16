@@ -1,15 +1,19 @@
 import { action, computed, makeAutoObservable } from "mobx";
 import { RootStore } from "..";
-import { cardSuits, cardValues } from "../../common/gameInfo";
+import { cardSuits, cardValues, deckCount } from "../../common/gameInfo";
 import { CardValuesType } from "../bankStore/bankStore";
 
 function generateNewDeck() {
     const deck: Card[] = [];
-    cardValues.forEach((value) => {
-        cardSuits.forEach((suit) => {
-            deck.push({value, suit});
+    let i = 0;
+    while (i < deckCount) {
+        cardValues.forEach((value) => {
+            cardSuits.forEach((suit) => {
+                deck.push({ value, suit });
+            });
         });
-    });
+        i++;
+    }
     mixDeck(deck);
     return deck;
 }
@@ -23,8 +27,8 @@ function mixDeck(deck: Card[]) {
 }
 type CardValuesSuits = typeof cardSuits[number];
 interface Card {
-    value: CardValuesType,
-    suit: CardValuesSuits
+    value: CardValuesType;
+    suit: CardValuesSuits;
 }
 export class PlayingStore {
     rootStore: RootStore;
@@ -32,7 +36,7 @@ export class PlayingStore {
     openedCardDeck: Card[] = [];
     openCards: Card[] = [];
     isEmptyDeck: boolean;
-    lastOpenedCard: Card | null= null;
+    lastOpenedCard: Card | null = null;
 
     constructor(rootStore: RootStore) {
         this.rootStore = rootStore;
@@ -44,7 +48,7 @@ export class PlayingStore {
                 openNewCards: action.bound,
                 remixDeck: action.bound,
                 deckLength: computed,
-                openedDeckLength: computed
+                openedDeckLength: computed,
             }
             // makeBet: action.bound, getBetChips: action.bound, removeBet: action.bound}
         );

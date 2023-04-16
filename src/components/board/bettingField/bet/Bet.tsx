@@ -9,8 +9,8 @@ interface IBetProps {
     betValue: CardValuesType;
 }
 export const Bet = observer(({ betValue }: IBetProps) => {
-    const { selectBet, selectedBet, getBetChips, removeBet } = useRootStore().bankStore;
-    const chipsList = getBetChips(betValue);
+    const { selectBet, selectedBet, removeBet, betList } = useRootStore().bankStore;
+    const chipsList = betList[betValue];
 
     const from = "246810QA".includes(betValue) ? 1 : 2;
     const to = from + 1;

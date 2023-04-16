@@ -1,5 +1,5 @@
-import { action, makeAutoObservable, observable } from "mobx";
-import { chipsList, cardValues, startBalance } from "../../common/gameInfo";
+import { action, computed, makeAutoObservable, observable } from "mobx";
+import { chipsList, cardValues, startBalance, maxBetCount } from "../../common/gameInfo";
 import React from "react";
 import { RootStore } from "..";
 
@@ -28,9 +28,24 @@ export class BankStore {
     };
     betAmount: number = 0;
     selectedBet: CardValuesType | null = null;    
+
+    get nonEmptyBetsCount(){
+        let count = 0;
+        let arr: CardValuesType;
+        for(arr in this.betList){
+            console.log(this.betList[arr])
+            if(this.betList[arr].length > 0){
+                count++;
+            }
+        }
+        return count;
+    }
     
     selectBet(label: CardValuesType){
+        console.log(this.nonEmptyBetsCount)
+        if(this.nonEmptyBetsCount < maxBetCount || this.betList[label].length > 0){
         this.selectedBet = label;
+        }
     }
 
     makeBet(value: ChipValue){
@@ -70,7 +85,7 @@ export class BankStore {
     constructor(rootStore: RootStore) {
         this.rootStore = rootStore;
         makeAutoObservable(this, {selectBet: action.bound,
-            makeBet: action.bound, getBetChips: action.bound, removeBet: action.bound, changeBalance: action.bound, clearBetLis: action.bound, getBetBalance: action.bound});
+            makeBet: action.bound, getBetChips: action.bound, removeBet: action.bound, changeBalance: action.bound, clearBetLis: action.bound, getBetBalance: action.bound, nonEmptyBetsCount: computed});
     }
 }
 /*
