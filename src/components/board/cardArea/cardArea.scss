@@ -1,4 +1,4 @@
-.cardArea{
+.cardArea {
     flex-grow: 3;
 
     display: flex;
@@ -6,17 +6,17 @@
     align-items: center;
     width: 60%;
 
-    img{
+    img {
         width: 80px;
-        height: 112px ;
+        height: 112px;
     }
 
-    .emptyImg{
+    .emptyImg {
         width: 80px;
-        height: 116px ;
+        height: 116px;
     }
 
-    .openedCard{
+    .openedCard {
         text-align: center;
     }
 }

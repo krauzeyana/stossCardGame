@@ -1,3 +1,3 @@
-export function Statistic(){
-    return (<span>Statistic</span>)
+export function Statistic() {
+    return <span>Statistic</span>;
 }

@@ -1,1 +1,1 @@
-export { BettingField } from "./BettingField"
+export { BettingField } from "./BettingField";

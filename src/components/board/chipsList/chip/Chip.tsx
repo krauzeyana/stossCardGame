@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useState } from "react";
-import { ChipValue } from "../../../../store/bankStore/bankStore";
 import { observer } from "mobx-react-lite";
+import { ChipValue } from "../../../../store/bankStore/bankStore";
 import { useRootStore } from "../../../../store";
+import "./chip.scss";
 
 interface IChipProps {
     value: ChipValue;
@@ -18,11 +19,7 @@ export const Chip = observer(({ value, onClick }: IChipProps) => {
     };
 
     const onClickHandle = useCallback(() => {
-        if (onClick) {
-            onClick();
-        } else {
-            makeBet(value);
-        }
+        onClick ? onClick() : makeBet(value);
     }, [value, makeBet]);
 
     useEffect(() => {
@@ -30,7 +27,7 @@ export const Chip = observer(({ value, onClick }: IChipProps) => {
     }, [value]);
 
     return (
-        <div onClick={onClickHandle}>
+        <div onClick={onClickHandle} className="chip">
             <img src={chip} width="50" height="50" className="" alt="chip" />
         </div>
     );

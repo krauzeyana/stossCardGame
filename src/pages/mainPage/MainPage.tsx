@@ -7,7 +7,7 @@ export function MainPage() {
         <>
             <NavBar />
             <div className="desk">
-                <Board/>
+                <Board />
             </div>
         </>
     );

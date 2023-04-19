@@ -1,10 +1,10 @@
-import { Link, NavLink } from "react-router-dom";
-import { NewGame } from "./newGame";
+import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Game } from "./game";
 import { Statistic } from "./statistic";
 import { Settings } from "./settings";
-import "./navBar.scss";
-import { useEffect, useState } from "react";
 import { LoadingSpinner } from "../loadingSpinner";
+import "./navBar.scss";
 
 export function NavBar() {
     const [loading, setLoading] = useState(true);
@@ -29,7 +29,7 @@ export function NavBar() {
                 <ul className="list">
                     <li className="list-item">
                         <Link className="" to="/game">
-                            <NewGame />
+                            <Game />
                         </Link>
                     </li>
                     <img src={dash} width="30" height="30" className="" alt="dash" />

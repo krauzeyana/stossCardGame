@@ -1,23 +1,24 @@
 .wood {
-    background-image: url("../../assets/images/woodTexture.jpg");
-    height: 75vh;
-    border-radius: 50vmin;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    height: 75vh;
     width: 1200px;
+    background-image: url("../../assets/images/woodTexture.jpg");
+    border-radius: 50vmin;
 }
 
 .red {
-    background-image: url("../../assets/images/deskTexture2.jpg");
-    border-radius: 50vmin;
-    height: calc(75vh - 60px);
-    width: calc(100% - 60px);
-    box-shadow: inset black 3px 3px 20px 10px;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+
+    height: calc(75vh - 60px);
+    width: calc(100% - 60px);
+    background-image: url("../../assets/images/deskTexture2.jpg");
+    background-size: cover;
+    border-radius: 50vmin;
+    box-shadow: inset black 3px 3px 20px 10px;
 }

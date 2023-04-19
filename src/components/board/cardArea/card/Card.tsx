@@ -1,29 +1,31 @@
 import { useEffect, useState } from "react";
-import { ReactComponent as Cards } from '../../../../assets/images/cards/2H.svg'
+
 interface ICardProps {
     cardName: string;
 }
 export function Card({ cardName }: ICardProps) {
     const [card, setCard] = useState("");
     const [isOpen, setIsOpen] = useState(false);
+
     const getCardIcon = async () => {
-        const icon =  (await import(`../../../../assets/images/cards/${cardName}.svg`)).default;
+        const icon = (await import(`../../../../assets/images/cards/${cardName}.svg`)).default;
         setCard(icon);
-    }
+        setIsOpen(true);
+    };
+
     useEffect(() => {
-        if(cardName){
+        if (cardName) {
             getCardIcon();
-            setIsOpen(true);
-        }
-        else{
+        } else {
             setCard("");
             setIsOpen(false);
         }
-    }, [cardName])
+    }, [cardName]);
+
     return (
         <>
-            {isOpen && <img src={card} className="" alt="logo" />}
-            {!isOpen && <div className="emptyImg"/>}
+            {isOpen && <img src={card} className="" alt={`chip-${cardName}`} />}
+            {!isOpen && <div className="emptyImg" />}
         </>
     );
 }

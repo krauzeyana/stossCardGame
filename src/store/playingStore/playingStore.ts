@@ -1,30 +1,10 @@
 import { action, computed, makeAutoObservable } from "mobx";
 import { RootStore } from "..";
-import { cardSuits, cardValues, deckCount } from "../../common/gameInfo";
+import { cardSuits, cardValues,defBetsCount, defDeckCount } from "../../common/gameInfo";
 import { CardValuesType } from "../bankStore/bankStore";
+import { autoSave } from "../../utils/autosave";
 
-function generateNewDeck() {
-    const deck: Card[] = [];
-    let i = 0;
-    while (i < deckCount) {
-        cardValues.forEach((value) => {
-            cardSuits.forEach((suit) => {
-                deck.push({ value, suit });
-            });
-        });
-        i++;
-    }
-    mixDeck(deck);
-    return deck;
-}
 
-function mixDeck(deck: Card[]) {
-    for (let i = 0; i < deck.length; i++) {
-        let j = Math.floor(Math.random() * deck.length);
-        [deck[i], deck[j]] = [deck[j], deck[i]];
-    }
-    return deck;
-}
 type CardValuesSuits = typeof cardSuits[number];
 interface Card {
     value: CardValuesType;
@@ -37,10 +17,11 @@ export class PlayingStore {
     openCards: Card[] = [];
     isEmptyDeck: boolean;
     lastOpenedCard: Card | null = null;
+    deckCount: number = defDeckCount;
 
     constructor(rootStore: RootStore) {
         this.rootStore = rootStore;
-        this.cardDeck = [...generateNewDeck()];
+        this.cardDeck = [...this.generateNewDeck()];
         this.isEmptyDeck = false;
         makeAutoObservable(
             this,
@@ -49,9 +30,34 @@ export class PlayingStore {
                 remixDeck: action.bound,
                 deckLength: computed,
                 openedDeckLength: computed,
+                updateDeckCount: action.bound,
             }
             // makeBet: action.bound, getBetChips: action.bound, removeBet: action.bound}
         );
+        autoSave(this, ["deckCount"]);
+    }
+
+    mixDeck(deck: Card[]) {
+        for (let i = 0; i < deck.length; i++) {
+            let j = Math.floor(Math.random() * deck.length);
+            [deck[i], deck[j]] = [deck[j], deck[i]];
+        }
+        return deck;
+    }
+
+    generateNewDeck = () => {
+        const deck: Card[] = [];
+        let i = 0;
+        while (i < this.deckCount) {
+            cardValues.forEach((value) => {
+                cardSuits.forEach((suit) => {
+                    deck.push({ value, suit });
+                });
+            });
+            i++;
+        }
+        this.mixDeck(deck);
+        return deck;
     }
 
     openNewCards() {
@@ -74,7 +80,7 @@ export class PlayingStore {
         this.openedCardDeck = [];
         this.openCards = [];
         this.lastOpenedCard = null;
-        this.cardDeck = [...generateNewDeck()];
+        this.cardDeck = [...this.generateNewDeck()];
         this.isEmptyDeck = false;
     }
 
@@ -84,6 +90,10 @@ export class PlayingStore {
 
     get openedDeckLength() {
         return this.openedCardDeck.length;
+    }
+
+    updateDeckCount(newValue: number){
+        this.deckCount = newValue;
     }
 
     // getOpenCardByIndex(index: number) {
