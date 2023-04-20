@@ -1,13 +1,16 @@
 import { action, computed, makeAutoObservable } from "mobx";
 import { RootStore } from "..";
-import { cardSuits, cardValues,defBetsCount, defDeckCount } from "../../common/gameInfo";
-import { CardValuesType } from "../bankStore/bankStore";
+import {
+    CardValueType,
+    CardValuesSuits,
+    cardSuits,
+    cardValues,
+    defDeckCount,
+} from "../../common/gameInfo";
 import { autoSave } from "../../utils/autosave";
 
-
-type CardValuesSuits = typeof cardSuits[number];
 interface Card {
-    value: CardValuesType;
+    value: CardValueType;
     suit: CardValuesSuits;
 }
 export class PlayingStore {
@@ -23,17 +26,13 @@ export class PlayingStore {
         this.rootStore = rootStore;
         this.cardDeck = [...this.generateNewDeck()];
         this.isEmptyDeck = false;
-        makeAutoObservable(
-            this,
-            {
-                openNewCards: action.bound,
-                remixDeck: action.bound,
-                deckLength: computed,
-                openedDeckLength: computed,
-                updateDeckCount: action.bound,
-            }
-            // makeBet: action.bound, getBetChips: action.bound, removeBet: action.bound}
-        );
+        makeAutoObservable(this, {
+            openNewCards: action.bound,
+            remixDeck: action.bound,
+            deckLength: computed,
+            openedDeckLength: computed,
+            updateDeckCount: action.bound,
+        });
         autoSave(this, ["deckCount"]);
     }
 
@@ -58,11 +57,9 @@ export class PlayingStore {
         }
         this.mixDeck(deck);
         return deck;
-    }
+    };
 
     openNewCards() {
-        console.log("+++");
-
         if (this.openCards && this.openCards.length === 2) {
             this.openedCardDeck.push(this.openCards.pop()!);
             this.lastOpenedCard = this.openCards.pop()!;
@@ -76,7 +73,6 @@ export class PlayingStore {
     }
 
     remixDeck() {
-        console.log("---");
         this.openedCardDeck = [];
         this.openCards = [];
         this.lastOpenedCard = null;
@@ -92,11 +88,7 @@ export class PlayingStore {
         return this.openedCardDeck.length;
     }
 
-    updateDeckCount(newValue: number){
+    updateDeckCount(newValue: number) {
         this.deckCount = newValue;
     }
-
-    // getOpenCardByIndex(index: number) {
-    //     return this.openCards ? this.openCards[index] : "";
-    // }
 }

@@ -1,13 +1,20 @@
 import React from "react";
+import { action, makeAutoObservable } from "mobx";
 import { BankStore } from "./bankStore/bankStore";
 import { PlayingStore } from "./playingStore/playingStore";
-import { action, makeAutoObservable } from "mobx";
 import { StatisticStore } from "./statisticStore/statisticStore";
 
 export class RootStore {
     bankStore: BankStore;
     playingStore: PlayingStore;
     statisticStore: StatisticStore;
+
+    constructor() {
+        this.bankStore = new BankStore(this);
+        this.playingStore = new PlayingStore(this);
+        this.statisticStore = new StatisticStore(this);
+        makeAutoObservable(this, { checkBets: action.bound });
+    }
 
     checkBets = () => {
         const { openCards } = this.playingStore;
@@ -19,7 +26,6 @@ export class RootStore {
 
             if (minus > 0) {
                 clearBetLis(openCards[0].value);
-
                 saveStatistic(openCards[0].value, minus, false);
             }
             if (plus > 0) {
@@ -35,13 +41,6 @@ export class RootStore {
             }
         }
     };
-
-    constructor() {
-        this.bankStore = new BankStore(this);
-        this.playingStore = new PlayingStore(this);
-        this.statisticStore = new StatisticStore(this);
-        makeAutoObservable(this, { checkBets: action.bound });
-    }
 }
 
 export const RootStoreContext = React.createContext<RootStore | null>(null);

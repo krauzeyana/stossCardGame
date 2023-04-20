@@ -15,15 +15,15 @@ export class StatisticStore {
     constructor(rootStore: RootStore) {
         this.rootStore = rootStore;
         this.statistic = [];
-        makeAutoObservable(this, {saveStatistic: action.bound, resetStatictic: action.bound});
+        makeAutoObservable(this, { saveStatistic: action.bound, resetStatictic: action.bound });
         autoSave(this, ["statistic"]);
     }
 
-    saveStatistic(card: string, bets: number, isWin: boolean){
-        this.statistic.push({card, bets, isWin, time: Date.now()})
+    saveStatistic(card: string, bets: number, isWin: boolean) {
+        this.statistic.push({ card, bets, isWin, time: Date.now() });
     }
 
-    resetStatictic(){
+    resetStatictic() {
         this.statistic = [];
     }
 }

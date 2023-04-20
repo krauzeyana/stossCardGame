@@ -1,13 +1,12 @@
 import { observer } from "mobx-react-lite";
 import { useCallback } from "react";
-import { CardValuesType } from "../../../../store/bankStore/bankStore";
 import { Chip } from "../../chipsList/chip";
 import { useRootStore } from "../../../../store";
-import { cardValues } from "../../../../common/gameInfo";
+import { CardValueType, cardValues } from "../../../../common/gameInfo";
 import "./bet.scss";
 
 interface IBetProps {
-    betValue: CardValuesType;
+    betValue: CardValueType;
 }
 export const Bet = observer(({ betValue }: IBetProps) => {
     const { selectBet, selectedBet, removeBet, betList } = useRootStore().bankStore;

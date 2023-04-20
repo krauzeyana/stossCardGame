@@ -15,7 +15,7 @@ export const SettingPage = observer(() => {
             updateDeckCount(+e.target.value);
             remixDeck();
         },
-        [updateDeckCount]
+        [updateDeckCount, remixDeck]
     );
 
     const onChangeMaxBetsCount = useCallback(

@@ -1,9 +1,9 @@
 import { observer } from "mobx-react-lite";
+import { useState } from "react";
 import { NavBar } from "../../components/navBar";
 import { useRootStore } from "../../store";
-import "./statisticPage.scss";
 import { ChartByType } from "./chart/Chart";
-import { useState } from "react";
+import "./statisticPage.scss";
 
 export const StatisticPage = observer(() => {
     const { statistic } = useRootStore().statisticStore;
@@ -12,7 +12,6 @@ export const StatisticPage = observer(() => {
     return (
         <>
             <NavBar />
-
             <div className="statisticPage">
                 <h2>Game Statistic</h2>
                 <div className="statisticContent">

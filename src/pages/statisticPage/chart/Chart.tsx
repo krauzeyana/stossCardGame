@@ -1,6 +1,6 @@
 import React from "react";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
-import { Doughnut, Pie } from "react-chartjs-2";
+import { Pie } from "react-chartjs-2";
 import { observer } from "mobx-react-lite";
 import { useRootStore } from "../../../store";
 
@@ -13,6 +13,7 @@ export const ChartByType = observer(({ isByNum }: IChartByNumProps) => {
     const { statistic } = useRootStore().statisticStore;
     let win = 0;
     let lose = 0;
+
     if (isByNum) {
         win = statistic.filter((record) => record.isWin).length;
         lose = statistic.length - win;
@@ -20,6 +21,7 @@ export const ChartByType = observer(({ isByNum }: IChartByNumProps) => {
         win = statistic.filter((record) => record.isWin).reduce((acc, cur) => acc + cur.bets, 0);
         lose = statistic.filter((record) => !record.isWin).reduce((acc, cur) => acc + cur.bets, 0);
     }
+
     const data = {
         labels: ["Win", "Lose"],
         datasets: [

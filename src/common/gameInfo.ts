@@ -16,6 +16,10 @@ export const cardValues = [
 export const cardSuits = ["C", "D", "H", "S"] as const;
 export const chipsList = [1, 5, 10, 25, 50, 100] as const;
 
+export type CardValueType = typeof cardValues[number];
+export type CardValuesSuits = typeof cardSuits[number];
+export type ChipValueType = typeof chipsList[number];
+
 export const defBalance = 500;
 
 export const defBetsCount = 2;
