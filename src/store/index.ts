@@ -8,6 +8,8 @@ export class RootStore {
     bankStore: BankStore;
     playingStore: PlayingStore;
     statisticStore: StatisticStore;
+    isWin: boolean = false;
+    isLose: boolean = false;
 
     constructor() {
         this.bankStore = new BankStore(this);
@@ -18,8 +20,11 @@ export class RootStore {
 
     checkBets = () => {
         const { openCards } = this.playingStore;
-        const { getBetBalance, changeBalance, clearBetLis } = this.bankStore;
+        const { getBetBalance, changeBalance, clearBetLis, clearDeltaAmount } = this.bankStore;
         const { saveStatistic } = this.statisticStore;
+        this.isLose = false;
+        this.isWin = false;
+        clearDeltaAmount()
         if (openCards) {
             let plus = getBetBalance(openCards[1].value);
             const minus = getBetBalance(openCards[0].value);
@@ -27,11 +32,13 @@ export class RootStore {
             if (minus > 0) {
                 clearBetLis(openCards[0].value);
                 saveStatistic(openCards[0].value, minus, false);
+                this.isLose = true;
             }
             if (plus > 0) {
                 clearBetLis(openCards[1].value);
                 if (openCards[0].value !== openCards[1].value) {
                     saveStatistic(openCards[1].value, plus, true);
+                    this.isWin = true;
                 }
             }
 
@@ -39,6 +46,8 @@ export class RootStore {
                 plus *= 2;
                 changeBalance(plus);
             }
+            // this.isLose = false;
+            // this.isWin = false;
         }
     };
 }

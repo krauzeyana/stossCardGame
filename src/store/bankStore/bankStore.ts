@@ -21,7 +21,8 @@ export class BankStore {
         K: new Array<ChipValueType>(),
         A: new Array<ChipValueType>(),
     };
-    betAmount: number = 0;
+    totalBet: number = 0;
+    deltaAmount: number = 0;
     selectedBet: CardValueType | null = null;
     maxBetsCount: number = defBetsCount;
 
@@ -39,6 +40,8 @@ export class BankStore {
             removeAllBets: action.bound,
             resetBalance: action.bound,
             resetBalanceNewGame: action.bound,
+            unselectBet: action.bound,
+            clearDeltaAmount: action.bound,
         });
         autoSave(this, ["maxBetsCount"]);
     }
@@ -60,9 +63,14 @@ export class BankStore {
         }
     }
 
+    unselectBet(){
+        this.selectedBet = null;
+    }
+
     makeBet(value: ChipValueType) {
         if (this.selectedBet && this.balance >= value) {
             this.balance -= value;
+            this.totalBet += value;
             this.betList[this.selectedBet].push(value);
         }
     }
@@ -72,6 +80,7 @@ export class BankStore {
             const value = this.betList[this.selectedBet].pop();
             if (value) {
                 this.balance += value;
+                this.totalBet -= value;
             }
         }
     }
@@ -81,10 +90,16 @@ export class BankStore {
     }
 
     changeBalance(value: number) {
+        this.deltaAmount = value;
         this.balance += value;
     }
 
+    clearDeltaAmount(){
+        this.deltaAmount = 0;
+    }
+
     clearBetLis(label: CardValueType) {
+        this.totalBet -= this.getBetBalance(label);
         this.betList[label] = [];
         console.log(this.betList[label]);
     }
@@ -110,4 +125,5 @@ export class BankStore {
         }
         this.selectedBet = null;
     }
+    
 }

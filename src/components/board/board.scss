@@ -3,9 +3,10 @@
     align-items: center;
     justify-content: center;
 
-    height: 75vh;
-    width: 1200px;
-    background-image: url("../../assets/images/woodTexture.jpg");
+    height: calc(100vh - 120px);
+    width: 100%;
+    //1200px;
+    // background-image: url("../../assets/images/woodTexture.jpg");
     border-radius: 50vmin;
 }
 
@@ -14,11 +15,26 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
-    height: calc(75vh - 60px);
-    width: calc(100% - 60px);
-    background-image: url("../../assets/images/deskTexture2.jpg");
+    height: 100%;
+    /* margin-top: 0px; */
+    /* z-index: -1; */
+    /* padding-top: 114px; */
+    /* width: calc(100% - 60px); */
+    width: 100%;
     background-size: cover;
-    border-radius: 50vmin;
-    box-shadow: inset black 3px 3px 20px 10px;
+    /* border-radius: 50vmin; */
+    border-bottom-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+    background-image: url("../../assets/images/deskTexture5.jpg");
+    box-shadow: inset black 3px 3px 20px 15px;
+    padding-bottom: 15px;
+    background-size: cover;
+}
+
+
+.amounts{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
 }

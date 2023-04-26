@@ -24,8 +24,6 @@ export class PlayingStore {
 
     constructor(rootStore: RootStore) {
         this.rootStore = rootStore;
-        this.cardDeck = [...this.generateNewDeck()];
-        this.isEmptyDeck = false;
         makeAutoObservable(this, {
             openNewCards: action.bound,
             remixDeck: action.bound,
@@ -34,6 +32,10 @@ export class PlayingStore {
             updateDeckCount: action.bound,
         });
         autoSave(this, ["deckCount"]);
+        this.cardDeck = [...this.generateNewDeck()];
+        this.isEmptyDeck = false;
+        this.openNewCards();
+        this.openNewCards();
     }
 
     mixDeck(deck: Card[]) {
@@ -61,15 +63,21 @@ export class PlayingStore {
 
     openNewCards() {
         if (this.openCards && this.openCards.length === 2) {
-            this.openedCardDeck.push(this.openCards.pop()!);
             this.lastOpenedCard = this.openCards.pop()!;
             this.openedCardDeck.push(this.lastOpenedCard);
+            this.openedCardDeck.push(this.openCards.pop()!);
         }
         this.openCards.push(this.cardDeck.pop()!);
         this.openCards.push(this.cardDeck.pop()!);
-        if (this.cardDeck.length === 0) {
+        if (this.cardDeck.length === 4) {
             this.isEmptyDeck = true;
         }
+        console.log("last", this.lastOpenedCard?.value);
+        console.log(
+            "there ",
+            this.openCards[0].suit + this.openCards[0].value,
+            this.openCards[1].suit + this.openCards[1].value
+        );
     }
 
     remixDeck() {
