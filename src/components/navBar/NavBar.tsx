@@ -8,12 +8,22 @@ import "./navBar.scss";
 
 export function NavBar() {
     const [loading, setLoading] = useState(true);
+    const [isMobile,setIsMobile] = useState(window.innerWidth < 768);
+    
 
     useEffect(() => {
         setLoading(true);
         setTimeout(() => {
             setLoading(false);
         }, 1000);
+
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 768);
+          };
+          window.addEventListener('resize', handleResize);
+          return () => {
+            window.removeEventListener('resize', handleResize);
+          };
     }, []);
 
     const icon = require("../../assets/images/icon.svg").default;
@@ -29,19 +39,19 @@ export function NavBar() {
                 <ul className="list">
                     <li className="list-item">
                         <Link className="" to="/game">
-                            <Game />
+                            <Game isMobile={isMobile} />
                         </Link>
                     </li>
-                    <img src={dash} width="30" height="30" className="" alt="dash" />
+                    {!isMobile && <img src={dash} width="30" height="30" className="" alt="dash" />}
                     <li className="list-item">
                         <Link className="" to="/statistics">
-                            <Statistic />
+                            <Statistic isMobile={isMobile}/>
                         </Link>
                     </li>
-                    <img src={dash} width="30" height="30" className="" alt="dash" />
+                    {!isMobile && <img src={dash} width="30" height="30" className="" alt="dash" />}
                     <li className="list-item">
                         <Link className="" to="/settings">
-                            <Settings />
+                            <Settings isMobile={isMobile}/>
                         </Link>
                     </li>
                 </ul>

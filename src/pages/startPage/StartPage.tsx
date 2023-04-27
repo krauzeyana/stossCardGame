@@ -3,6 +3,7 @@ import { observer } from "mobx-react-lite";
 import { useEffect, useState } from "react";
 import { LoadingSpinner } from "../../components/loadingSpinner";
 import { useRootStore } from "../../store";
+import card from "../../assets/images/cards/2S.svg";
 import "./startPage.scss";
 
 export const StartPage = observer(() => {
@@ -26,6 +27,7 @@ export const StartPage = observer(() => {
     return (
         <div className="startPage">
             {loading && <LoadingSpinner />}
+            {/* <img src={card} className="fallCard"/> */}
             <span className="gameName">Stoss</span>
             <Link to="/game" className="startButton" onClick={onClickHandle}>
                 Start

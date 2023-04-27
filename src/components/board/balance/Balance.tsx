@@ -7,8 +7,8 @@ export const Balance: React.FC = observer(() => {
 
     return (
         <div className="balance">
-            <h2>Balance: {balance}$</h2>
-            {deltaAmount > 0 && <h3>+{deltaAmount}$</h3>}
+            <h2>Balance: {1200}$</h2>
+            {500 > 0 && <h3>+{500}$</h3>}
         </div>
     );
 });

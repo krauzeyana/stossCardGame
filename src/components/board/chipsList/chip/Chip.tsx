@@ -28,7 +28,7 @@ export const Chip = observer(({ value, onClick }: IChipProps) => {
 
     return (
         <div onClick={onClickHandle} className="chip">
-            <img src={chip} width="50" height="50" className="" alt="chip" />
+            <img src={chip}  className="" alt="chip" />
         </div>
     );
 });

@@ -22,7 +22,7 @@ export const StatisticPage = observer(() => {
                                     <th scope="col">Card</th>
                                     <th scope="col">Bet Amount</th>
                                     <th scope="col">Is Win?</th>
-                                    <th scope="col">Date/Time</th>
+                                    <th scope="col">Date/ Time</th>
                                 </tr>
                             </thead>
                         </table>

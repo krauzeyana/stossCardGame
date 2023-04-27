@@ -10,9 +10,10 @@ PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
 
 interface ICardDeckProps {
     cardName?: string;
+    isMobile?:boolean;
 }
 
-export const CardDeck = observer(({ cardName }: ICardDeckProps) => {
+export const CardDeck = observer(({ cardName, isMobile }: ICardDeckProps) => {
     const { openNewCards, isEmptyDeck, remixDeck, deckLength, openedDeckLength, deckCount } =
         useRootStore().playingStore;
     const { checkBets } = useRootStore();
@@ -71,17 +72,17 @@ export const CardDeck = observer(({ cardName }: ICardDeckProps) => {
             cursor="pointer"
             eventMode="static"
             // position={{ x: isOpen? 25: 575, y: 50 }}
-            position={{ x: 575, y: 50 }}
+            position={{ x: isMobile ? 50 : 525, y: isMobile ? 40 :50 }}
             sortableChildren={true}
         >
             {deckLength > 4 && <>{imageSet}</>}
             {deckLength === 4 && (
                 <>
                     <Card cardName="refresh3" isAnimated={false} />
-                    <Card cardName="1B" isAnimated={true} moveSpeed={3.2} cardDeck={true} />
-                    <Card cardName="1B" isAnimated={true}cardDeck={true} moveSpeed={3.4}  />
-                    <Card cardName="1B" isAnimated={true} cardDeck={true}  moveSpeed={3.6}/>
-                    <Card cardName="1B" isAnimated={true} cardDeck={true}  moveSpeed={3.8}/>
+                    <Card cardName="1B" isAnimated={true} moveSpeed={2.8} cardDeck={true} />
+                    <Card cardName="1B" isAnimated={true}cardDeck={true} moveSpeed={3}  />
+                    <Card cardName="1B" isAnimated={true} cardDeck={true}  moveSpeed={3.2}/>
+                    <Card cardName="1B" isAnimated={true} cardDeck={true}  moveSpeed={3.4}/>
                 </>
             )}
         </Container>

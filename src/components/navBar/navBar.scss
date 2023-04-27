@@ -12,6 +12,17 @@
     background: black;
     color: white;
     height: 70px;
+    
+    @media screen and (max-width: 767px) {
+        ul li {
+            margin-left: 25px;
+        }
+    }
+    @media screen and (max-width: 576px) {
+        ul li {
+            margin-left: 10px;
+        }
+    }
 
     img {
         width: 60px;
@@ -29,9 +40,16 @@
 
     .iconLabel {
         margin-left: 10px;
-        font-size: 46px;
+
         font-family: "Belleza-Regular";
         position: absolute;
+        font-size: 46px;
+        // @media screen and (max-width: 576px) {
+        //     font-size: 38px;
+        // }
+        // @media screen and (min-width: 576px) {
+        //     font-size: 46px;
+        // }
     }
 
     span {

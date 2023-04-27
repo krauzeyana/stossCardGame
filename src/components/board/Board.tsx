@@ -11,13 +11,10 @@ export const Board: React.FC = observer(() => {
     const {totalBet} = useRootStore().bankStore;
     return (
         <>
-            
-            <div className="wood">
                 <div className="red">
                     <CardArea />
                     <BettingField />
                     <ChipsList />
-                </div>
             </div>
             <div className="amounts">
             <Balance />

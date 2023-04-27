@@ -2,15 +2,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     background: transparent;
-    border: 5px solid rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     cursor: pointer;
-
     font-family: "Antiquegr";
-    font-size: 45px;
     color: rgba(0, 0, 0, 0.9);
+
+    @media screen and (max-width: 576px) {
+        font-size: 35px;
+        border: 3px solid rgba(0, 0, 0, 0.3);
+    }
+    @media screen and (min-width: 577px) {
+        font-size: 45px;
+        border: 5px solid rgba(0, 0, 0, 0.3);
+    }
 
     div {
         position: absolute;

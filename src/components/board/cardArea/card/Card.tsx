@@ -31,7 +31,7 @@ export function Card({
     const [tickerLastOpenCards, setTickerLastOpenCards] = useState<Ticker | null>(null);
     const [width, setWidth] = useState(80);
     const [isCollapse, setIsCollapse] = useState(true);
-    const speed = 8;
+    const speed = 7;
     //speed 10 => isCollapse <= 110 || 192.5
 
     const getCardIcon = async () => {
@@ -43,24 +43,25 @@ export function Card({
     useTick((delta, ticker) => {
         setTicker(ticker);
         if (isFirst) {
-            setX((prev) => prev - 1.75 * speed);
-            //setWidth(prev => (prev + (isCollapse ? -0.8 : 0.8)))
+            setX((prev) => prev - 13);
+           // setWidth(prev => (prev + (isCollapse ? -0.8 : 0.8)))
             //console.log("first", width, isCollapse, X)
         } else {
             setX((prev) => prev - 1 * speed);
-            //setWidth(prev => (prev + (isCollapse ? -0.8 : 0.8)))
+          //  setWidth(prev => (prev + (isCollapse ? -0.8 : 0.8)))
             //console.log("second", width, isCollapse, X)
+           // console.log("+")
         }
-
-        if (isCollapse && ((isSecond && X <= 40) || (isFirst && X <= 70))) {
+console.log(isFirst, isSecond, X, width,isCollapse)
+        if (isCollapse && ((isSecond && X <= 35) || (isFirst && X <= 65))) {
             setIsCollapse(false);
-            setWidth((prev) => prev + 2 * speed);
+            setWidth((prev) => prev + 2 * 8);
         } else {
-            setWidth((prev) => prev + (isCollapse ? -0.5 : 2) * speed);
+            setWidth((prev) => prev + (isCollapse ? -0.5 : 2) * 8);
         }
 
         if (X <= 0) {
-            setWidth((prev) => prev + (isCollapse ? -0.5 : 2) * speed);
+           setWidth((prev) => prev + (isCollapse ? -0.5 : 2) * 8);
             console.log(X, "ticker1")
             ticker.stop();
         }
@@ -69,7 +70,7 @@ export function Card({
     useTick((delta, ticker) => {
         setTickerLastOpenCards(ticker);
 
-        setX((prev) => prev - 1 * (!!isSecond ? 14.5 : 9));
+        setX((prev) => prev - 1 * (!!isSecond ? 13.5 : 8));
 
         if (X <= 0) {
             console.log(X, "ticker2")

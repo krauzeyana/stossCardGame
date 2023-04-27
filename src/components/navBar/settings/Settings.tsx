@@ -1,5 +1,10 @@
-export function Settings() {
-    return (
+import React from "react";
+
+export interface INavItemProps {
+    isMobile: boolean;
+}
+export const Settings: React.FC<INavItemProps> = ({ isMobile }: INavItemProps) => {
+    return isMobile ? (
         <svg
             fill="#ffffff"
             version="1.1"
@@ -22,5 +27,7 @@ export function Settings() {
                 </g>{" "}
             </g>
         </svg>
+    ) : (
+        <span>Settings</span>
     );
-}
+};
