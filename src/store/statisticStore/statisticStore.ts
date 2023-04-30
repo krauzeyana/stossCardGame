@@ -1,5 +1,4 @@
 import { action, makeAutoObservable } from "mobx";
-import { RootStore } from "..";
 import { autoSave } from "../../utils/autosave";
 
 type Statistic = {
@@ -9,11 +8,9 @@ type Statistic = {
     time: number;
 };
 export class StatisticStore {
-    rootStore: RootStore;
     statistic = new Array<Statistic>();
 
-    constructor(rootStore: RootStore) {
-        this.rootStore = rootStore;
+    constructor() {
         this.statistic = [];
         makeAutoObservable(this, { saveStatistic: action.bound, resetStatictic: action.bound });
         autoSave(this, ["statistic"]);

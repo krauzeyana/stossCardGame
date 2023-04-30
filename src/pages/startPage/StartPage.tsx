@@ -2,14 +2,13 @@ import { Link } from "react-router-dom";
 import { observer } from "mobx-react-lite";
 import { useEffect, useState } from "react";
 import { LoadingSpinner } from "../../components/loadingSpinner";
-import { useRootStore } from "../../store";
-import card from "../../assets/images/cards/2S.svg";
-import "./startPage.scss";
+import { useStore } from "../../store";
+import style from "./startPage.module.scss";
 
 export const StartPage = observer(() => {
     const [loading, setLoading] = useState(true);
-    const { removeAllBets, resetBalanceNewGame } = useRootStore().bankStore;
-    const { remixDeck } = useRootStore().playingStore;
+    const { removeAllBets, resetBalanceNewGame } = useStore("bankStore");
+    const { remixDeck } = useStore("playingStore");
 
     useEffect(() => {
         setLoading(true);
@@ -25,11 +24,10 @@ export const StartPage = observer(() => {
     };
 
     return (
-        <div className="startPage">
+        <div className={style.startPage}>
             {loading && <LoadingSpinner />}
-            {/* <img src={card} className="fallCard"/> */}
-            <span className="gameName">Stoss</span>
-            <Link to="/game" className="startButton" onClick={onClickHandle}>
+            <span className={style.gameName}>Stoss</span>
+            <Link to="/game" className={style.startButton} onClick={onClickHandle}>
                 Start
             </Link>
         </div>

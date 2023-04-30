@@ -2,7 +2,7 @@ import React from "react";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Pie } from "react-chartjs-2";
 import { observer } from "mobx-react-lite";
-import { useRootStore } from "../../../store";
+import { useStore } from "../../../store";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 interface IChartByNumProps {
@@ -10,7 +10,7 @@ interface IChartByNumProps {
 }
 
 export const ChartByType = observer(({ isByNum }: IChartByNumProps) => {
-    const { statistic } = useRootStore().statisticStore;
+    const { statistic } = useStore("statisticStore");
     let win = 0;
     let lose = 0;
 

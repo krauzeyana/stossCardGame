@@ -1,33 +1,26 @@
 import { action, computed, makeAutoObservable } from "mobx";
-import { ChipValueType, CardValueType, defBetsCount, defBalance } from "../../common/gameInfo";
-import { RootStore } from "..";
+import {
+    ChipValueType,
+    CardValueType,
+    defBetsCount,
+    defBalance,
+    cardValues,
+    ChipListType,
+} from "../../common/gameInfo";
 import { autoSave } from "../../utils/autosave";
+import { createTypedObjectFromEntries } from "../../utils/objectFromEntries";
 
 export class BankStore {
-    rootStore: RootStore;
     balance: number = defBalance;
-    betList = {
-        "2": new Array<ChipValueType>(),
-        "3": new Array<ChipValueType>(),
-        "4": new Array<ChipValueType>(),
-        "5": new Array<ChipValueType>(),
-        "6": new Array<ChipValueType>(),
-        "7": new Array<ChipValueType>(),
-        "8": new Array<ChipValueType>(),
-        "9": new Array<ChipValueType>(),
-        "10": new Array<ChipValueType>(),
-        J: new Array<ChipValueType>(),
-        Q: new Array<ChipValueType>(),
-        K: new Array<ChipValueType>(),
-        A: new Array<ChipValueType>(),
-    };
+    betList: ChipListType = createTypedObjectFromEntries(
+        cardValues.map((key) => [key, new Array<ChipValueType>()])
+    );
     totalBet: number = 0;
     deltaAmount: number = 0;
     selectedBet: CardValueType | null = null;
     maxBetsCount: number = defBetsCount;
 
-    constructor(rootStore: RootStore) {
-        this.rootStore = rootStore;
+    constructor() {
         makeAutoObservable(this, {
             selectBet: action.bound,
             makeBet: action.bound,
@@ -63,7 +56,7 @@ export class BankStore {
         }
     }
 
-    unselectBet(){
+    unselectBet() {
         this.selectedBet = null;
     }
 
@@ -94,14 +87,13 @@ export class BankStore {
         this.balance += value;
     }
 
-    clearDeltaAmount(){
+    clearDeltaAmount() {
         this.deltaAmount = 0;
     }
 
     clearBetLis(label: CardValueType) {
         this.totalBet -= this.getBetBalance(label);
         this.betList[label] = [];
-        console.log(this.betList[label]);
     }
 
     upateMaxBetsCount(newCount: number) {
@@ -125,5 +117,4 @@ export class BankStore {
         }
         this.selectedBet = null;
     }
-    
 }

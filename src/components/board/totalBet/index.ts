@@ -1,1 +1,0 @@
-export { TotalBet } from "./TotalBet";

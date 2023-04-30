@@ -3,18 +3,22 @@ import { action, makeAutoObservable } from "mobx";
 import { BankStore } from "./bankStore/bankStore";
 import { PlayingStore } from "./playingStore/playingStore";
 import { StatisticStore } from "./statisticStore/statisticStore";
+import { Sound } from "../components/sound";
+import { Store, StoreType } from "../common/gameInfo";
 
 export class RootStore {
     bankStore: BankStore;
     playingStore: PlayingStore;
     statisticStore: StatisticStore;
+    rootStore: RootStore;
     isWin: boolean = false;
     isLose: boolean = false;
 
     constructor() {
-        this.bankStore = new BankStore(this);
-        this.playingStore = new PlayingStore(this);
-        this.statisticStore = new StatisticStore(this);
+        this.rootStore = this;
+        this.bankStore = new BankStore();
+        this.playingStore = new PlayingStore();
+        this.statisticStore = new StatisticStore();
         makeAutoObservable(this, { checkBets: action.bound });
     }
 
@@ -44,6 +48,7 @@ export class RootStore {
 
             if (plus > 0 && openCards[0].value !== openCards[1].value) {
                 plus *= 2;
+                Sound.playSound("win")
                 changeBalance(plus);
             }
             // this.isLose = false;
@@ -55,10 +60,11 @@ export class RootStore {
 export const RootStoreContext = React.createContext<RootStore | null>(null);
 export const rootStore = new RootStore();
 
-export function useRootStore() {
-    const context = React.useContext(RootStoreContext);
-    if (!context) {
-        throw new Error("Wrap element with context first!");
+export function useStore<K extends StoreType>(name: K) {
+        const context = React.useContext(RootStoreContext);
+        if (!context) {
+            throw new Error("Wrap element with context first!");
+        }
+        return (context[name]);
     }
-    return context;
-}
+    

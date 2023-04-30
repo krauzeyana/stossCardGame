@@ -1,25 +1,39 @@
 import { observer } from "mobx-react-lite";
 import { Balance } from "./balance";
 import { BettingField } from "./bettingField";
-import "./board.scss";
 import { CardArea } from "./cardArea";
 import { ChipsList } from "./chipsList";
-import { TotalBet } from "./totalBet";
-import { useRootStore } from "../../store";
+import { useStore } from "../../store";
+import { useEffect, useState } from "react";
+import style from "./board.module.scss";
 
 export const Board: React.FC = observer(() => {
-    const {totalBet} = useRootStore().bankStore;
+    const { totalBet, balance, deltaAmount } = useStore("bankStore");
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 768);
+        };
+        window.addEventListener("resize", handleResize);
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    });
+
     return (
         <>
-                <div className="red">
-                    <CardArea />
-                    <BettingField />
-                    <ChipsList />
+            <div className={style.red}>
+                <CardArea
+                    width={isMobile ? 350 : 768} //708
+                    height={isMobile ? 350 : 187}
+                />
+                <BettingField />
+                <ChipsList />
             </div>
-            <div className="amounts">
-            <Balance />
-            <TotalBet totalBet={totalBet}/>
+            <div className={style.amounts}>
+                <Balance title="Balance" amount={balance} deltaAmount={deltaAmount} />
+                <Balance title="Total Bet" amount={totalBet} />
             </div>
         </>
     );
-})
+});

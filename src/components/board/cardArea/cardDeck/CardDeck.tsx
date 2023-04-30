@@ -1,33 +1,32 @@
 import { observer } from "mobx-react-lite";
 import { useCallback, useEffect, useState } from "react";
-import { useRootStore } from "../../../../store";
+import { useStore } from "../../../../store";
 import { Card } from "../card/Card";
-import "./cardDeck.scss";
 import { Container } from "@pixi/react";
-
 import * as PIXI from "pixi.js";
+import { Sound } from "../../../sound";
 PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
 
 interface ICardDeckProps {
-    cardName?: string;
-    isMobile?:boolean;
+    isMobile?: boolean;
 }
 
-export const CardDeck = observer(({ cardName, isMobile }: ICardDeckProps) => {
-    const { openNewCards, isEmptyDeck, remixDeck, deckLength, openedDeckLength, deckCount } =
-        useRootStore().playingStore;
-    const { checkBets } = useRootStore();
-    const { unselectBet } = useRootStore().bankStore;
+export const CardDeck = observer(({ isMobile }: ICardDeckProps) => {
+    const { openNewCards, isEmptyDeck, remixDeck, deckLength, deckCount } =
+        useStore("playingStore");
+    const { checkBets } = useStore("rootStore");
+    const { unselectBet } = useStore("bankStore");
     const [imageSet, setImageSet] = useState<JSX.Element[]>([]);
-    const [openNew, setOpenNew] = useState(false);
 
     const onClick = useCallback(
         (event: PIXI.FederatedPointerEvent) => {
-            unselectBet();
             event.preventDefault();
+            unselectBet();
             if (isEmptyDeck) {
+                Sound.playSound("cardShuffle");
                 remixDeck();
             } else {
+                Sound.playSound("cardOpen");
                 openNewCards();
                 checkBets();
             }
@@ -36,55 +35,43 @@ export const CardDeck = observer(({ cardName, isMobile }: ICardDeckProps) => {
     );
 
     useEffect(() => {
-        const newArr: JSX.Element[] = [];
-        const cardsPerLayout = Math.ceil(deckLength / (13 * deckCount));
-        let name = cardName ? cardName : "1B";
-        // let width = 80;
-        // let height = 112;
-        // if(!cardName){
-        //     name = cardsPerLayout + "B";
-        //     width = cardsPerLayout === 4 ? 92 :cardsPerLayout === 3 ? 89 : 80;
-        //     height = cardsPerLayout === 4 ? 118 :cardsPerLayout === 3 ? 117 : 112;
-        // }
-        // const name = cardName ? cardName : cardsPerLayout + "B";
-        for (let i = 0; i < cardsPerLayout; i++) {
-            newArr.push(
-                <Card
-                    cardName={name}
-                    key={`card-${i}`}
-                    isAnimated={false}
-                    position={{ x: i * -8, y: i * 2 }}
-                />
-            );
+        const deckJSXArr: JSX.Element[] = [];
+        if (isEmptyDeck) {
+            deckJSXArr.push(<Card cardName="refresh3" isAnimated={false} key="refresh"/>);
+            for (let i = 0; i < 4; i++) {
+                deckJSXArr.push(
+                    <Card
+                        cardName="1B"
+                        key={`cardDeck-${i}`}
+                        isAnimated={true}
+                        moveSpeed={2.8 + i * 0.2}
+                    />
+                );
+            }
+        } else {
+            const cardsPerLayout = Math.ceil(deckLength / (13 * deckCount));
+            for (let i = 0; i < cardsPerLayout; i++) {
+                deckJSXArr.push(
+                    <Card
+                        cardName="1B"
+                        key={`card-${i}`}
+                        isAnimated={false}
+                        position={{ x: i * -8, y: i * 2 }}
+                    />
+                );
+            }
         }
-        setImageSet(newArr);
-        console.log(deckLength);
-    }, [deckLength, cardName]);
+        setImageSet(deckJSXArr);
+    }, [deckLength, isEmptyDeck]);
 
     return (
-        // <div className={"cardDeck" + (isOpen ? "" : " closedDeck")} onClick={onClick}>
-        //     {imageSet.length > 0 && <>{imageSet}</>}
-        //     {imageSet.length === 0 && !isOpen && <Card cardName="refresh2" />}
-        //     {imageSet.length === 0 && isOpen && <div className="emptyImg"> </div>}
-        // </div>
         <Container
             onpointerdown={onClick}
             cursor="pointer"
             eventMode="static"
-            // position={{ x: isOpen? 25: 575, y: 50 }}
-            position={{ x: isMobile ? 50 : 525, y: isMobile ? 40 :50 }}
-            sortableChildren={true}
+            position={{ x: isMobile ? 50 : 525, y: isMobile ? 40 : 50 }}
         >
-            {deckLength > 4 && <>{imageSet}</>}
-            {deckLength === 4 && (
-                <>
-                    <Card cardName="refresh3" isAnimated={false} />
-                    <Card cardName="1B" isAnimated={true} moveSpeed={2.8} cardDeck={true} />
-                    <Card cardName="1B" isAnimated={true}cardDeck={true} moveSpeed={3}  />
-                    <Card cardName="1B" isAnimated={true} cardDeck={true}  moveSpeed={3.2}/>
-                    <Card cardName="1B" isAnimated={true} cardDeck={true}  moveSpeed={3.4}/>
-                </>
-            )}
+            {imageSet}
         </Container>
     );
 });

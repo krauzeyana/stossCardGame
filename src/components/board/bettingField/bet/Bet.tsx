@@ -1,38 +1,31 @@
-import { observer } from "mobx-react-lite";
 import { useCallback } from "react";
 import { Chip } from "../../chipsList/chip";
-import { useRootStore } from "../../../../store";
-import { CardValueType, cardValues } from "../../../../common/gameInfo";
-import "./bet.scss";
+import { CardValueType, ChipValueType } from "../../../../common/gameInfo";
+import style from "./bet.module.scss";
+import { Sound } from "../../../sound";
 
 interface IBetProps {
     betValue: CardValueType;
+    chipsList: ChipValueType[];
+    selectBet: (arg: CardValueType) => void;
+    removeBet: (arg: CardValueType) => void;
+    isSelected: boolean;
 }
-export const Bet = observer(({ betValue }: IBetProps) => {
-    const { selectBet, selectedBet, removeBet, betList } = useRootStore().bankStore;
-    const chipsList = betList[betValue];
-
-    const fromR = "246810QA".includes(betValue) ? 1 : 2;
-    const toR = fromR + 1;
-    const fromC = cardValues.indexOf(betValue) + 1;
-    const toC = fromC + 2;
-
-    const style = {
-        gridArea: "" + fromR + " / " + fromC + " / " + toR + " / " + toC,
-    };
-
+export const Bet = ({ betValue, chipsList, selectBet, removeBet, isSelected }: IBetProps) => {
     const onClickHandle = useCallback(() => {
         selectBet(betValue);
     }, [betValue, selectBet]);
 
     const onRemoveBet = useCallback(() => {
-        removeBet(betValue);
-    }, [betValue, removeBet]);
+        if (isSelected) {         
+            Sound.playSound("removeBet");
+            removeBet(betValue);
+        }
+    }, [betValue, removeBet, isSelected]);
 
     return (
         <div
-            className={"bet" + (selectedBet === betValue ? " selectedBet" : "")}
-            style={style}
+            className={style.bet + (isSelected ? " " + style.selectedBet : "")}
             onClick={onClickHandle}
         >
             {betValue}
@@ -41,4 +34,4 @@ export const Bet = observer(({ betValue }: IBetProps) => {
             ))}
         </div>
     );
-});
+};

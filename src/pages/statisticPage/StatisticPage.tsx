@@ -1,21 +1,21 @@
 import { observer } from "mobx-react-lite";
 import { useState } from "react";
 import { NavBar } from "../../components/navBar";
-import { useRootStore } from "../../store";
+import { useStore } from "../../store";
 import { ChartByType } from "./chart/Chart";
-import "./statisticPage.scss";
+import style from "./statisticPage.module.scss";
 
 export const StatisticPage = observer(() => {
-    const { statistic } = useRootStore().statisticStore;
+    const { statistic } = useStore("statisticStore");
     const [isByNum, setIsByNum] = useState(false);
 
     return (
         <>
             <NavBar />
-            <div className="statisticPage">
+            <div className={style.statisticPage}>
                 <h2>Game Statistic</h2>
-                <div className="statisticContent">
-                    <div className="tableScroll">
+                <div className={style.statisticContent}>
+                    <div className={style.tableScroll}>
                         <table>
                             <thead>
                                 <tr>
@@ -26,7 +26,7 @@ export const StatisticPage = observer(() => {
                                 </tr>
                             </thead>
                         </table>
-                        <div className="tableScrollBody">
+                        <div className={style.tableScrollBody}>
                             <table>
                                 <tbody>
                                     {statistic
@@ -44,11 +44,11 @@ export const StatisticPage = observer(() => {
                             </table>
                         </div>
                     </div>
-                    <div className="chart">
+                    <div className={style.chart}>
                         <ChartByType isByNum={isByNum} />
-                        <label className="switch">
+                        <label className={style.switch}>
                             <input type="checkbox" onChange={(e) => setIsByNum(e.target.checked)} />
-                            <span className="slider round"></span>
+                            <span className={style.slider}></span>
                         </label>
                         <div>{isByNum ? "by number" : "by amount"}</div>
                     </div>

@@ -1,14 +1,16 @@
-import { observer } from "mobx-react-lite";
-import { useRootStore } from "../../../store";
-import "./balance.scss";
+import React from "react";
+import style from "./balance.module.scss";
 
-export const Balance: React.FC = observer(() => {
-    const { balance, deltaAmount } = useRootStore().bankStore;
-
+interface IBalanceProps{
+    title:string;
+    amount:number;
+    deltaAmount?: number;
+}
+export const Balance: React.FC<IBalanceProps> = React.memo(({ title, amount, deltaAmount}: IBalanceProps) => {
     return (
-        <div className="balance">
-            <h2>Balance: {1200}$</h2>
-            {500 > 0 && <h3>+{500}$</h3>}
+        <div className={style.balance}>
+            <h2>{title}: {amount}$</h2>
+            {(deltaAmount && deltaAmount > 0) ? <h3>+{deltaAmount}$</h3> : ""}
         </div>
     );
 });

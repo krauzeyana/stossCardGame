@@ -1,5 +1,4 @@
 import { action, computed, makeAutoObservable } from "mobx";
-import { RootStore } from "..";
 import {
     CardValueType,
     CardValuesSuits,
@@ -14,7 +13,6 @@ interface Card {
     suit: CardValuesSuits;
 }
 export class PlayingStore {
-    rootStore: RootStore;
     cardDeck: Card[] = [];
     openedCardDeck: Card[] = [];
     openCards: Card[] = [];
@@ -22,8 +20,7 @@ export class PlayingStore {
     lastOpenedCard: Card | null = null;
     deckCount: number = defDeckCount;
 
-    constructor(rootStore: RootStore) {
-        this.rootStore = rootStore;
+    constructor() {
         makeAutoObservable(this, {
             openNewCards: action.bound,
             remixDeck: action.bound,
@@ -63,21 +60,15 @@ export class PlayingStore {
 
     openNewCards() {
         if (this.openCards && this.openCards.length === 2) {
-            this.lastOpenedCard = this.openCards.pop()!;
-            this.openedCardDeck.push(this.lastOpenedCard);
+            this.lastOpenedCard = this.openCards.pop()!;        
             this.openedCardDeck.push(this.openCards.pop()!);
+            this.openedCardDeck.push(this.lastOpenedCard);
         }
         this.openCards.push(this.cardDeck.pop()!);
         this.openCards.push(this.cardDeck.pop()!);
         if (this.cardDeck.length === 4) {
             this.isEmptyDeck = true;
         }
-        console.log("last", this.lastOpenedCard?.value);
-        console.log(
-            "there ",
-            this.openCards[0].suit + this.openCards[0].value,
-            this.openCards[1].suit + this.openCards[1].value
-        );
     }
 
     remixDeck() {
