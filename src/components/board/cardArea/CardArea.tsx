@@ -4,36 +4,21 @@ import { CardDeck } from "./cardDeck";
 import { PositionLabel } from "./positionLabel";
 import { RootStoreContext, rootStore, useStore } from "../../../store";
 import style from "./cardArea.module.scss";
-import { useEffect, useRef, useState } from "react";
 import { Container, Stage } from "@pixi/react";
 import { OpenCardDeck } from "./openCardDeck";
 
 interface ICardAreaProps {
-    width: number;
-    height: number;
+    isMobile: boolean
 }
-export const CardArea = observer(({ width, height }: ICardAreaProps) => {
-    const { openCards, openedCardDeck, deckCount, openedDeckLength } = useStore("playingStore");
+export const CardArea = observer(({ isMobile}: ICardAreaProps) => {
+    const { openCards} = useStore("playingStore");
 
     const { isLose, isWin } = useStore("rootStore");
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth < 768);
-        };
-        window.addEventListener("resize", handleResize);
-        return () => {
-            window.removeEventListener("resize", handleResize);
-        };
-    }, []);
     return (
         <div className={style.cardArea}>
             <Stage
-                width={isMobile ? 350 : 768} //708
+                width={isMobile ? 350 : 768}
                 height={isMobile ? 350 : 187}
-                //   width={width}
-                //  height={height}
                 options={{
                     backgroundAlpha: 0,
                     antialias: true,

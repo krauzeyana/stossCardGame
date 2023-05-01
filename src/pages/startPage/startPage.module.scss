@@ -3,6 +3,49 @@
     src: url("../../assets/fonts/Antiquegr.ttf");
 }
 
+.imgContainer {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    overflow: hidden;
+
+    :nth-child(n) {
+        display: inline-flex;
+        width: 5em;
+        margin-left: 8%;
+        animation: anim 3s ease-in-out infinite;
+        transform: translateY(-120%) rotate(0deg);
+    }
+
+    :nth-child(1) {
+        animation-delay: 0.1s;
+    }
+    :nth-child(2){
+        animation-delay: 1.4s;
+    }
+    :nth-child(3) {
+        animation-delay: 2.4s;
+    }
+    :nth-child(4){
+        animation-delay: 1.65s;
+    }
+    :nth-child(5) {
+        animation-delay: 2.9s;
+    }
+    :nth-child(6) {
+        animation-delay: 0.7s;
+    }
+
+    @keyframes anim {
+        0% {
+            transform: translateY(-120%) rotate(0deg);
+        }
+        100% {
+            transform: translateY(120vh) rotate(-360deg);
+        }
+    }
+}
+
 .startPage {
     height: 100vh;
     display: flex;
@@ -20,8 +63,7 @@
     @media screen and (min-width: 768px) {
         background-size: contain;
     }
-    // overflow: hidden;
-
+    overflow: hidden;
     span {
         font-family: "Antiquegr";
 
@@ -95,22 +137,8 @@
     .startButton:hover {
         text-decoration: none;
         border: 2px rgba(255, 255, 255, 0.5) solid;
-        // box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
         outline-color: rgba(255, 255, 255, 0);
         outline-offset: 15px;
         border-radius: 5px;
     }
 }
-
-// .fallCard{
-//    // animation: text 5s infinite;
-// }
-
-//   @keyframes text {
-//     0% {
-//       transform: translateY(0);
-//     }
-//     100% {
-//       transform: translateY(110vh);
-//     }
-//   }

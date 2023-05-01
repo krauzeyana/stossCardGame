@@ -5,9 +5,16 @@ import { LoadingSpinner } from "../../components/loadingSpinner";
 import { useStore } from "../../store";
 import style from "./startPage.module.scss";
 
+import card1 from "../../assets/images/cards/4H.svg";
+import card2 from "../../assets/images/cards/7C.svg";
+import card3 from "../../assets/images/cards/10D.svg";
+import card4 from "../../assets/images/cards/2S.svg";
+import card5 from "../../assets/images/cards/QH.svg";
+import card6 from "../../assets/images/cards/AD.svg";
+
 export const StartPage = observer(() => {
     const [loading, setLoading] = useState(true);
-    const { removeAllBets, resetBalanceNewGame } = useStore("bankStore");
+    const { removeAllBets, resetBalance } = useStore("bankStore");
     const { remixDeck } = useStore("playingStore");
 
     useEffect(() => {
@@ -19,17 +26,27 @@ export const StartPage = observer(() => {
 
     const onClickHandle = () => {
         removeAllBets();
-        resetBalanceNewGame();
+        resetBalance(false);
         remixDeck();
     };
 
     return (
-        <div className={style.startPage}>
+        <>
             {loading && <LoadingSpinner />}
-            <span className={style.gameName}>Stoss</span>
-            <Link to="/game" className={style.startButton} onClick={onClickHandle}>
-                Start
-            </Link>
-        </div>
+            <div className={style.imgContainer}>
+                <img src={card1}/>
+                <img src={card2}/>
+                <img src={card3}/>
+                <img src={card4}/>
+                <img src={card5}/>
+                <img src={card6}/>
+            </div>
+            <div className={style.startPage}>
+                <span className={style.gameName}>Stoss</span>
+                <Link to="/game" className={style.startButton} onClick={onClickHandle}>
+                    Start
+                </Link>
+            </div>
+        </>
     );
 });

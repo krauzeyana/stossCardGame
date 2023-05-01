@@ -32,7 +32,6 @@ export class BankStore {
             upateMaxBetsCount: action.bound,
             removeAllBets: action.bound,
             resetBalance: action.bound,
-            resetBalanceNewGame: action.bound,
             unselectBet: action.bound,
             clearDeltaAmount: action.bound,
         });
@@ -100,14 +99,10 @@ export class BankStore {
         this.maxBetsCount = newCount;
     }
 
-    resetBalance() {
-        if (this.balance === 0 && this.nonEmptyBetsCount === 0) {
+    resetBalance(isCheck: boolean) {
+        if (!isCheck || (isCheck && this.balance === 0 && this.nonEmptyBetsCount === 0)) {
             this.balance = defBalance;
         }
-    }
-
-    resetBalanceNewGame() {
-        this.balance = defBalance;
     }
 
     removeAllBets() {

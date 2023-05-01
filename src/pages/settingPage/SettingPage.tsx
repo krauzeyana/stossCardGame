@@ -1,7 +1,6 @@
 import { ChangeEvent, useCallback } from "react";
 import { observer } from "mobx-react-lite";
 import { useStore } from "../../store";
-import { NavBar } from "../../components/navBar";
 import { defDeckCount, defBetsCount } from "../../common/gameInfo";
 import style from "./settingPage.module.scss";
 
@@ -25,71 +24,72 @@ export const SettingPage = observer(() => {
         [upateMaxBetsCount]
     );
 
-    const resetToDefault = () => {
+    const resetToDefault = useCallback(() => {
         if (defDeckCount !== deckCount) {
             updateDeckCount(defDeckCount);
             remixDeck();
         }
         upateMaxBetsCount(defBetsCount);
-    };
+    }, [deckCount, updateDeckCount, upateMaxBetsCount, remixDeck]);
+
+    const resetBalanceHandle = useCallback(() => {
+        resetBalance(true);
+    }, [resetBalance]);
 
     return (
-        <>
-            <NavBar />
-            <div className={style.settingPage}>
-                <h2> Game Settings</h2>
-                <div className={style.settingForm}>
-                    <div className={style.item}>
-                        <label htmlFor="deck">Number of the deck</label>
-                        <span>
-                            <input
-                                type="range"
-                                value={deckCount}
-                                min="1"
-                                max="5"
-                                onChange={onChangeDeckCount}
-                                name="deck"
-                            />
-                            <output id="rangevalue">{deckCount}</output>
-                        </span>
-                    </div>
-                    <div className={style.item}>
-                        <label htmlFor="bets">Maximum number of the bets</label>
-                        <span>
-                            <input
-                                type="range"
-                                value={maxBetsCount}
-                                min="1"
-                                max="5"
-                                onChange={onChangeMaxBetsCount}
-                                name="bets"
-                            />
-                            <output id="rangevalue">{maxBetsCount}</output>
-                        </span>
-                    </div>
-                    <div className={style.item}>
-                        <button
-                            type="button"
-                            className={style.button}
-                            onClick={resetBalance}
-                            title="Only with zero balance and empty bets"
-                        >
-                            Reset Balance
-                        </button>
-                    </div>
-                    <div className={style.item}>
-                        <button type="button" className={style.button} onClick={resetStatictic}>
-                            Reset Statistic
-                        </button>
-                    </div>
-                    <br></br>
-                    <div className={style.item}>
-                        <button type="button" className={style.button} onClick={resetToDefault}>
-                            Reset Setting to default
-                        </button>
-                    </div>
+        <div className={style.settingPage}>
+            <h2> Game Settings</h2>
+            <div className={style.settingForm}>
+                <div className={style.item}>
+                    <label htmlFor="deck">Number of the deck</label>
+                    <span>
+                        <input
+                            type="range"
+                            value={deckCount}
+                            min="1"
+                            max="5"
+                            onChange={onChangeDeckCount}
+                            name="deck"
+                        />
+                        <output id="rangevalue">{deckCount}</output>
+                    </span>
+                </div>
+                <div className={style.item}>
+                    <label htmlFor="bets">Maximum number of the bets</label>
+                    <span>
+                        <input
+                            type="range"
+                            value={maxBetsCount}
+                            min="1"
+                            max="5"
+                            onChange={onChangeMaxBetsCount}
+                            name="bets"
+                        />
+                        <output id="rangevalue">{maxBetsCount}</output>
+                    </span>
+                </div>
+                <div className={style.item}>
+                    <button
+                        type="button"
+                        className={style.button}
+                        onClick={resetBalanceHandle}
+                        title="Only with zero balance and empty bets"
+                    >
+                        Reset Balance
+                    </button>
+                </div>
+                <div className={style.item}>
+                    <button type="button" className={style.button} onClick={resetStatictic}>
+                        Reset Statistic
+                    </button>
+                </div>
+                <br></br>
+                <div className={style.item}>
+                    <button type="button" className={style.button} onClick={resetToDefault}>
+                        Reset Setting to default
+                    </button>
                 </div>
             </div>
-        </>
+        </div>
     );
 });

@@ -7,20 +7,22 @@ import {
     defDeckCount,
 } from "../../common/gameInfo";
 import { autoSave } from "../../utils/autosave";
+import { RootStore } from "..";
 
 interface Card {
     value: CardValueType;
     suit: CardValuesSuits;
 }
 export class PlayingStore {
+    rootStore: RootStore;
     cardDeck: Card[] = [];
     openedCardDeck: Card[] = [];
     openCards: Card[] = [];
     isEmptyDeck: boolean;
-    lastOpenedCard: Card | null = null;
     deckCount: number = defDeckCount;
 
-    constructor() {
+    constructor(rootStore: RootStore) {
+        this.rootStore = rootStore;
         makeAutoObservable(this, {
             openNewCards: action.bound,
             remixDeck: action.bound,
@@ -59,10 +61,11 @@ export class PlayingStore {
     };
 
     openNewCards() {
+        this.rootStore.resetWin();
         if (this.openCards && this.openCards.length === 2) {
-            this.lastOpenedCard = this.openCards.pop()!;        
+            const temp:Card = this.openCards.pop()!      
             this.openedCardDeck.push(this.openCards.pop()!);
-            this.openedCardDeck.push(this.lastOpenedCard);
+            this.openedCardDeck.push(temp);
         }
         this.openCards.push(this.cardDeck.pop()!);
         this.openCards.push(this.cardDeck.pop()!);
@@ -72,9 +75,9 @@ export class PlayingStore {
     }
 
     remixDeck() {
+        this.rootStore.resetWin();
         this.openedCardDeck = [];
         this.openCards = [];
-        this.lastOpenedCard = null;
         this.cardDeck = [...this.generateNewDeck()];
         this.isEmptyDeck = false;
     }

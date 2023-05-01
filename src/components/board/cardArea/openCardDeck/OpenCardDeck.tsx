@@ -3,8 +3,6 @@ import { useEffect, useState } from "react";
 import { useStore } from "../../../../store";
 import { Card } from "../card/Card";
 import { Container } from "@pixi/react";
-import * as PIXI from "pixi.js";
-PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
 
 export const OpenCardDeck = observer(() => {
     const { openedCardDeck, deckCount, openedDeckLength } = useStore("playingStore");

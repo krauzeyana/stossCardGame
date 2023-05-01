@@ -4,7 +4,7 @@ import { BankStore } from "./bankStore/bankStore";
 import { PlayingStore } from "./playingStore/playingStore";
 import { StatisticStore } from "./statisticStore/statisticStore";
 import { Sound } from "../components/sound";
-import { Store, StoreType } from "../common/gameInfo";
+import { StoreType } from "../common/gameInfo";
 
 export class RootStore {
     bankStore: BankStore;
@@ -17,18 +17,22 @@ export class RootStore {
     constructor() {
         this.rootStore = this;
         this.bankStore = new BankStore();
-        this.playingStore = new PlayingStore();
+        this.playingStore = new PlayingStore(this);
         this.statisticStore = new StatisticStore();
-        makeAutoObservable(this, { checkBets: action.bound });
+        makeAutoObservable(this, { checkBets: action.bound, resetWin: action.bound });
+    }
+
+    resetWin = () =>{
+        this.isLose = false;
+        this.isWin = false;
+        this.bankStore.clearDeltaAmount();
     }
 
     checkBets = () => {
         const { openCards } = this.playingStore;
         const { getBetBalance, changeBalance, clearBetLis, clearDeltaAmount } = this.bankStore;
         const { saveStatistic } = this.statisticStore;
-        this.isLose = false;
-        this.isWin = false;
-        clearDeltaAmount()
+
         if (openCards) {
             let plus = getBetBalance(openCards[1].value);
             const minus = getBetBalance(openCards[0].value);
@@ -51,8 +55,6 @@ export class RootStore {
                 Sound.playSound("win")
                 changeBalance(plus);
             }
-            // this.isLose = false;
-            // this.isWin = false;
         }
     };
 }
