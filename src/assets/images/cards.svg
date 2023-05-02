@@ -1,8 +1,151 @@
-<svg width="1200" height="719.9999999999999" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2">
+<svg width="2000" height="719.9999999999999" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2">
  <g id="Layer_1">
   <title>Layer 1</title>
-  <g transform="rotate(-7.03129 66.9999 39.3312)" id="svg_7" stroke="null">
-   <defs transform="translate(20 8.33334) translate(-392 -88) translate(0 2) translate(500 0) translate(0 202.5) translate(380.5 37) scale(0.48954 0.48954) translate(-380.5 -37)" stroke="null">
+  <g transform="rotate(15.5621 1873.27 132.297)" id="svg_496" stroke="null">
+
+   <rect id="svg_478" width="173.2938" height="242.90135" x="1786.62512" y="10.84624" rx="12" ry="12" fill="white" stroke="black"/>
+   <use id="svg_479" xlink:href="#svg_222" height="32" width="32" x="2350.32195" y="-10.24315" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_480" xlink:href="#svg_221" height="26.769" width="26.769" x="2352.93795" y="26.75685" stroke-width="100" stroke-linejoin="round" stroke-linecap="round" href="#svg_221" stroke="black" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_481" xlink:href="#svg_221" height="26.769" width="26.769" x="2352.93795" y="26.75685" fill="#000000" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_482" xlink:href="#svg_221" height="70" width="70" x="2377.22095" y="10.25585" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_483" xlink:href="#svg_221" height="70" width="70" x="2482.22295" y="10.25585" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_484" xlink:href="#svg_221" height="70" width="70" x="2377.22095" y="77.25685" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_485" xlink:href="#svg_221" height="70" width="70" x="2482.22295" y="77.25685" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_486" xlink:href="#svg_221" height="70" width="70" x="2429.72195" y="43.75685" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <g id="svg_495" transform="matrix(-0.725079 0 0 -0.725079 713.895 409.885)" stroke="null">
+    <use id="svg_487" xlink:href="#svg_222" height="32" width="32" x="-1713.3665" y="226.83813" href="#svg_222" stroke="null"/>
+    <use id="svg_488" xlink:href="#svg_221" height="26.769" width="26.769" x="-1710.7505" y="263.83813" stroke-width="100" stroke-linejoin="round" stroke-linecap="round" href="#svg_221" stroke="black"/>
+    <use id="svg_489" xlink:href="#svg_221" height="26.769" width="26.769" x="-1710.7505" y="263.83813" fill="#000000" href="#svg_221" stroke="null"/>
+    <use id="svg_490" xlink:href="#svg_221" height="70" width="70" x="-1686.4675" y="247.33713" href="#svg_221" stroke="null"/>
+    <use id="svg_491" xlink:href="#svg_221" height="70" width="70" x="-1581.4655" y="247.33713" href="#svg_221" stroke="null"/>
+    <use id="svg_492" xlink:href="#svg_221" height="70" width="70" x="-1686.4675" y="314.33813" href="#svg_221" stroke="null"/>
+    <use id="svg_493" xlink:href="#svg_221" height="70" width="70" x="-1581.4655" y="314.33813" href="#svg_221" stroke="null"/>
+    <use id="svg_494" xlink:href="#svg_221" height="70" width="70" x="-1633.9665" y="280.83813" href="#svg_221" stroke="null"/>
+   </g>
+  </g>
+  <g transform="rotate(4.92941 1826.6 198.067)" stroke="null" id="svg_472">
+
+   <rect stroke="black" fill="white" ry="12" rx="12" y="102.5751" x="1762.25836" height="190.98474" width="128.67342" id="svg_463"/>
+   <use stroke="null" transform="matrix(0.538382 0 0 0.570103 -309.274 103.657)" href="#svg_67" y="83.20187" x="3884.79829" width="164.8" height="164.8" xlink:href="#svg_67" id="svg_464"/>
+   <use stroke="null" transform="matrix(0.538382 0 0 0.570103 -309.274 103.657)" href="#svg_67" y="9.60187" x="3852.79829" width="32" height="32" xlink:href="#svg_67" id="svg_465"/>
+   <use stroke="black" transform="matrix(0.538382 0 0 0.570103 -309.274 103.657)" href="#svg_66" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="46.60187" x="3855.41429" width="26.769" height="26.769" xlink:href="#svg_66" id="svg_466"/>
+   <use stroke="null" transform="matrix(0.538382 0 0 0.570103 -309.274 103.657)" href="#svg_66" fill="#000000" y="46.60187" x="3855.41429" width="26.769" height="26.769" xlink:href="#svg_66" id="svg_467"/>
+   <g stroke="null" transform="matrix(-0.538382 0 0 -0.570103 -97.5233 454.379)" id="svg_471">
+    <use stroke="null" href="#svg_67" y="293.58802" x="-3688.29024" width="32" height="32" xlink:href="#svg_67" id="svg_468"/>
+    <use stroke="black" href="#svg_66" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="330.58802" x="-3685.67424" width="26.769" height="26.769" xlink:href="#svg_66" id="svg_469"/>
+    <use stroke="null" href="#svg_66" fill="#000000" y="330.58802" x="-3685.67424" width="26.769" height="26.769" xlink:href="#svg_66" id="svg_470"/>
+   </g>
+  </g>
+  <g transform="rotate(1.69946 852.801 178.116)" stroke="null" id="svg_202">
+   <defs stroke="null" transform="translate(-1.53847 -24.6155) translate(0.201469 -0.139274) translate(1.43296 -0.79458) translate(0 -16.9231) translate(3.07693 -36.9232) translate(-3.07693 56.9233) translate(1.53847 -47.6925) translate(0 16.6667) translate(303.333 -11.6667) translate(22.2861 -12.36) translate(600 0) translate(0 360) translate(480.5 192.5) scale(0.452309 0.452309) translate(-480.5 -192.5) translate(1785.63 310.682) scale(0.922145 0.922145) translate(-1785.63 -310.682) translate(1939.83 335.008) scale(0.90378 0.90378) translate(-1939.83 -335.008)">
+    <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-600 -600 1200 1200" id="svg_68">
+     <path stroke="null" d="m0,-500c100,250 355,400 355,685a150,150 0 0 1 -300,0a10,10 0 0 0 -20,0c0,200 50,215 95,315l-260,0c45,-100 95,-115 95,-315a10,10 0 0 0 -20,0a150,150 0 0 1 -300,0c0,-285 255,-435 355,-685z" id="svg_203"/>
+    </symbol>
+    <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-500 -500 1000 1000" id="svg_69">
+     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m-260,430l0,-860m210,430l0,-310a150,150 0 0 1 300,0l0,620a150,150 0 0 1 -300,0l0,-310z" id="svg_204"/>
+    </symbol>
+   </defs>
+   <rect stroke="black" fill="white" ry="12" rx="12" y="114.97514" x="807.754" height="126.28217" width="90.09385" id="svg_205"/>
+   <use stroke="null" transform="matrix(0.376962 0 0 0.376962 354.007 111.201)" href="#svg_69" y="21.5143" x="1208.79538" width="32" height="32" xlink:href="#svg_69" id="svg_206"/>
+   <use stroke="null" transform="matrix(0.376962 0 0 0.376962 354.007 111.201)" href="#svg_68" fill="black" y="58.5143" x="1211.41138" width="26.769" height="26.769" xlink:href="#svg_68" id="svg_207"/>
+   <use stroke="null" transform="matrix(0.376962 0 0 0.376962 354.007 111.201)" href="#svg_68" y="42.0133" x="1235.69438" width="70" height="70" xlink:href="#svg_68" id="svg_208"/>
+   <use stroke="null" transform="matrix(0.376962 0 0 0.376962 354.007 111.201)" href="#svg_68" y="42.0133" x="1340.69638" width="70" height="70" xlink:href="#svg_68" id="svg_209"/>
+   <use stroke="null" transform="matrix(0.376962 0 0 0.376962 354.007 111.201)" href="#svg_68" y="109.0143" x="1235.69438" width="70" height="70" xlink:href="#svg_68" id="svg_210"/>
+   <use stroke="null" transform="matrix(0.376962 0 0 0.376962 354.007 111.201)" href="#svg_68" y="109.0143" x="1340.69638" width="70" height="70" xlink:href="#svg_68" id="svg_211"/>
+   <use stroke="null" transform="matrix(0.376962 0 0 0.376962 354.007 111.201)" href="#svg_68" y="75.5143" x="1288.19538" width="70" height="70" xlink:href="#svg_68" id="svg_212"/>
+   <g stroke="null" transform="matrix(-0.376962 0 0 -0.376962 806.361 382.613)" id="svg_213">
+    <use stroke="null" href="#svg_69" y="386.48569" x="-237.59541" width="32" height="32" xlink:href="#svg_69" id="svg_214"/>
+    <use stroke="null" href="#svg_68" fill="black" y="423.48569" x="-234.97941" width="26.769" height="26.769" xlink:href="#svg_68" id="svg_215"/>
+    <use stroke="null" href="#svg_68" y="406.98469" x="-210.69641" width="70" height="70" xlink:href="#svg_68" id="svg_216"/>
+    <use stroke="null" href="#svg_68" y="406.98469" x="-105.69441" width="70" height="70" xlink:href="#svg_68" id="svg_217"/>
+    <use stroke="null" href="#svg_68" y="473.98569" x="-210.69641" width="70" height="70" xlink:href="#svg_68" id="svg_218"/>
+    <use stroke="null" href="#svg_68" y="473.98569" x="-105.69441" width="70" height="70" xlink:href="#svg_68" id="svg_219"/>
+    <use stroke="null" href="#svg_68" y="440.48569" x="-158.19541" width="70" height="70" xlink:href="#svg_68" id="svg_220"/>
+   </g>
+  </g>
+  <g transform="rotate(-17.8408 1714.49 82.6226)" stroke="null" id="svg_439">
+
+   <rect stroke="black" fill="white" ry="12" rx="12" y="-26.47435" x="1636.65636" height="218.19383" width="155.66664" id="svg_424"/>
+   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_61" y="-132.19837" x="2260.68369" width="32" height="32" xlink:href="#svg_61" id="svg_425"/>
+   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" fill="black" y="-95.19837" x="2263.29969" width="26.769" height="26.769" xlink:href="#svg_60" id="svg_426"/>
+   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" y="-111.69937" x="2287.58269" width="70" height="70" xlink:href="#svg_60" id="svg_427"/>
+   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" y="-111.69937" x="2392.58469" width="70" height="70" xlink:href="#svg_60" id="svg_428"/>
+   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" y="-44.69837" x="2287.58269" width="70" height="70" xlink:href="#svg_60" id="svg_429"/>
+   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" y="-44.69837" x="2392.58469" width="70" height="70" xlink:href="#svg_60" id="svg_430"/>
+   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" y="-11.19837" x="2340.08369" width="70" height="70" xlink:href="#svg_60" id="svg_431"/>
+   <g stroke="null" transform="matrix(-0.651325 0 0 -0.651325 949.128 536.074)" id="svg_438">
+    <use stroke="null" href="#svg_61" y="540.19838" x="-1289.48368" width="32" height="32" xlink:href="#svg_61" id="svg_432"/>
+    <use stroke="null" href="#svg_60" fill="black" y="577.19838" x="-1286.86768" width="26.769" height="26.769" xlink:href="#svg_60" id="svg_433"/>
+    <use stroke="null" href="#svg_60" y="560.69738" x="-1262.58468" width="70" height="70" xlink:href="#svg_60" id="svg_434"/>
+    <use stroke="null" href="#svg_60" y="560.69738" x="-1157.58268" width="70" height="70" xlink:href="#svg_60" id="svg_435"/>
+    <use stroke="null" href="#svg_60" y="627.69838" x="-1262.58468" width="70" height="70" xlink:href="#svg_60" id="svg_436"/>
+    <use stroke="null" href="#svg_60" y="627.69838" x="-1157.58268" width="70" height="70" xlink:href="#svg_60" id="svg_437"/>
+   </g>
+  </g>
+  <g stroke="null" id="svg_418">
+
+   <rect stroke="black" id="svg_411" width="71.93268" height="100.82614" x="1537.42187" y="83.27185" rx="12" ry="12" fill="white"/>
+   <use stroke="null" id="svg_412" height="164.8" width="164.8" x="839.95642" y="262.33963" xlink:href="#svg_248" transform="matrix(0.300973 0 0 0.300973 1295.78 29.9274)"/>
+   <use stroke="null" id="svg_413" xlink:href="#svg_248" height="32" width="32" x="807.95642" y="188.73963" href="#svg_248" transform="matrix(0.300973 0 0 0.300973 1295.78 29.9274)"/>
+   <use stroke="null" id="svg_414" xlink:href="#svg_247" height="26.769" width="26.769" x="810.57242" y="225.73963" fill="black" href="#svg_247" transform="matrix(0.300973 0 0 0.300973 1295.78 29.9274)"/>
+   <g stroke="null" id="svg_417" transform="matrix(-0.300973 0 0 -0.300973 1429.25 185.435)">
+    <use stroke="null" id="svg_415" xlink:href="#svg_248" height="32" width="32" x="-593.33488" y="15.94129" href="#svg_248"/>
+    <use stroke="null" id="svg_416" xlink:href="#svg_247" height="26.769" width="26.769" x="-590.71888" y="52.94129" fill="black" href="#svg_247"/>
+   </g>
+  </g>
+  <g transform="rotate(11.2319 1472.72 94.6278)" stroke="null" id="svg_383">
+
+   <rect stroke="black" fill="white" ry="12" rx="12" y="-20.71528" x="1390.42867" height="230.68623" width="164.57912" id="svg_376"/>
+   <use stroke="null" transform="matrix(0.688616 0 0 0.688616 -380.642 69.6549)" href="#svg_62" y="1.26572" x="2656.42748" width="70" height="70" xlink:href="#svg_62" id="svg_377"/>
+   <use stroke="null" transform="matrix(0.688616 0 0 0.688616 -380.642 69.6549)" href="#svg_63" y="-119.73428" x="2577.02748" width="32" height="32" xlink:href="#svg_63" id="svg_378"/>
+   <use stroke="null" transform="matrix(0.688616 0 0 0.688616 -380.642 69.6549)" href="#svg_62" fill="black" y="-82.73428" x="2579.64348" width="26.769" height="26.769" xlink:href="#svg_62" id="svg_379"/>
+   <g stroke="null" transform="matrix(-0.688616 0 0 -0.688616 160.992 445.166)" id="svg_382">
+    <use stroke="null" href="#svg_63" y="353.04691" x="-2019.27137" width="32" height="32" xlink:href="#svg_63" id="svg_380"/>
+    <use stroke="null" href="#svg_62" fill="black" y="390.04691" x="-2016.65537" width="26.769" height="26.769" xlink:href="#svg_62" id="svg_381"/>
+   </g>
+  </g>
+  <g transform="rotate(8.48092 1223.53 87.1685)" id="svg_297" stroke="null">
+
+   <rect id="svg_279" width="173.2938" height="242.90135" x="1136.88233" y="-34.28218" rx="12" ry="12" fill="white" stroke="black"/>
+   <use id="svg_280" xlink:href="#svg_222" height="32" width="32" x="1454.22256" y="-72.48246" href="#svg_222" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_281" xlink:href="#svg_221" height="26.769" width="26.769" x="1456.83856" y="-35.48246" stroke-width="100" stroke-linejoin="round" stroke-linecap="round" href="#svg_221" stroke="black" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_282" xlink:href="#svg_221" height="26.769" width="26.769" x="1456.83856" y="-35.48246" fill="#000000" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_283" xlink:href="#svg_221" height="70" width="70" x="1481.12156" y="-51.98346" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_284" xlink:href="#svg_221" height="70" width="70" x="1586.12356" y="-51.98346" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_285" xlink:href="#svg_221" height="70" width="70" x="1481.12156" y="15.01754" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_286" xlink:href="#svg_221" height="70" width="70" x="1586.12356" y="15.01754" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_287" xlink:href="#svg_221" height="70" width="70" x="1533.62256" y="-18.48246" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <g id="svg_296" transform="matrix(-0.725079 0 0 -0.725079 713.895 409.885)" stroke="null">
+    <use id="svg_288" xlink:href="#svg_222" height="32" width="32" x="-817.26718" y="289.07744" href="#svg_222" stroke="null"/>
+    <use id="svg_289" xlink:href="#svg_221" height="26.769" width="26.769" x="-814.65118" y="326.07744" stroke-width="100" stroke-linejoin="round" stroke-linecap="round" href="#svg_221" stroke="black"/>
+    <use id="svg_290" xlink:href="#svg_221" height="26.769" width="26.769" x="-814.65118" y="326.07744" fill="#000000" href="#svg_221" stroke="null"/>
+    <use id="svg_291" xlink:href="#svg_221" height="70" width="70" x="-790.36818" y="309.57644" href="#svg_221" stroke="null"/>
+    <use id="svg_292" xlink:href="#svg_221" height="70" width="70" x="-685.36618" y="309.57644" href="#svg_221" stroke="null"/>
+    <use id="svg_293" xlink:href="#svg_221" height="70" width="70" x="-790.36818" y="376.57744" href="#svg_221" stroke="null"/>
+    <use id="svg_294" xlink:href="#svg_221" height="70" width="70" x="-685.36618" y="376.57744" href="#svg_221" stroke="null"/>
+    <use id="svg_295" xlink:href="#svg_221" height="70" width="70" x="-737.86718" y="343.07744" href="#svg_221" stroke="null"/>
+   </g>
+  </g>
+  <g transform="rotate(-8.45388 947.232 195.867)" stroke="null" id="svg_225">
+   <defs stroke="null" transform="translate(-1.71011 1.42127) translate(-3.07693 56.9233) translate(1.53847 -47.6925) translate(15.7124 2.85679) translate(-12.8556 9.99877) translate(12.8556 31.4247) translate(401.379 -125.699) translate(600 0) translate(0 360) translate(881.879 66.8012) scale(0.683243 0.683243) translate(-881.879 -66.8012) translate(1309.54 143.764) scale(0.755075 0.755075) translate(-1309.54 -143.764) translate(1736.87 233.209) scale(0.857899 0.857899) translate(-1736.87 -233.209)">
+    <symbol stroke="null" id="svg_247" viewBox="-600 -600 1200 1200" preserveAspectRatio="xMinYMid">
+     <path stroke="null" id="svg_226" d="m0,-500c100,250 355,400 355,685a150,150 0 0 1 -300,0a10,10 0 0 0 -20,0c0,200 50,215 95,315l-260,0c45,-100 95,-115 95,-315a10,10 0 0 0 -20,0a150,150 0 0 1 -300,0c0,-285 255,-435 355,-685z"/>
+    </symbol>
+    <symbol stroke="null" id="svg_248" viewBox="-500 -500 1000 1000" preserveAspectRatio="xMinYMid">
+     <path stroke="black" id="svg_227" d="m-285,-460l200,0m-100,0l0,920m-100,0l200,0m170,-920l200,0m-100,20l-355,595m255,305l200,0m-100,-20l-195,-510" stroke-width="80" stroke-linecap="square" stroke-miterlimit="1.5" fill="none"/>
+    </symbol>
+   </defs>
+   <rect stroke="black" id="svg_228" width="105.77894" height="148.26755" x="894.34295" y="121.73351" rx="12" ry="12" fill="white"/>
+   <use stroke="null" id="svg_229" height="164.8" width="164.8" x="930.94871" y="218.99856" xlink:href="#svg_248" transform="matrix(0.442589 0 0 0.442589 498.735 62.4714)"/>
+   <use stroke="null" id="svg_230" xlink:href="#svg_248" height="32" width="32" x="898.94871" y="145.39856" href="#svg_248" transform="matrix(0.442589 0 0 0.442589 498.735 62.4714)"/>
+   <use stroke="null" id="svg_231" xlink:href="#svg_247" height="26.769" width="26.769" x="901.56471" y="182.39856" fill="black" href="#svg_247" transform="matrix(0.442589 0 0 0.442589 498.735 62.4714)"/>
+   <g stroke="null" id="svg_232" transform="matrix(-0.442589 0 0 -0.442589 1382.69 258.841)">
+    <use stroke="null" id="svg_233" xlink:href="#svg_248" height="32" width="32" x="869.47215" y="-13.71493" href="#svg_248"/>
+    <use stroke="null" id="svg_234" xlink:href="#svg_247" height="26.769" width="26.769" x="872.08815" y="23.28507" fill="black" href="#svg_247"/>
+   </g>
+  </g>
+  <g transform="rotate(-7.03129 61.1762 12.8521)" id="svg_7" stroke="null">
+   <defs transform="translate(-3.07693 56.9233) translate(1.53847 -47.6925) translate(1.4284 1.4284) translate(-4.28519 -38.5667) translate(-1.4284 1.4284) translate(20 8.33334) translate(-392 -88) translate(0 2) translate(500 0) translate(0 202.5) translate(380.5 37) scale(0.48954 0.48954) translate(-380.5 -37)" stroke="null">
     <symbol id="svg_1" viewBox="-600 -600 1200 1200" preserveAspectRatio="xMinYMid" stroke="null">
      <path id="svg_8" d="m30,150c5,235 55,250 100,350l-260,0c45,-100 95,-115 100,-350a10,10 0 0 0 -20,0a210,210 0 1 1 -74,-201a10,10 0 0 0 14,-14a230,230 0 1 1 220,0a10,10 0 0 0 14,14a210,210 0 1 1 -74,201a10,10 0 0 0 -20,0z" stroke="null"/>
     </symbol>
@@ -10,19 +153,19 @@
      <path id="svg_9" d="m-250,-320l0,-140l450,0l-310,380c10,-10 60,-40 110,-40c200,0 250,120 250,270c0,200 -80,310 -280,310c-200,0 -230,-160 -230,-160" stroke-width="80" stroke-linecap="square" stroke-miterlimit="1.5" fill="none" stroke="black"/>
     </symbol>
    </defs>
-   <rect id="svg_10" width="116.99997" height="163.99577" x="8.49992" y="-42.66668" rx="12" ry="12" fill="white" stroke="black"/>
-   <use id="svg_11" xlink:href="#svg_2" height="32" width="32" x="-415.15253" y="-131.26078" stroke="null" transform="matrix(0.48954 0 0 0.48954 214.23 27.2203)"/>
-   <use id="svg_12" xlink:href="#svg_1" height="26.769" width="26.769" x="-412.53653" y="-94.26078" fill="black" href="#svg_1" stroke="null" transform="matrix(0.48954 0 0 0.48954 214.23 27.2203)"/>
-   <use id="svg_13" xlink:href="#svg_1" height="70" width="70" x="-335.75253" y="-110.84878" href="#svg_1" stroke="null" transform="matrix(0.48954 0 0 0.48954 214.23 27.2203)"/>
-   <use id="svg_14" xlink:href="#svg_1" height="70" width="70" x="-335.75253" y="-10.26078" href="#svg_1" stroke="null" transform="matrix(0.48954 0 0 0.48954 214.23 27.2203)"/>
+   <rect id="svg_10" width="116.99997" height="163.99577" x="2.67626" y="-69.14577" rx="12" ry="12" fill="white" stroke="black"/>
+   <use id="svg_11" xlink:href="#svg_2" height="32" width="32" x="-427.27355" y="-90.84535" href="#svg_2" stroke="null" transform="matrix(0.48954 0 0 0.48954 214.34 -19.0438)"/>
+   <use id="svg_12" xlink:href="#svg_1" height="26.769" width="26.769" x="-424.65755" y="-53.84535" fill="black" href="#svg_1" stroke="null" transform="matrix(0.48954 0 0 0.48954 214.34 -19.0438)"/>
+   <use id="svg_13" xlink:href="#svg_1" height="70" width="70" x="-347.87355" y="-70.43335" href="#svg_1" stroke="null" transform="matrix(0.48954 0 0 0.48954 214.34 -19.0438)"/>
+   <use id="svg_14" xlink:href="#svg_1" height="70" width="70" x="-347.87355" y="30.15465" href="#svg_1" stroke="null" transform="matrix(0.48954 0 0 0.48954 214.34 -19.0438)"/>
    <g id="svg_15" transform="matrix(-0.48954 0 0 -0.48954 683.77 219.109)" stroke="null">
-    <use id="svg_16" xlink:href="#svg_2" height="32" width="32" x="1145.49781" y="211.23798" href="#svg_2" stroke="null"/>
-    <use id="svg_17" xlink:href="#svg_1" height="26.769" width="26.769" x="1148.11381" y="248.23798" fill="black" href="#svg_1" stroke="null"/>
-    <use id="svg_18" xlink:href="#svg_1" height="70" width="70" x="1224.89781" y="231.64998" href="#svg_1" stroke="null"/>
+    <use id="svg_16" xlink:href="#svg_2" height="32" width="32" x="1157.39399" y="265.32772" href="#svg_2" stroke="null"/>
+    <use id="svg_17" xlink:href="#svg_1" height="26.769" width="26.769" x="1160.00999" y="302.32772" fill="black" href="#svg_1" stroke="null"/>
+    <use id="svg_18" xlink:href="#svg_1" height="70" width="70" x="1236.79399" y="285.73972" href="#svg_1" stroke="null"/>
    </g>
   </g>
   <g id="svg_19" stroke="null">
-   <defs transform="translate(-2 0) translate(-122 -30) translate(-6 0) translate(402 -200) translate(600 0) translate(0 360) translate(876.5 -7.50005) scale(0.623431 0.623431) translate(-876.5 7.50005) translate(1207.03 -60.1511) scale(0.798658 0.798658) translate(-1207.03 60.1511)" stroke="null">
+   <defs transform="translate(-3.07693 56.9233) translate(1.53847 -47.6925) translate(-2 0) translate(-122 -30) translate(-6 0) translate(402 -200) translate(600 0) translate(0 360) translate(876.5 -7.50005) scale(0.623431 0.623431) translate(-876.5 7.50005) translate(1207.03 -60.1511) scale(0.798658 0.798658) translate(-1207.03 60.1511)" stroke="null">
     <symbol id="svg_5" viewBox="-600 -600 1200 1200" preserveAspectRatio="xMinYMid" stroke="null">
      <path id="svg_20" d="m-400,0c50,0 400,-450 400,-500c0,50 350,500 400,500c-50,0 -400,450 -400,500c0,-50 -350,-500 -400,-500z" stroke="null"/>
     </symbol>
@@ -30,19 +173,19 @@
      <path id="svg_21" d="m50,-460l200,0m-100,0l0,710a100,100 0 0 1 -400,0l0,-30" stroke-width="80" stroke-linecap="square" stroke-miterlimit="1.5" fill="none" stroke="black"/>
     </symbol>
    </defs>
-   <rect id="svg_22" width="118.99995" height="166.79909" x="752.50005" y="-37.50005" rx="12" ry="12" fill="white" stroke="black"/>
-   <use id="svg_23" xlink:href="#svg_6" height="164.8" width="164.8" x="714.70066" y="29.47912" href="#svg_6" transform="matrix(0.497908 0 0 0.497908 415.117 -9.80599)" stroke="null"/>
-   <use id="svg_24" xlink:href="#svg_6" height="32" width="32" x="682.70066" y="-44.12088" href="#svg_6" transform="matrix(0.497908 0 0 0.497908 415.117 -9.80599)" stroke="null"/>
-   <use id="svg_25" xlink:href="#svg_5" height="26.769" width="26.769" x="685.31666" y="-7.12088" stroke-width="100" stroke-linejoin="round" stroke-linecap="round" href="#svg_5" transform="matrix(0.497908 0 0 0.497908 415.117 -9.80599)" stroke="black"/>
-   <use id="svg_26" xlink:href="#svg_5" height="26.769" width="26.769" x="685.31666" y="-7.12088" fill="#000000" href="#svg_5" transform="matrix(0.497908 0 0 0.497908 415.117 -9.80599)" stroke="null"/>
+   <rect id="svg_22" width="118.99995" height="166.79909" x="750.96158" y="-28.26925" rx="12" ry="12" fill="white" stroke="black"/>
+   <use id="svg_23" xlink:href="#svg_6" height="164.8" width="164.8" x="708.52094" y="143.80397" href="#svg_6" transform="matrix(0.497908 0 0 0.497908 416.655 -57.4984)" stroke="null"/>
+   <use id="svg_24" xlink:href="#svg_6" height="32" width="32" x="676.52094" y="70.20397" href="#svg_6" transform="matrix(0.497908 0 0 0.497908 416.655 -57.4984)" stroke="null"/>
+   <use id="svg_25" xlink:href="#svg_5" height="26.769" width="26.769" x="679.13694" y="107.20397" stroke-width="100" stroke-linejoin="round" stroke-linecap="round" href="#svg_5" transform="matrix(0.497908 0 0 0.497908 416.655 -57.4984)" stroke="black"/>
+   <use id="svg_26" xlink:href="#svg_5" height="26.769" width="26.769" x="679.13694" y="107.20397" fill="#000000" href="#svg_5" transform="matrix(0.497908 0 0 0.497908 416.655 -57.4984)" stroke="null"/>
    <g id="svg_27" transform="matrix(-0.497908 0 0 -0.497908 1406.95 149.524)" stroke="null">
-    <use id="svg_28" xlink:href="#svg_6" height="32" width="32" x="1080.49952" y="52.12078" href="#svg_6" stroke="null"/>
-    <use id="svg_29" xlink:href="#svg_5" height="26.769" width="26.769" x="1083.11552" y="89.12078" stroke-width="100" stroke-linejoin="round" stroke-linecap="round" href="#svg_5" stroke="black"/>
-    <use id="svg_30" xlink:href="#svg_5" height="26.769" width="26.769" x="1083.11552" y="89.12078" fill="#000000" href="#svg_5" stroke="null"/>
+    <use id="svg_28" xlink:href="#svg_6" height="32" width="32" x="1083.58938" y="33.58161" href="#svg_6" stroke="null"/>
+    <use id="svg_29" xlink:href="#svg_5" height="26.769" width="26.769" x="1086.20538" y="70.58161" stroke-width="100" stroke-linejoin="round" stroke-linecap="round" href="#svg_5" stroke="black"/>
+    <use id="svg_30" xlink:href="#svg_5" height="26.769" width="26.769" x="1086.20538" y="70.58161" fill="#000000" href="#svg_5" stroke="null"/>
    </g>
   </g>
-  <g id="svg_31" stroke="null" transform="rotate(17.1042 743.913 157.429)">
-   <defs transform="translate(-160 36) translate(9.80007 -4.98331) translate(-12 6) translate(-56 30) translate(530 72) translate(8.89038 -5.57695) translate(-104 -234) translate(600 0) translate(0 360) translate(376.5 -41.5001) scale(0.570637 0.570637) translate(-376.5 41.5001) translate(1484.99 106.763) scale(0.685164 0.685164) translate(-1484.99 -106.763)" stroke="null">
+  <g transform="rotate(17.1042 742.375 166.66)" id="svg_31" stroke="null">
+   <defs transform="translate(-3.07693 56.9233) translate(1.53847 -47.6925) translate(-160 36) translate(9.80007 -4.98331) translate(-12 6) translate(-56 30) translate(530 72) translate(8.89038 -5.57695) translate(-104 -234) translate(600 0) translate(0 360) translate(376.5 -41.5001) scale(0.570637 0.570637) translate(-376.5 41.5001) translate(1484.99 106.763) scale(0.685164 0.685164) translate(-1484.99 -106.763)" stroke="null">
     <symbol id="svg_3" viewBox="-600 -600 1200 1200" preserveAspectRatio="xMinYMid" stroke="null">
      <path id="svg_32" d="m0,-300c0,-100 100,-200 200,-200c100,0 200,100 200,250c0,250 -400,650 -400,750c0,-100 -400,-500 -400,-750c0,-150 100,-250 200,-250c100,0 200,100 200,200z" stroke="null"/>
     </symbol>
@@ -50,253 +193,345 @@
      <path id="svg_33" d="m-250,100a250,250 0 0 1 500,0l0,110a250,250 0 0 1 -500,0l0,-420a250,250 0 0 1 250,-250c150,0 180,60 200,85" stroke-width="80" stroke-linecap="square" stroke-miterlimit="1.5" fill="none" stroke="black"/>
     </symbol>
    </defs>
-   <rect id="svg_34" width="93.44411" height="130.97815" x="697.19048" y="91.93971" rx="12" ry="12" fill="white" stroke="black"/>
-   <use id="svg_35" xlink:href="#svg_4" height="32" width="32" x="822.63888" y="228.81986" href="#svg_4" transform="matrix(0.39098 0 0 0.39098 377.549 6.97209)" stroke="null"/>
-   <use id="svg_36" xlink:href="#svg_3" height="26.769" width="26.769" x="825.25488" y="265.81986" stroke-width="100" stroke-linejoin="round" stroke-linecap="round" href="#svg_3" transform="matrix(0.39098 0 0 0.39098 377.549 6.97209)" stroke="black"/>
-   <use id="svg_37" xlink:href="#svg_3" height="26.769" width="26.769" x="825.25488" y="265.81986" fill="#000000" href="#svg_3" transform="matrix(0.39098 0 0 0.39098 377.549 6.97209)" stroke="null"/>
-   <use id="svg_38" xlink:href="#svg_3" height="70" width="70" x="849.53788" y="249.31886" href="#svg_3" transform="matrix(0.39098 0 0 0.39098 377.549 6.97209)" stroke="null"/>
-   <use id="svg_39" xlink:href="#svg_3" height="70" width="70" x="954.53988" y="249.31886" href="#svg_3" transform="matrix(0.39098 0 0 0.39098 377.549 6.97209)" stroke="null"/>
-   <use id="svg_40" xlink:href="#svg_3" height="70" width="70" x="849.53788" y="349.81986" href="#svg_3" transform="matrix(0.39098 0 0 0.39098 377.549 6.97209)" stroke="null"/>
-   <use id="svg_41" xlink:href="#svg_3" height="70" width="70" x="954.53988" y="349.81986" href="#svg_3" transform="matrix(0.39098 0 0 0.39098 377.549 6.97209)" stroke="null"/>
+   <rect id="svg_34" width="93.44411" height="130.97815" x="695.65201" y="101.17051" rx="12" ry="12" fill="white" stroke="black"/>
+   <use id="svg_35" xlink:href="#svg_4" height="32" width="32" x="818.70398" y="252.42925" href="#svg_4" transform="matrix(0.39098 0 0 0.39098 377.549 6.97209)" stroke="null"/>
+   <use id="svg_36" xlink:href="#svg_3" height="26.769" width="26.769" x="821.31998" y="289.42925" stroke-width="100" stroke-linejoin="round" stroke-linecap="round" href="#svg_3" transform="matrix(0.39098 0 0 0.39098 377.549 6.97209)" stroke="black"/>
+   <use id="svg_37" xlink:href="#svg_3" height="26.769" width="26.769" x="821.31998" y="289.42925" fill="#000000" href="#svg_3" transform="matrix(0.39098 0 0 0.39098 377.549 6.97209)" stroke="null"/>
+   <use id="svg_38" xlink:href="#svg_3" height="70" width="70" x="845.60298" y="272.92825" href="#svg_3" transform="matrix(0.39098 0 0 0.39098 377.549 6.97209)" stroke="null"/>
+   <use id="svg_39" xlink:href="#svg_3" height="70" width="70" x="950.60498" y="272.92825" href="#svg_3" transform="matrix(0.39098 0 0 0.39098 377.549 6.97209)" stroke="null"/>
+   <use id="svg_40" xlink:href="#svg_3" height="70" width="70" x="845.60298" y="373.42925" href="#svg_3" transform="matrix(0.39098 0 0 0.39098 377.549 6.97209)" stroke="null"/>
+   <use id="svg_41" xlink:href="#svg_3" height="70" width="70" x="950.60498" y="373.42925" href="#svg_3" transform="matrix(0.39098 0 0 0.39098 377.549 6.97209)" stroke="null"/>
    <g id="svg_42" transform="matrix(-0.39098 0 0 -0.39098 765.401 105.499)" stroke="null">
-    <use id="svg_43" xlink:href="#svg_4" height="32" width="32" x="-59.4389" y="-288.81998" href="#svg_4" stroke="null"/>
-    <use id="svg_44" xlink:href="#svg_3" height="26.769" width="26.769" x="-56.8229" y="-251.81998" stroke-width="100" stroke-linejoin="round" stroke-linecap="round" href="#svg_3" stroke="black"/>
-    <use id="svg_45" xlink:href="#svg_3" height="26.769" width="26.769" x="-56.8229" y="-251.81998" fill="#000000" href="#svg_3" stroke="null"/>
-    <use id="svg_46" xlink:href="#svg_3" height="70" width="70" x="-32.5399" y="-268.32098" href="#svg_3" stroke="null"/>
-    <use id="svg_47" xlink:href="#svg_3" height="70" width="70" x="72.4621" y="-268.32098" href="#svg_3" stroke="null"/>
+    <use id="svg_43" xlink:href="#svg_4" height="32" width="32" x="-55.504" y="-312.42937" href="#svg_4" stroke="null"/>
+    <use id="svg_44" xlink:href="#svg_3" height="26.769" width="26.769" x="-52.888" y="-275.42937" stroke-width="100" stroke-linejoin="round" stroke-linecap="round" href="#svg_3" stroke="black"/>
+    <use id="svg_45" xlink:href="#svg_3" height="26.769" width="26.769" x="-52.888" y="-275.42937" fill="#000000" href="#svg_3" stroke="null"/>
+    <use id="svg_46" xlink:href="#svg_3" height="70" width="70" x="-28.605" y="-291.93037" href="#svg_3" stroke="null"/>
+    <use id="svg_47" xlink:href="#svg_3" height="70" width="70" x="76.397" y="-291.93037" href="#svg_3" stroke="null"/>
    </g>
   </g>
-  <g transform="rotate(20.9371 1130 66.8827)" stroke="null">
-   <defs stroke="null" transform="translate(-40 0) translate(180 -46.6667) translate(460 -148.333) translate(600 0) translate(0 360) translate(940.5 44.1666) scale(0.414226 0.414226) translate(-940.5 -44.1666)">
+  <g transform="rotate(20.9371 1128.46 76.1135)" stroke="null" id="svg_64">
+   <defs stroke="null" transform="translate(-3.07693 56.9233) translate(1.53847 -47.6925) translate(-40 0) translate(180 -46.6667) translate(460 -148.333) translate(600 0) translate(0 360) translate(940.5 44.1666) scale(0.414226 0.414226) translate(-940.5 -44.1666)">
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-600 -600 1200 1200" id="svg_48">
-     <path stroke="null" d="m0,-500c100,250 355,400 355,685a150,150 0 0 1 -300,0a10,10 0 0 0 -20,0c0,200 50,215 95,315l-260,0c45,-100 95,-115 95,-315a10,10 0 0 0 -20,0a150,150 0 0 1 -300,0c0,-285 255,-435 355,-685z"/>
+     <path stroke="null" d="m0,-500c100,250 355,400 355,685a150,150 0 0 1 -300,0a10,10 0 0 0 -20,0c0,200 50,215 95,315l-260,0c45,-100 95,-115 95,-315a10,10 0 0 0 -20,0a150,150 0 0 1 -300,0c0,-285 255,-435 355,-685z" id="svg_65"/>
     </symbol>
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-500 -500 1000 1000" id="svg_49">
-     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m-225,-225c-20,-40 25,-235 225,-235c200,0 225,135 225,235c0,200 -450,385 -450,685l450,0l0,-160"/>
+     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m-225,-225c-20,-40 25,-235 225,-235c200,0 225,135 225,235c0,200 -450,385 -450,685l450,0l0,-160" id="svg_70"/>
     </symbol>
    </defs>
-   <rect stroke="black" fill="white" ry="12" rx="12" y="-2.50007" x="1080.50018" height="138.76563" width="98.99996"/>
-   <use stroke="null" transform="matrix(0.414226 0 0 0.414226 730.921 -20.795)" href="#svg_49" y="55.66661" x="849.03442" width="32" height="32" xlink:href="#svg_49"/>
-   <use stroke="null" transform="matrix(0.414226 0 0 0.414226 730.921 -20.795)" href="#svg_48" fill="black" y="92.66661" x="851.65042" width="26.769" height="26.769" xlink:href="#svg_48"/>
-   <use stroke="null" transform="matrix(0.414226 0 0 0.414226 730.921 -20.795)" href="#svg_48" y="76.16561" x="928.43442" width="70" height="70" xlink:href="#svg_48"/>
-   <g stroke="null" transform="matrix(-0.414226 0 0 -0.414226 1429.08 201.227)">
-    <use stroke="null" href="#svg_49" y="168.32663" x="607.62008" width="32" height="32" xlink:href="#svg_49"/>
-    <use stroke="null" href="#svg_48" fill="black" y="205.32663" x="610.23608" width="26.769" height="26.769" xlink:href="#svg_48"/>
-    <use stroke="null" href="#svg_48" y="188.82563" x="687.02008" width="70" height="70" xlink:href="#svg_48"/>
+   <rect stroke="black" fill="white" ry="12" rx="12" y="6.73073" x="1078.96171" height="138.76563" width="98.99996" id="svg_71"/>
+   <use stroke="null" transform="matrix(0.414226 0 0 0.414226 730.921 -20.795)" href="#svg_49" y="77.95107" x="845.32035" width="32" height="32" xlink:href="#svg_49" id="svg_72"/>
+   <use stroke="null" transform="matrix(0.414226 0 0 0.414226 730.921 -20.795)" href="#svg_48" fill="black" y="114.95107" x="847.93635" width="26.769" height="26.769" xlink:href="#svg_48" id="svg_73"/>
+   <use stroke="null" transform="matrix(0.414226 0 0 0.414226 730.921 -20.795)" href="#svg_48" y="98.45007" x="924.72035" width="70" height="70" xlink:href="#svg_48" id="svg_74"/>
+   <g stroke="null" transform="matrix(-0.414226 0 0 -0.414226 1429.08 201.227)" id="svg_75">
+    <use stroke="null" href="#svg_49" y="146.04217" x="611.33415" width="32" height="32" xlink:href="#svg_49" id="svg_76"/>
+    <use stroke="null" href="#svg_48" fill="black" y="183.04217" x="613.95015" width="26.769" height="26.769" xlink:href="#svg_48" id="svg_77"/>
+    <use stroke="null" href="#svg_48" y="166.54117" x="690.73415" width="70" height="70" xlink:href="#svg_48" id="svg_78"/>
    </g>
   </g>
-  <g stroke="null">
-   <defs stroke="null" transform="translate(10 -8.33334) translate(-113.333 48.3334) translate(-208.333 -236.667) translate(600 0) translate(0 360) translate(272.167 -44.1667) scale(0.637378 0.637378) translate(-272.167 44.1667)">
+  <g stroke="null" id="svg_79">
+   <defs stroke="null" transform="translate(-3.07693 56.9233) translate(1.53847 -47.6925) translate(-9.99877 2.85679) translate(-51.4222 -15.7124) translate(10 -8.33334) translate(-113.333 48.3334) translate(-208.333 -236.667) translate(600 0) translate(0 360) translate(272.167 -44.1667) scale(0.637378 0.637378) translate(-272.167 44.1667)">
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-600 -600 1200 1200" id="svg_50">
-     <path stroke="null" d="m-400,0c50,0 400,-450 400,-500c0,50 350,500 400,500c-50,0 -400,450 -400,500c0,-50 -350,-500 -400,-500z"/>
+     <path stroke="null" d="m-400,0c50,0 400,-450 400,-500c0,50 350,500 400,500c-50,0 -400,450 -400,500c0,-50 -350,-500 -400,-500z" id="svg_80"/>
     </symbol>
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-500 -500 1000 1000" id="svg_51">
-     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m50,460l200,0m-100,0l0,-920l-450,635l0,25l570,0"/>
+     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m50,460l200,0m-100,0l0,-920l-450,635l0,25l570,0" id="svg_81"/>
     </symbol>
    </defs>
-   <rect stroke="black" fill="white" ry="12" rx="12" y="-4.16673" x="168.83323" height="213.52158" width="152.33331"/>
-   <use transform="matrix(0.637378 0 0 0.637378 98.6936 -16.0158)" stroke="null" href="#svg_51" y="30.0904" x="115.14397" width="32" height="32" xlink:href="#svg_51"/>
-   <use transform="matrix(0.637378 0 0 0.637378 98.6936 -16.0158)" stroke="black" href="#svg_50" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="67.0904" x="117.75997" width="26.769" height="26.769" xlink:href="#svg_50"/>
-   <use transform="matrix(0.637378 0 0 0.637378 98.6936 -16.0158)" stroke="null" href="#svg_50" fill="#000000" y="67.0904" x="117.75997" width="26.769" height="26.769" xlink:href="#svg_50"/>
-   <use transform="matrix(0.637378 0 0 0.637378 98.6936 -16.0158)" stroke="null" href="#svg_50" y="50.5894" x="142.04297" width="70" height="70" xlink:href="#svg_50"/>
-   <use transform="matrix(0.637378 0 0 0.637378 98.6936 -16.0158)" stroke="null" href="#svg_50" y="50.5894" x="247.04497" width="70" height="70" xlink:href="#svg_50"/>
-   <g stroke="null" transform="matrix(-0.637378 0 0 -0.637378 597.973 141.204)">
-    <use stroke="null" href="#svg_51" y="-95.42389" x="439.38921" width="32" height="32" xlink:href="#svg_51"/>
-    <use stroke="black" href="#svg_50" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="-58.42389" x="442.00521" width="26.769" height="26.769" xlink:href="#svg_50"/>
-    <use stroke="null" href="#svg_50" fill="#000000" y="-58.42389" x="442.00521" width="26.769" height="26.769" xlink:href="#svg_50"/>
-    <use stroke="null" href="#svg_50" y="-74.92489" x="466.28821" width="70" height="70" xlink:href="#svg_50"/>
-    <use stroke="null" href="#svg_50" y="-74.92489" x="571.29021" width="70" height="70" xlink:href="#svg_50"/>
+   <rect stroke="black" fill="white" ry="12" rx="12" y="-7.79149" x="105.87375" height="213.52158" width="152.33331" id="svg_82"/>
+   <use transform="matrix(0.637378 0 0 0.637378 98.6936 -16.0158)" stroke="null" href="#svg_51" y="24.40341" x="16.3651" width="32" height="32" xlink:href="#svg_51" id="svg_83"/>
+   <use transform="matrix(0.637378 0 0 0.637378 98.6936 -16.0158)" stroke="black" href="#svg_50" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="61.40341" x="18.9811" width="26.769" height="26.769" xlink:href="#svg_50" id="svg_84"/>
+   <use transform="matrix(0.637378 0 0 0.637378 98.6936 -16.0158)" stroke="null" href="#svg_50" fill="#000000" y="61.40341" x="18.9811" width="26.769" height="26.769" xlink:href="#svg_50" id="svg_85"/>
+   <use transform="matrix(0.637378 0 0 0.637378 98.6936 -16.0158)" stroke="null" href="#svg_50" y="44.90241" x="43.2641" width="70" height="70" xlink:href="#svg_50" id="svg_86"/>
+   <use transform="matrix(0.637378 0 0 0.637378 98.6936 -16.0158)" stroke="null" href="#svg_50" y="44.90241" x="148.2661" width="70" height="70" xlink:href="#svg_50" id="svg_87"/>
+   <g stroke="null" transform="matrix(-0.637378 0 0 -0.637378 597.973 141.204)" id="svg_88">
+    <use stroke="null" href="#svg_51" y="-89.7369" x="538.16809" width="32" height="32" xlink:href="#svg_51" id="svg_89"/>
+    <use stroke="black" href="#svg_50" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="-52.7369" x="540.78409" width="26.769" height="26.769" xlink:href="#svg_50" id="svg_90"/>
+    <use stroke="null" href="#svg_50" fill="#000000" y="-52.7369" x="540.78409" width="26.769" height="26.769" xlink:href="#svg_50" id="svg_91"/>
+    <use stroke="null" href="#svg_50" y="-69.2379" x="565.06709" width="70" height="70" xlink:href="#svg_50" id="svg_92"/>
+    <use stroke="null" href="#svg_50" y="-69.2379" x="670.06909" width="70" height="70" xlink:href="#svg_50" id="svg_93"/>
    </g>
   </g>
-  <g transform="rotate(10.7888 129.677 146.58)" stroke="null">
-   <defs stroke="null" transform="translate(23.3333 -6.66667) translate(-2.53261 -2.18247) translate(-331.667 -13.3333) translate(-3.54537 3.10139) translate(-20 -65) translate(-66.6667 -61.6667) translate(600 0) translate(0 360) translate(413.833 130.833) scale(0.637378 0.637378) translate(-413.833 -130.833) translate(617.896 103.288) scale(0.794906 0.799227) translate(-617.896 -103.288) translate(115.702 444.149) scale(0.830048 0.830048) translate(-115.702 -444.149)">
+  <g transform="rotate(10.7888 61.0039 142.955)" stroke="null" id="svg_94">
+   <defs stroke="null" transform="translate(-3.07693 56.9233) translate(1.53847 -47.6925) translate(-67.1346 -12.8556) translate(23.3333 -6.66667) translate(-2.53261 -2.18247) translate(-331.667 -13.3333) translate(-3.54537 3.10139) translate(-20 -65) translate(-66.6667 -61.6667) translate(600 0) translate(0 360) translate(413.833 130.833) scale(0.637378 0.637378) translate(-413.833 -130.833) translate(617.896 103.288) scale(0.794906 0.799227) translate(-617.896 -103.288) translate(115.702 444.149) scale(0.830048 0.830048) translate(-115.702 -444.149)">
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-600 -600 1200 1200" id="svg_52">
-     <path stroke="null" d="m0,-300c0,-100 100,-200 200,-200c100,0 200,100 200,250c0,250 -400,650 -400,750c0,-100 -400,-500 -400,-750c0,-150 100,-250 200,-250c100,0 200,100 200,200z"/>
+     <path stroke="null" d="m0,-300c0,-100 100,-200 200,-200c100,0 200,100 200,250c0,250 -400,650 -400,750c0,-100 -400,-500 -400,-750c0,-150 100,-250 200,-250c100,0 200,100 200,200z" id="svg_95"/>
     </symbol>
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-500 -500 1000 1000" id="svg_53">
-     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m170,-460l-345,0l-35,345c0,0 10,-85 210,-85c100,0 255,120 255,320c0,200 -75,340 -275,340c-200,0 -235,-175 -235,-175"/>
+     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m170,-460l-345,0l-35,345c0,0 10,-85 210,-85c100,0 255,120 255,320c0,200 -75,340 -275,340c-200,0 -235,-175 -235,-175" id="svg_96"/>
     </symbol>
    </defs>
-   <rect stroke="black" fill="white" ry="12" rx="12" y="75.75493" x="79.42189" height="141.64941" width="100.51105"/>
-   <use stroke="null" transform="matrix(0.420548 0 0 0.422834 173.49 78.7146)" href="#svg_53" y="4.50041" x="-218.57947" width="32" height="32" xlink:href="#svg_53"/>
-   <use stroke="black" transform="matrix(0.420548 0 0 0.422834 173.49 78.7146)" href="#svg_52" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="41.50041" x="-215.96347" width="26.769" height="26.769" xlink:href="#svg_52"/>
-   <use stroke="null" transform="matrix(0.420548 0 0 0.422834 173.49 78.7146)" href="#svg_52" fill="#000000" y="41.50041" x="-215.96347" width="26.769" height="26.769" xlink:href="#svg_52"/>
-   <use stroke="null" transform="matrix(0.420548 0 0 0.422834 173.49 78.7146)" href="#svg_52" y="24.99941" x="-191.68047" width="70" height="70" xlink:href="#svg_52"/>
-   <use stroke="null" transform="matrix(0.420548 0 0 0.422834 173.49 78.7146)" href="#svg_52" y="24.99941" x="-86.67847" width="70" height="70" xlink:href="#svg_52"/>
-   <use stroke="null" transform="matrix(0.420548 0 0 0.422834 173.49 78.7146)" href="#svg_52" y="125.50041" x="-139.17947" width="70" height="70" xlink:href="#svg_52"/>
-   <g stroke="null" transform="matrix(-0.420548 0 0 -0.422834 624.607 333.188)">
-    <use stroke="null" href="#svg_53" y="285.32774" x="1062.46825" width="32" height="32" xlink:href="#svg_53"/>
-    <use stroke="black" href="#svg_52" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="322.32774" x="1065.08425" width="26.769" height="26.769" xlink:href="#svg_52"/>
-    <use stroke="null" href="#svg_52" fill="#000000" y="322.32774" x="1065.08425" width="26.769" height="26.769" xlink:href="#svg_52"/>
-    <use stroke="null" href="#svg_52" y="305.82674" x="1089.36725" width="70" height="70" xlink:href="#svg_52"/>
-    <use stroke="null" href="#svg_52" y="305.82674" x="1194.36925" width="70" height="70" xlink:href="#svg_52"/>
+   <rect stroke="black" fill="white" ry="12" rx="12" y="72.13017" x="10.74882" height="141.64941" width="100.51105" id="svg_97"/>
+   <use stroke="null" transform="matrix(0.420548 0 0 0.422834 107.893 18.1665)" href="#svg_53" y="139.12357" x="-225.89595" width="32" height="32" xlink:href="#svg_53" id="svg_98"/>
+   <use stroke="black" transform="matrix(0.420548 0 0 0.422834 107.893 18.1665)" href="#svg_52" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="176.12357" x="-223.27995" width="26.769" height="26.769" xlink:href="#svg_52" id="svg_99"/>
+   <use stroke="null" transform="matrix(0.420548 0 0 0.422834 107.893 18.1665)" href="#svg_52" fill="#000000" y="176.12357" x="-223.27995" width="26.769" height="26.769" xlink:href="#svg_52" id="svg_100"/>
+   <use stroke="null" transform="matrix(0.420548 0 0 0.422834 107.893 18.1665)" href="#svg_52" y="159.62257" x="-198.99695" width="70" height="70" xlink:href="#svg_52" id="svg_101"/>
+   <use stroke="null" transform="matrix(0.420548 0 0 0.422834 107.893 18.1665)" href="#svg_52" y="159.62257" x="-93.99495" width="70" height="70" xlink:href="#svg_52" id="svg_102"/>
+   <use stroke="null" transform="matrix(0.420548 0 0 0.422834 107.893 18.1665)" href="#svg_52" y="260.12357" x="-146.49595" width="70" height="70" xlink:href="#svg_52" id="svg_103"/>
+   <g stroke="null" transform="matrix(-0.420548 0 0 -0.422834 624.607 333.188)" id="svg_104">
+    <use stroke="null" href="#svg_53" y="293.90027" x="1225.76249" width="32" height="32" xlink:href="#svg_53" id="svg_105"/>
+    <use stroke="black" href="#svg_52" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="330.90027" x="1228.37849" width="26.769" height="26.769" xlink:href="#svg_52" id="svg_106"/>
+    <use stroke="null" href="#svg_52" fill="#000000" y="330.90027" x="1228.37849" width="26.769" height="26.769" xlink:href="#svg_52" id="svg_107"/>
+    <use stroke="null" href="#svg_52" y="314.39927" x="1252.66149" width="70" height="70" xlink:href="#svg_52" id="svg_108"/>
+    <use stroke="null" href="#svg_52" y="314.39927" x="1357.66349" width="70" height="70" xlink:href="#svg_52" id="svg_109"/>
    </g>
   </g>
-  <g transform="rotate(-12.6397 477.418 112.652)" stroke="null">
-   <defs stroke="null" transform="translate(-7.54365 6.75077) translate(45 -75) translate(-133.333 -141.667) translate(600 0) translate(0 360) translate(392.167 -24.1667) scale(0.776525 0.776525) translate(-392.167 24.1667)">
+  <g transform="rotate(-12.6397 343.039 91.8865)" stroke="null" id="svg_110">
+   <defs stroke="null" transform="translate(-3.07693 56.9233) translate(1.53847 -47.6925) translate(-132.841 -28.5679) translate(0 -1.4284) translate(-7.54365 6.75077) translate(45 -75) translate(-133.333 -141.667) translate(600 0) translate(0 360) translate(392.167 -24.1667) scale(0.776525 0.776525) translate(-392.167 24.1667)">
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-600 -600 1200 1200" id="svg_54">
-     <path stroke="null" d="m30,150c5,235 55,250 100,350l-260,0c45,-100 95,-115 100,-350a10,10 0 0 0 -20,0a210,210 0 1 1 -74,-201a10,10 0 0 0 14,-14a230,230 0 1 1 220,0a10,10 0 0 0 14,14a210,210 0 1 1 -74,201a10,10 0 0 0 -20,0z"/>
+     <path stroke="null" d="m30,150c5,235 55,250 100,350l-260,0c45,-100 95,-115 100,-350a10,10 0 0 0 -20,0a210,210 0 1 1 -74,-201a10,10 0 0 0 14,-14a230,230 0 1 1 220,0a10,10 0 0 0 14,14a210,210 0 1 1 -74,201a10,10 0 0 0 -20,0z" id="svg_111"/>
     </symbol>
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-500 -500 1000 1000" id="svg_55">
-     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m-250,100a250,250 0 0 1 500,0l0,110a250,250 0 0 1 -500,0l0,-420a250,250 0 0 1 250,-250c150,0 180,60 200,85"/>
+     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m-250,100a250,250 0 0 1 500,0l0,110a250,250 0 0 1 -500,0l0,-420a250,250 0 0 1 250,-250c150,0 180,60 200,85" id="svg_112"/>
     </symbol>
    </defs>
-   <rect stroke="black" fill="white" ry="12" rx="12" y="-17.41597" x="384.62299" height="260.136" width="185.58957"/>
-   <use transform="matrix(0.776525 0 0 0.776525 87.6393 -5.40065)" stroke="null" href="#svg_55" y="-3.97318" x="387.55202" width="32" height="32" xlink:href="#svg_55"/>
-   <use transform="matrix(0.776525 0 0 0.776525 87.6393 -5.40065)" stroke="null" href="#svg_54" fill="black" y="33.02682" x="390.16802" width="26.769" height="26.769" xlink:href="#svg_54"/>
-   <use transform="matrix(0.776525 0 0 0.776525 87.6393 -5.40065)" stroke="null" href="#svg_54" y="16.43882" x="414.45102" width="70" height="70" xlink:href="#svg_54"/>
-   <use transform="matrix(0.776525 0 0 0.776525 87.6393 -5.40065)" stroke="null" href="#svg_54" y="16.43882" x="519.45302" width="70" height="70" xlink:href="#svg_54"/>
-   <use transform="matrix(0.776525 0 0 0.776525 87.6393 -5.40065)" stroke="null" href="#svg_54" y="117.02682" x="414.45102" width="70" height="70" xlink:href="#svg_54"/>
-   <use transform="matrix(0.776525 0 0 0.776525 87.6393 -5.40065)" stroke="null" href="#svg_54" y="117.02682" x="519.45302" width="70" height="70" xlink:href="#svg_54"/>
-   <g stroke="null" transform="matrix(-0.776525 0 0 -0.776525 882.284 217.203)">
-    <use stroke="null" href="#svg_55" y="-21.3603" x="406.98126" width="32" height="32" xlink:href="#svg_55"/>
-    <use stroke="null" href="#svg_54" fill="black" y="15.6397" x="409.59726" width="26.769" height="26.769" xlink:href="#svg_54"/>
-    <use stroke="null" href="#svg_54" y="-0.9483" x="433.88026" width="70" height="70" xlink:href="#svg_54"/>
-    <use stroke="null" href="#svg_54" y="-0.9483" x="538.88226" width="70" height="70" xlink:href="#svg_54"/>
+   <rect stroke="black" fill="white" ry="12" rx="12" y="-38.18148" x="250.24371" height="260.136" width="185.58957" id="svg_113"/>
+   <use transform="matrix(0.776525 0 0 0.776525 87.6393 -5.40065)" stroke="null" href="#svg_55" y="-30.71476" x="214.49994" width="32" height="32" xlink:href="#svg_55" id="svg_114"/>
+   <use transform="matrix(0.776525 0 0 0.776525 87.6393 -5.40065)" stroke="null" href="#svg_54" fill="black" y="6.28524" x="217.11594" width="26.769" height="26.769" xlink:href="#svg_54" id="svg_115"/>
+   <use transform="matrix(0.776525 0 0 0.776525 87.6393 -5.40065)" stroke="null" href="#svg_54" y="-10.30276" x="241.39894" width="70" height="70" xlink:href="#svg_54" id="svg_116"/>
+   <use transform="matrix(0.776525 0 0 0.776525 87.6393 -5.40065)" stroke="null" href="#svg_54" y="-10.30276" x="346.40094" width="70" height="70" xlink:href="#svg_54" id="svg_117"/>
+   <use transform="matrix(0.776525 0 0 0.776525 87.6393 -5.40065)" stroke="null" href="#svg_54" y="90.28524" x="241.39894" width="70" height="70" xlink:href="#svg_54" id="svg_118"/>
+   <use transform="matrix(0.776525 0 0 0.776525 87.6393 -5.40065)" stroke="null" href="#svg_54" y="90.28524" x="346.40094" width="70" height="70" xlink:href="#svg_54" id="svg_119"/>
+   <g stroke="null" transform="matrix(-0.776525 0 0 -0.776525 882.284 217.203)" id="svg_120">
+    <use stroke="null" href="#svg_55" y="5.38128" x="580.03334" width="32" height="32" xlink:href="#svg_55" id="svg_121"/>
+    <use stroke="null" href="#svg_54" fill="black" y="42.38128" x="582.64934" width="26.769" height="26.769" xlink:href="#svg_54" id="svg_122"/>
+    <use stroke="null" href="#svg_54" y="25.79328" x="606.93234" width="70" height="70" xlink:href="#svg_54" id="svg_123"/>
+    <use stroke="null" href="#svg_54" y="25.79328" x="711.93434" width="70" height="70" xlink:href="#svg_54" id="svg_124"/>
    </g>
   </g>
-  <g stroke="null">
-   <defs stroke="null" transform="translate(33.3333 36.6667) translate(495 -173.333) translate(600 0) translate(0 360) translate(480.5 192.5) scale(0.637378 0.637378) translate(-480.5 -192.5) translate(1530.49 30.071) scale(0.737418 0.737418) translate(-1530.49 -30.071)">
+  <g stroke="null" id="svg_125">
+   <defs stroke="null" transform="translate(-3.07693 56.9233) translate(1.53847 -47.6925) translate(33.3333 36.6667) translate(495 -173.333) translate(600 0) translate(0 360) translate(480.5 192.5) scale(0.637378 0.637378) translate(-480.5 -192.5) translate(1530.49 30.071) scale(0.737418 0.737418) translate(-1530.49 -30.071)">
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-600 -600 1200 1200" id="svg_56">
-     <path stroke="null" d="m-400,0c50,0 400,-450 400,-500c0,50 350,500 400,500c-50,0 -400,450 -400,500c0,-50 -350,-500 -400,-500z"/>
+     <path stroke="null" d="m-400,0c50,0 400,-450 400,-500c0,50 350,500 400,500c-50,0 -400,450 -400,500c0,-50 -350,-500 -400,-500z" id="svg_126"/>
     </symbol>
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-500 -500 1000 1000" id="svg_57">
-     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m-265,-320l0,-140l530,0c-130,260 -355,560 -355,920"/>
+     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m-265,-320l0,-140l530,0c-130,260 -355,560 -355,920" id="svg_127"/>
     </symbol>
    </defs>
-   <rect stroke="black" fill="white" ry="12" rx="12" y="55.83329" x="1008.83353" height="157.45462" width="112.3333"/>
-   <use stroke="null" transform="matrix(0.470014 0 0 0.470014 384.637 56.5081)" href="#svg_57" y="10.06431" x="1333.1396" width="32" height="32" xlink:href="#svg_57"/>
-   <use stroke="black" transform="matrix(0.470014 0 0 0.470014 384.637 56.5081)" href="#svg_56" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="47.06431" x="1335.7556" width="26.769" height="26.769" xlink:href="#svg_56"/>
-   <use stroke="null" transform="matrix(0.470014 0 0 0.470014 384.637 56.5081)" href="#svg_56" fill="#000000" y="47.06431" x="1335.7556" width="26.769" height="26.769" xlink:href="#svg_56"/>
-   <use stroke="null" transform="matrix(0.470014 0 0 0.470014 384.637 56.5081)" href="#svg_56" y="30.56331" x="1360.0386" width="70" height="70" xlink:href="#svg_56"/>
-   <use stroke="null" transform="matrix(0.470014 0 0 0.470014 384.637 56.5081)" href="#svg_56" y="30.56331" x="1465.0406" width="70" height="70" xlink:href="#svg_56"/>
-   <use stroke="null" transform="matrix(0.470014 0 0 0.470014 384.637 56.5081)" href="#svg_56" y="131.06431" x="1360.0386" width="70" height="70" xlink:href="#svg_56"/>
-   <use stroke="null" transform="matrix(0.470014 0 0 0.470014 384.637 56.5081)" href="#svg_56" y="131.06431" x="1465.0406" width="70" height="70" xlink:href="#svg_56"/>
-   <use stroke="null" transform="matrix(0.470014 0 0 0.470014 384.637 56.5081)" href="#svg_56" y="80.81431" x="1412.5396" width="70" height="70" xlink:href="#svg_56"/>
-   <g stroke="null" transform="matrix(-0.470014 0 0 -0.470014 948.653 394.918)">
-    <use stroke="null" href="#svg_57" y="397.93568" x="-361.93962" width="32" height="32" xlink:href="#svg_57"/>
-    <use stroke="black" href="#svg_56" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="434.93568" x="-359.32362" width="26.769" height="26.769" xlink:href="#svg_56"/>
-    <use stroke="null" href="#svg_56" fill="#000000" y="434.93568" x="-359.32362" width="26.769" height="26.769" xlink:href="#svg_56"/>
-    <use stroke="null" href="#svg_56" y="418.43468" x="-335.04062" width="70" height="70" xlink:href="#svg_56"/>
-    <use stroke="null" href="#svg_56" y="418.43468" x="-230.03862" width="70" height="70" xlink:href="#svg_56"/>
+   <rect stroke="black" fill="white" ry="12" rx="12" y="65.06409" x="1007.29506" height="157.45462" width="112.3333" id="svg_128"/>
+   <use stroke="null" transform="matrix(0.470014 0 0 0.470014 384.637 56.5081)" href="#svg_57" y="29.70372" x="1329.86637" width="32" height="32" xlink:href="#svg_57" id="svg_129"/>
+   <use stroke="black" transform="matrix(0.470014 0 0 0.470014 384.637 56.5081)" href="#svg_56" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="66.70372" x="1332.48237" width="26.769" height="26.769" xlink:href="#svg_56" id="svg_130"/>
+   <use stroke="null" transform="matrix(0.470014 0 0 0.470014 384.637 56.5081)" href="#svg_56" fill="#000000" y="66.70372" x="1332.48237" width="26.769" height="26.769" xlink:href="#svg_56" id="svg_131"/>
+   <use stroke="null" transform="matrix(0.470014 0 0 0.470014 384.637 56.5081)" href="#svg_56" y="50.20272" x="1356.76537" width="70" height="70" xlink:href="#svg_56" id="svg_132"/>
+   <use stroke="null" transform="matrix(0.470014 0 0 0.470014 384.637 56.5081)" href="#svg_56" y="50.20272" x="1461.76737" width="70" height="70" xlink:href="#svg_56" id="svg_133"/>
+   <use stroke="null" transform="matrix(0.470014 0 0 0.470014 384.637 56.5081)" href="#svg_56" y="150.70372" x="1356.76537" width="70" height="70" xlink:href="#svg_56" id="svg_134"/>
+   <use stroke="null" transform="matrix(0.470014 0 0 0.470014 384.637 56.5081)" href="#svg_56" y="150.70372" x="1461.76737" width="70" height="70" xlink:href="#svg_56" id="svg_135"/>
+   <use stroke="null" transform="matrix(0.470014 0 0 0.470014 384.637 56.5081)" href="#svg_56" y="100.45372" x="1409.26637" width="70" height="70" xlink:href="#svg_56" id="svg_136"/>
+   <g stroke="null" transform="matrix(-0.470014 0 0 -0.470014 948.653 394.918)" id="svg_137">
+    <use stroke="null" href="#svg_57" y="378.29626" x="-358.66639" width="32" height="32" xlink:href="#svg_57" id="svg_138"/>
+    <use stroke="black" href="#svg_56" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="415.29626" x="-356.05039" width="26.769" height="26.769" xlink:href="#svg_56" id="svg_139"/>
+    <use stroke="null" href="#svg_56" fill="#000000" y="415.29626" x="-356.05039" width="26.769" height="26.769" xlink:href="#svg_56" id="svg_140"/>
+    <use stroke="null" href="#svg_56" y="398.79526" x="-331.76739" width="70" height="70" xlink:href="#svg_56" id="svg_141"/>
+    <use stroke="null" href="#svg_56" y="398.79526" x="-226.76539" width="70" height="70" xlink:href="#svg_56" id="svg_142"/>
    </g>
   </g>
-  <g stroke="null">
-   <defs stroke="null" transform="translate(31.6667 -141.667) translate(51.6667 -138.333) translate(600 0) translate(0 360) translate(532.167 54.1666) scale(0.672245 0.672245) translate(-532.167 -54.1666)">
+  <g stroke="null" id="svg_143">
+   <defs stroke="null" transform="translate(-3.07693 56.9233) translate(1.53847 -47.6925) translate(31.6667 -141.667) translate(51.6667 -138.333) translate(600 0) translate(0 360) translate(532.167 54.1666) scale(0.672245 0.672245) translate(-532.167 -54.1666)">
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-600 -600 1200 1200" id="svg_58">
-     <path stroke="null" d="m0,-300c0,-100 100,-200 200,-200c100,0 200,100 200,250c0,250 -400,650 -400,750c0,-100 -400,-500 -400,-750c0,-150 100,-250 200,-250c100,0 200,100 200,200z"/>
+     <path stroke="null" d="m0,-300c0,-100 100,-200 200,-200c100,0 200,100 200,250c0,250 -400,650 -400,750c0,-100 -400,-500 -400,-750c0,-150 100,-250 200,-250c100,0 200,100 200,200z" id="svg_144"/>
     </symbol>
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-500 -500 1000 1000" id="svg_59">
-     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m-1,-50a205,205 0 1 1 2,0l-2,0a255,255 0 1 0 2,0l-2,0z"/>
+     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m-1,-50a205,205 0 1 1 2,0l-2,0a255,255 0 1 0 2,0l-2,0z" id="svg_145"/>
     </symbol>
    </defs>
-   <rect stroke="black" fill="white" ry="12" rx="12" y="-87.50009" x="563.83336" height="225.2022" width="160.66665"/>
-   <use transform="matrix(0.672245 0 0 0.672245 174.42 17.7534)" stroke="null" href="#svg_59" y="-145.06999" x="584.37251" width="32" height="32" xlink:href="#svg_59"/>
-   <use transform="matrix(0.672245 0 0 0.672245 174.42 17.7534)" stroke="black" href="#svg_58" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="-108.06999" x="586.98851" width="26.769" height="26.769" xlink:href="#svg_58"/>
-   <use transform="matrix(0.672245 0 0 0.672245 174.42 17.7534)" stroke="null" href="#svg_58" fill="#000000" y="-108.06999" x="586.98851" width="26.769" height="26.769" xlink:href="#svg_58"/>
-   <use transform="matrix(0.672245 0 0 0.672245 174.42 17.7534)" stroke="null" href="#svg_58" y="-124.57099" x="611.27151" width="70" height="70" xlink:href="#svg_58"/>
-   <use transform="matrix(0.672245 0 0 0.672245 174.42 17.7534)" stroke="null" href="#svg_58" y="-124.57099" x="716.27351" width="70" height="70" xlink:href="#svg_58"/>
-   <use transform="matrix(0.672245 0 0 0.672245 174.42 17.7534)" stroke="null" href="#svg_58" y="-74.31999" x="663.77251" width="70" height="70" xlink:href="#svg_58"/>
-   <use transform="matrix(0.672245 0 0 0.672245 174.42 17.7534)" stroke="null" href="#svg_58" y="-24.06999" x="611.27151" width="70" height="70" xlink:href="#svg_58"/>
-   <use transform="matrix(0.672245 0 0 0.672245 174.42 17.7534)" stroke="null" href="#svg_58" y="-24.06999" x="716.27351" width="70" height="70" xlink:href="#svg_58"/>
-   <g stroke="null" transform="matrix(-0.672245 0 0 -0.672245 1050.58 315.782)">
-    <use stroke="null" href="#svg_59" y="276.40324" x="490.16085" width="32" height="32" xlink:href="#svg_59"/>
-    <use stroke="black" href="#svg_58" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="313.40324" x="492.77685" width="26.769" height="26.769" xlink:href="#svg_58"/>
-    <use stroke="null" href="#svg_58" fill="#000000" y="313.40324" x="492.77685" width="26.769" height="26.769" xlink:href="#svg_58"/>
-    <use stroke="null" href="#svg_58" y="296.90224" x="517.05985" width="70" height="70" xlink:href="#svg_58"/>
-    <use stroke="null" href="#svg_58" y="296.90224" x="622.06185" width="70" height="70" xlink:href="#svg_58"/>
-    <use stroke="null" href="#svg_58" y="347.15324" x="569.56085" width="70" height="70" xlink:href="#svg_58"/>
+   <rect stroke="black" fill="white" ry="12" rx="12" y="-78.26929" x="562.29489" height="225.2022" width="160.66665" id="svg_146"/>
+   <use transform="matrix(0.672245 0 0 0.672245 174.42 17.7534)" stroke="null" href="#svg_59" y="-131.33869" x="582.08396" width="32" height="32" xlink:href="#svg_59" id="svg_147"/>
+   <use transform="matrix(0.672245 0 0 0.672245 174.42 17.7534)" stroke="black" href="#svg_58" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="-94.33869" x="584.69996" width="26.769" height="26.769" xlink:href="#svg_58" id="svg_148"/>
+   <use transform="matrix(0.672245 0 0 0.672245 174.42 17.7534)" stroke="null" href="#svg_58" fill="#000000" y="-94.33869" x="584.69996" width="26.769" height="26.769" xlink:href="#svg_58" id="svg_149"/>
+   <use transform="matrix(0.672245 0 0 0.672245 174.42 17.7534)" stroke="null" href="#svg_58" y="-110.83969" x="608.98296" width="70" height="70" xlink:href="#svg_58" id="svg_150"/>
+   <use transform="matrix(0.672245 0 0 0.672245 174.42 17.7534)" stroke="null" href="#svg_58" y="-110.83969" x="713.98496" width="70" height="70" xlink:href="#svg_58" id="svg_151"/>
+   <use transform="matrix(0.672245 0 0 0.672245 174.42 17.7534)" stroke="null" href="#svg_58" y="-60.58869" x="661.48396" width="70" height="70" xlink:href="#svg_58" id="svg_152"/>
+   <use transform="matrix(0.672245 0 0 0.672245 174.42 17.7534)" stroke="null" href="#svg_58" y="-10.33869" x="608.98296" width="70" height="70" xlink:href="#svg_58" id="svg_153"/>
+   <use transform="matrix(0.672245 0 0 0.672245 174.42 17.7534)" stroke="null" href="#svg_58" y="-10.33869" x="713.98496" width="70" height="70" xlink:href="#svg_58" id="svg_154"/>
+   <g stroke="null" transform="matrix(-0.672245 0 0 -0.672245 1050.58 315.782)" id="svg_155">
+    <use stroke="null" href="#svg_59" y="262.67193" x="492.4494" width="32" height="32" xlink:href="#svg_59" id="svg_156"/>
+    <use stroke="black" href="#svg_58" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="299.67193" x="495.0654" width="26.769" height="26.769" xlink:href="#svg_58" id="svg_157"/>
+    <use stroke="null" href="#svg_58" fill="#000000" y="299.67193" x="495.0654" width="26.769" height="26.769" xlink:href="#svg_58" id="svg_158"/>
+    <use stroke="null" href="#svg_58" y="283.17093" x="519.3484" width="70" height="70" xlink:href="#svg_58" id="svg_159"/>
+    <use stroke="null" href="#svg_58" y="283.17093" x="624.3504" width="70" height="70" xlink:href="#svg_58" id="svg_160"/>
+    <use stroke="null" href="#svg_58" y="333.42193" x="571.8494" width="70" height="70" xlink:href="#svg_58" id="svg_161"/>
    </g>
   </g>
-  <g transform="rotate(-17.8408 948.333 54.9302)" stroke="null">
-   <defs stroke="null" transform="translate(390 -246.667) translate(600 0) translate(0 360) translate(480.5 192.5) scale(0.651325 0.651325) translate(-480.5 -192.5)">
+  <g transform="rotate(-17.8408 946.795 64.161)" stroke="null" id="svg_162">
+   <defs stroke="null" transform="translate(-3.07693 56.9233) translate(1.53847 -47.6925) translate(390 -246.667) translate(600 0) translate(0 360) translate(480.5 192.5) scale(0.651325 0.651325) translate(-480.5 -192.5)">
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-600 -600 1200 1200" id="svg_60">
-     <path stroke="null" d="m0,-500c100,250 355,400 355,685a150,150 0 0 1 -300,0a10,10 0 0 0 -20,0c0,200 50,215 95,315l-260,0c45,-100 95,-115 95,-315a10,10 0 0 0 -20,0a150,150 0 0 1 -300,0c0,-285 255,-435 355,-685z"/>
+     <path stroke="null" d="m0,-500c100,250 355,400 355,685a150,150 0 0 1 -300,0a10,10 0 0 0 -20,0c0,200 50,215 95,315l-260,0c45,-100 95,-115 95,-315a10,10 0 0 0 -20,0a150,150 0 0 1 -300,0c0,-285 255,-435 355,-685z" id="svg_163"/>
     </symbol>
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-500 -500 1000 1000" id="svg_61">
-     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m250,-100a250,250 0 0 1 -500,0l0,-110a250,250 0 0 1 500,0l0,420a250,250 0 0 1 -250,250c-150,0 -180,-60 -200,-85"/>
+     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m250,-100a250,250 0 0 1 -500,0l0,-110a250,250 0 0 1 500,0l0,420a250,250 0 0 1 -250,250c-150,0 -180,-60 -200,-85" id="svg_164"/>
     </symbol>
    </defs>
-   <rect stroke="black" fill="white" ry="12" rx="12" y="-54.16675" x="870.50012" height="218.19383" width="155.66664"/>
-   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_61" y="-174.71538" x="1084.37972" width="32" height="32" xlink:href="#svg_61"/>
-   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" fill="black" y="-137.71538" x="1086.99572" width="26.769" height="26.769" xlink:href="#svg_60"/>
-   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" y="-154.21638" x="1111.27872" width="70" height="70" xlink:href="#svg_60"/>
-   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" y="-154.21638" x="1216.28072" width="70" height="70" xlink:href="#svg_60"/>
-   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" y="-87.21538" x="1111.27872" width="70" height="70" xlink:href="#svg_60"/>
-   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" y="-87.21538" x="1216.28072" width="70" height="70" xlink:href="#svg_60"/>
-   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" y="-53.71538" x="1163.77972" width="70" height="70" xlink:href="#svg_60"/>
-   <g stroke="null" transform="matrix(-0.651325 0 0 -0.651325 949.128 536.074)">
-    <use stroke="null" href="#svg_61" y="582.71539" x="-113.17972" width="32" height="32" xlink:href="#svg_61"/>
-    <use stroke="null" href="#svg_60" fill="black" y="619.71539" x="-110.56372" width="26.769" height="26.769" xlink:href="#svg_60"/>
-    <use stroke="null" href="#svg_60" y="603.21439" x="-86.28072" width="70" height="70" xlink:href="#svg_60"/>
-    <use stroke="null" href="#svg_60" y="603.21439" x="18.72128" width="70" height="70" xlink:href="#svg_60"/>
-    <use stroke="null" href="#svg_60" y="670.21539" x="-86.28072" width="70" height="70" xlink:href="#svg_60"/>
-    <use stroke="null" href="#svg_60" y="670.21539" x="18.72128" width="70" height="70" xlink:href="#svg_60"/>
+   <rect stroke="black" fill="white" ry="12" rx="12" y="-44.93595" x="868.96165" height="218.19383" width="155.66664" id="svg_165"/>
+   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_61" y="-160.54304" x="1082.01766" width="32" height="32" xlink:href="#svg_61" id="svg_166"/>
+   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" fill="black" y="-123.54304" x="1084.63366" width="26.769" height="26.769" xlink:href="#svg_60" id="svg_167"/>
+   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" y="-140.04404" x="1108.91666" width="70" height="70" xlink:href="#svg_60" id="svg_168"/>
+   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" y="-140.04404" x="1213.91866" width="70" height="70" xlink:href="#svg_60" id="svg_169"/>
+   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" y="-73.04304" x="1108.91666" width="70" height="70" xlink:href="#svg_60" id="svg_170"/>
+   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" y="-73.04304" x="1213.91866" width="70" height="70" xlink:href="#svg_60" id="svg_171"/>
+   <use transform="matrix(0.651325 0 0 0.651325 167.538 67.12)" stroke="null" href="#svg_60" y="-39.54304" x="1161.41766" width="70" height="70" xlink:href="#svg_60" id="svg_172"/>
+   <g stroke="null" transform="matrix(-0.651325 0 0 -0.651325 949.128 536.074)" id="svg_173">
+    <use stroke="null" href="#svg_61" y="568.54305" x="-110.81766" width="32" height="32" xlink:href="#svg_61" id="svg_174"/>
+    <use stroke="null" href="#svg_60" fill="black" y="605.54305" x="-108.20166" width="26.769" height="26.769" xlink:href="#svg_60" id="svg_175"/>
+    <use stroke="null" href="#svg_60" y="589.04205" x="-83.91866" width="70" height="70" xlink:href="#svg_60" id="svg_176"/>
+    <use stroke="null" href="#svg_60" y="589.04205" x="21.08334" width="70" height="70" xlink:href="#svg_60" id="svg_177"/>
+    <use stroke="null" href="#svg_60" y="656.04305" x="-83.91866" width="70" height="70" xlink:href="#svg_60" id="svg_178"/>
+    <use stroke="null" href="#svg_60" y="656.04305" x="21.08334" width="70" height="70" xlink:href="#svg_60" id="svg_179"/>
    </g>
   </g>
-  <g transform="rotate(11.2319 377.273 210.656)" stroke="null">
-   <defs stroke="null" transform="translate(40 35) translate(6.6292 -3.81032) translate(-3.33333 -28.3333) translate(0 21.6667) translate(-205 -88.3334) translate(600 0) translate(0 360) translate(275.5 104.167) scale(0.679219 0.679219) translate(-275.5 -104.167) translate(400.705 143.547) scale(0.720459 0.720459) translate(-400.705 -143.547)">
+  <g transform="rotate(11.2319 254.321 195.714)" stroke="null" id="svg_180">
+   <defs stroke="null" transform="translate(0 1.53847) translate(-3.07693 56.9233) translate(1.53847 -47.6925) translate(-121.414 -25.7111) translate(40 35) translate(6.6292 -3.81032) translate(-3.33333 -28.3333) translate(0 21.6667) translate(-205 -88.3334) translate(600 0) translate(0 360) translate(275.5 104.167) scale(0.679219 0.679219) translate(-275.5 -104.167) translate(400.705 143.547) scale(0.720459 0.720459) translate(-400.705 -143.547)">
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-500 -500 1000 1000" id="svg_63">
-     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m-270,460l160,0m-90,-10l200,-910l200,910m-90,10l160,0m-390,-330l240,0"/>
+     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m-270,460l160,0m-90,-10l200,-910l200,910m-90,10l160,0m-390,-330l240,0" id="svg_181"/>
     </symbol>
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-600 -600 1200 1200" id="svg_62">
-     <path stroke="null" d="m30,150c5,235 55,250 100,350l-260,0c45,-100 95,-115 100,-350a10,10 0 0 0 -20,0a210,210 0 1 1 -74,-201a10,10 0 0 0 14,-14a230,230 0 1 1 220,0a10,10 0 0 0 14,14a210,210 0 1 1 -74,201a10,10 0 0 0 -20,0z"/>
+     <path stroke="null" d="m30,150c5,235 55,250 100,350l-260,0c45,-100 95,-115 100,-350a10,10 0 0 0 -20,0a210,210 0 1 1 -74,-201a10,10 0 0 0 14,-14a230,230 0 1 1 220,0a10,10 0 0 0 14,14a210,210 0 1 1 -74,201a10,10 0 0 0 -20,0z" id="svg_182"/>
     </symbol>
    </defs>
-   <rect stroke="black" fill="white" ry="12" rx="12" y="128.68966" x="318.79581" height="163.93209" width="116.95453"/>
-   <use stroke="null" transform="matrix(0.48935 0 0 0.48935 146.382 47.5188)" href="#svg_62" y="298.37498" x="436.83352" width="70" height="70" xlink:href="#svg_62"/>
-   <use stroke="null" transform="matrix(0.48935 0 0 0.48935 146.382 47.5188)" href="#svg_63" y="177.37498" x="357.43352" width="32" height="32" xlink:href="#svg_63"/>
-   <use stroke="null" transform="matrix(0.48935 0 0 0.48935 146.382 47.5188)" href="#svg_62" fill="black" y="214.37498" x="360.04952" width="26.769" height="26.769" xlink:href="#svg_62"/>
-   <g stroke="null" transform="matrix(-0.48935 0 0 -0.48935 526.338 317.209)">
-    <use stroke="null" href="#svg_63" y="61.74478" x="190.21937" width="32" height="32" xlink:href="#svg_63"/>
-    <use stroke="null" href="#svg_62" fill="black" y="98.74478" x="192.83537" width="26.769" height="26.769" xlink:href="#svg_62"/>
+   <rect stroke="black" fill="white" ry="12" rx="12" y="113.74781" x="195.8437" height="163.93209" width="116.95453" id="svg_183"/>
+   <use stroke="null" transform="matrix(0.48935 0 0 0.48935 146.382 47.5188)" href="#svg_62" y="267.8409" x="185.57757" width="70" height="70" xlink:href="#svg_62" id="svg_184"/>
+   <use stroke="null" transform="matrix(0.48935 0 0 0.48935 146.382 47.5188)" href="#svg_63" y="146.8409" x="106.17757" width="32" height="32" xlink:href="#svg_63" id="svg_185"/>
+   <use stroke="null" transform="matrix(0.48935 0 0 0.48935 146.382 47.5188)" href="#svg_62" fill="black" y="183.8409" x="108.79357" width="26.769" height="26.769" xlink:href="#svg_62" id="svg_186"/>
+   <g stroke="null" transform="matrix(-0.48935 0 0 -0.48935 526.338 317.209)" id="svg_187">
+    <use stroke="null" href="#svg_63" y="92.27886" x="441.47532" width="32" height="32" xlink:href="#svg_63" id="svg_188"/>
+    <use stroke="null" href="#svg_62" fill="black" y="129.27886" x="444.09132" width="26.769" height="26.769" xlink:href="#svg_62" id="svg_189"/>
    </g>
   </g>
-  <g transform="rotate(-11.2569 67.4998 241.056)" stroke="null">
-   <defs stroke="null" transform="translate(10 1.66667) translate(-71.6667 23.3333) translate(-405 -51.6667) translate(600 0) translate(0 360) translate(75.4998 140.833) scale(0.658298 0.658298) translate(-75.4998 -140.833) translate(114.689 213.935) scale(0.682203 0.682203) translate(-114.689 -213.935)">
+  <g transform="rotate(-11.2569 88.8156 230.289)" stroke="null" id="svg_190">
+   <defs stroke="null" transform="translate(-3.07693 56.9233) translate(1.53847 -47.6925) translate(22.8543 -19.9975) translate(10 1.66667) translate(-71.6667 23.3333) translate(-405 -51.6667) translate(600 0) translate(0 360) translate(75.4998 140.833) scale(0.658298 0.658298) translate(-75.4998 -140.833) translate(114.689 213.935) scale(0.682203 0.682203) translate(-114.689 -213.935)">
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-600 -600 1200 1200" id="svg_66">
-     <path stroke="null" d="m0,-300c0,-100 100,-200 200,-200c100,0 200,100 200,250c0,250 -400,650 -400,750c0,-100 -400,-500 -400,-750c0,-150 100,-250 200,-250c100,0 200,100 200,200z"/>
+     <path stroke="null" d="m0,-300c0,-100 100,-200 200,-200c100,0 200,100 200,250c0,250 -400,650 -400,750c0,-100 -400,-500 -400,-750c0,-150 100,-250 200,-250c100,0 200,100 200,200z" id="svg_191"/>
     </symbol>
     <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-500 -500 1000 1000" id="svg_67">
-     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m-260,100c300,0 220,360 520,360m-435,-460l0,-285a175,175 0 0 1 350,0l0,570a175,175 0 0 1 -350,0l0,-285z"/>
+     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m-260,100c300,0 220,360 520,360m-435,-460l0,-285a175,175 0 0 1 350,0l0,570a175,175 0 0 1 -350,0l0,-285z" id="svg_192"/>
     </symbol>
    </defs>
-   <rect stroke="black" fill="white" ry="12" rx="12" y="165.83332" x="13.83316" height="150.44625" width="107.33329"/>
-   <use stroke="null" transform="matrix(0.449093 0 0 0.449093 41.5934 77.586)" href="#svg_67" y="281.60106" x="-24.71392" width="164.8" height="164.8" xlink:href="#svg_67"/>
-   <use stroke="null" transform="matrix(0.449093 0 0 0.449093 41.5934 77.586)" href="#svg_67" y="208.00106" x="-56.71392" width="32" height="32" xlink:href="#svg_67"/>
-   <use stroke="black" transform="matrix(0.449093 0 0 0.449093 41.5934 77.586)" href="#svg_66" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="245.00106" x="-54.09792" width="26.769" height="26.769" xlink:href="#svg_66"/>
-   <use stroke="null" transform="matrix(0.449093 0 0 0.449093 41.5934 77.586)" href="#svg_66" fill="#000000" y="245.00106" x="-54.09792" width="26.769" height="26.769" xlink:href="#svg_66"/>
-   <g stroke="null" transform="matrix(-0.449093 0 0 -0.449093 216.74 354.527)">
-    <use stroke="null" href="#svg_67" y="96.66558" x="217.91362" width="32" height="32" xlink:href="#svg_67"/>
-    <use stroke="black" href="#svg_66" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="133.66558" x="220.52962" width="26.769" height="26.769" xlink:href="#svg_66"/>
-    <use stroke="null" href="#svg_66" fill="#000000" y="133.66558" x="220.52962" width="26.769" height="26.769" xlink:href="#svg_66"/>
+   <rect stroke="black" fill="white" ry="12" rx="12" y="155.06658" x="35.14902" height="150.44625" width="107.33329" id="svg_193"/>
+   <use stroke="null" transform="matrix(0.449093 0 0 0.449093 41.5934 77.586)" href="#svg_67" y="257.62665" x="22.75033" width="164.8" height="164.8" xlink:href="#svg_67" id="svg_194"/>
+   <use stroke="null" transform="matrix(0.449093 0 0 0.449093 41.5934 77.586)" href="#svg_67" y="184.02665" x="-9.24967" width="32" height="32" xlink:href="#svg_67" id="svg_195"/>
+   <use stroke="black" transform="matrix(0.449093 0 0 0.449093 41.5934 77.586)" href="#svg_66" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="221.02665" x="-6.63367" width="26.769" height="26.769" xlink:href="#svg_66" id="svg_196"/>
+   <use stroke="null" transform="matrix(0.449093 0 0 0.449093 41.5934 77.586)" href="#svg_66" fill="#000000" y="221.02665" x="-6.63367" width="26.769" height="26.769" xlink:href="#svg_66" id="svg_197"/>
+   <g stroke="null" transform="matrix(-0.449093 0 0 -0.449093 216.74 354.527)" id="svg_198">
+    <use stroke="null" href="#svg_67" y="120.63999" x="170.44937" width="32" height="32" xlink:href="#svg_67" id="svg_199"/>
+    <use stroke="black" href="#svg_66" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="157.63999" x="173.06537" width="26.769" height="26.769" xlink:href="#svg_66" id="svg_200"/>
+    <use stroke="null" href="#svg_66" fill="#000000" y="157.63999" x="173.06537" width="26.769" height="26.769" xlink:href="#svg_66" id="svg_201"/>
    </g>
   </g>
-  <g transform="rotate(12.9846 860.17 260.902)" stroke="null">
-   <defs stroke="null" transform="translate(0 16.6667) translate(303.333 -11.6667) translate(22.2861 -12.36) translate(600 0) translate(0 360) translate(480.5 192.5) scale(0.452309 0.452309) translate(-480.5 -192.5)">
-    <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-600 -600 1200 1200" id="svg_68">
-     <path stroke="null" d="m0,-500c100,250 355,400 355,685a150,150 0 0 1 -300,0a10,10 0 0 0 -20,0c0,200 50,215 95,315l-260,0c45,-100 95,-115 95,-315a10,10 0 0 0 -20,0a150,150 0 0 1 -300,0c0,-285 255,-435 355,-685z"/>
+  <g transform="rotate(-25.7519 381.988 156.399)" id="svg_235" stroke="null">
+   <defs transform="translate(-130.77 84.6156) translate(164.616 9.2308) translate(-3.07693 56.9233) translate(1.53847 -47.6925) translate(0 11.4272) translate(22.8543 12.8556) translate(0 41.4235) translate(91.4173 -221.401) translate(-59.9926 7.14198) translate(0 1.4284) translate(118.557 -211.403) translate(-225.687 107.13) translate(600 0) translate(0 360) translate(313.378 96.7975) scale(0.725079 0.725079) translate(-313.378 -96.7975)" stroke="null">
+    <symbol id="svg_221" viewBox="-600 -600 1200 1200" preserveAspectRatio="xMinYMid" stroke="null">
+     <path id="svg_236" d="m-400,0c50,0 400,-450 400,-500c0,50 350,500 400,500c-50,0 -400,450 -400,500c0,-50 -350,-500 -400,-500z" stroke="null"/>
     </symbol>
-    <symbol stroke="null" preserveAspectRatio="xMinYMid" viewBox="-500 -500 1000 1000" id="svg_69">
-     <path stroke="black" fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" d="m-260,430l0,-860m210,430l0,-310a150,150 0 0 1 300,0l0,620a150,150 0 0 1 -300,0l0,-310z"/>
+    <symbol id="svg_222" viewBox="-500 -500 1000 1000" preserveAspectRatio="xMinYMid" stroke="null">
+     <path id="svg_237" d="m-260,430l0,-860m210,430l0,-310a150,150 0 0 1 300,0l0,620a150,150 0 0 1 -300,0l0,-310z" stroke-width="80" stroke-linecap="square" stroke-miterlimit="1.5" fill="none" stroke="black"/>
     </symbol>
    </defs>
-   <rect stroke="black" fill="white" ry="12" rx="12" y="185.13998" x="806.11957" height="151.5235" width="108.10184"/>
-   <use transform="matrix(0.452309 0 0 0.452309 263.166 105.431)" stroke="null" href="#svg_69" y="187.72789" x="1205.50521" width="32" height="32" xlink:href="#svg_69"/>
-   <use transform="matrix(0.452309 0 0 0.452309 263.166 105.431)" stroke="null" href="#svg_68" fill="black" y="224.72789" x="1208.12121" width="26.769" height="26.769" xlink:href="#svg_68"/>
-   <use transform="matrix(0.452309 0 0 0.452309 263.166 105.431)" stroke="null" href="#svg_68" y="208.22689" x="1232.40421" width="70" height="70" xlink:href="#svg_68"/>
-   <use transform="matrix(0.452309 0 0 0.452309 263.166 105.431)" stroke="null" href="#svg_68" y="208.22689" x="1337.40621" width="70" height="70" xlink:href="#svg_68"/>
-   <use transform="matrix(0.452309 0 0 0.452309 263.166 105.431)" stroke="null" href="#svg_68" y="275.22789" x="1232.40421" width="70" height="70" xlink:href="#svg_68"/>
-   <use transform="matrix(0.452309 0 0 0.452309 263.166 105.431)" stroke="null" href="#svg_68" y="275.22789" x="1337.40621" width="70" height="70" xlink:href="#svg_68"/>
-   <use transform="matrix(0.452309 0 0 0.452309 263.166 105.431)" stroke="null" href="#svg_68" y="241.72789" x="1284.90521" width="70" height="70" xlink:href="#svg_68"/>
-   <g stroke="null" transform="matrix(-0.452309 0 0 -0.452309 805.936 431.093)">
-    <use stroke="null" href="#svg_69" y="220.27211" x="-234.30524" width="32" height="32" xlink:href="#svg_69"/>
-    <use stroke="null" href="#svg_68" fill="black" y="257.27211" x="-231.68924" width="26.769" height="26.769" xlink:href="#svg_68"/>
-    <use stroke="null" href="#svg_68" y="240.77111" x="-207.40624" width="70" height="70" xlink:href="#svg_68"/>
-    <use stroke="null" href="#svg_68" y="240.77111" x="-102.40424" width="70" height="70" xlink:href="#svg_68"/>
-    <use stroke="null" href="#svg_68" y="307.77211" x="-207.40624" width="70" height="70" xlink:href="#svg_68"/>
-    <use stroke="null" href="#svg_68" y="307.77211" x="-102.40424" width="70" height="70" xlink:href="#svg_68"/>
-    <use stroke="null" href="#svg_68" y="274.27211" x="-154.90524" width="70" height="70" xlink:href="#svg_68"/>
+   <rect id="svg_238" width="173.2938" height="242.90135" x="459.95714" y="44.1796" rx="12" ry="12" fill="white" stroke="black"/>
+   <use id="svg_239" xlink:href="#svg_222" height="32" width="32" x="520.6343" y="35.7289" href="#svg_222" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_240" xlink:href="#svg_221" height="26.769" width="26.769" x="523.2503" y="72.7289" stroke-width="100" stroke-linejoin="round" stroke-linecap="round" href="#svg_221" stroke="black" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_241" xlink:href="#svg_221" height="26.769" width="26.769" x="523.2503" y="72.7289" fill="#000000" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_242" xlink:href="#svg_221" height="70" width="70" x="547.5333" y="56.2279" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_243" xlink:href="#svg_221" height="70" width="70" x="652.5353" y="56.2279" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_244" xlink:href="#svg_221" height="70" width="70" x="547.5333" y="123.2289" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_245" xlink:href="#svg_221" height="70" width="70" x="652.5353" y="123.2289" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <use id="svg_246" xlink:href="#svg_221" height="70" width="70" x="600.0343" y="89.7289" href="#svg_221" stroke="null" transform="matrix(0.725079 0 0 0.725079 86.1542 26.6117)"/>
+   <g id="svg_249" transform="matrix(-0.725079 0 0 -0.725079 713.895 409.885)" stroke="null">
+    <use id="svg_250" xlink:href="#svg_222" height="32" width="32" x="116.32108" y="180.86608" href="#svg_222" stroke="null"/>
+    <use id="svg_251" xlink:href="#svg_221" height="26.769" width="26.769" x="118.93708" y="217.86608" stroke-width="100" stroke-linejoin="round" stroke-linecap="round" href="#svg_221" stroke="black"/>
+    <use id="svg_252" xlink:href="#svg_221" height="26.769" width="26.769" x="118.93708" y="217.86608" fill="#000000" href="#svg_221" stroke="null"/>
+    <use id="svg_253" xlink:href="#svg_221" height="70" width="70" x="143.22008" y="201.36508" href="#svg_221" stroke="null"/>
+    <use id="svg_254" xlink:href="#svg_221" height="70" width="70" x="248.22208" y="201.36508" href="#svg_221" stroke="null"/>
+    <use id="svg_255" xlink:href="#svg_221" height="70" width="70" x="143.22008" y="268.36608" href="#svg_221" stroke="null"/>
+    <use id="svg_256" xlink:href="#svg_221" height="70" width="70" x="248.22208" y="268.36608" href="#svg_221" stroke="null"/>
+    <use id="svg_257" xlink:href="#svg_221" height="70" width="70" x="195.72108" y="234.86608" href="#svg_221" stroke="null"/>
+   </g>
+  </g>
+  <g transform="rotate(7.13433 603.571 141.993)" id="svg_258" stroke="null">
+   <defs transform="translate(1.53847 -18.4616) translate(-3.07693 56.9233) translate(1.53847 -47.6925) translate(0 -24.2827) translate(-4.28519 -18.5691) translate(45.7087 -5.71358) translate(75.705 19.9975) translate(-168.551 -199.975) translate(-1.4284 0) translate(-2.85679 2.85679) translate(-1.4284 1.4284) translate(112.843 88.5605) translate(600 0) translate(0 360) translate(587.63 285.346) scale(0.683243 0.683243) translate(-587.63 -285.346) translate(724.17 154.217) scale(0.825053 0.825053) translate(-724.17 -154.217)" stroke="null">
+    <symbol id="svg_223" viewBox="-600 -600 1200 1200" preserveAspectRatio="xMinYMid" stroke="null">
+     <path id="svg_259" d="m30,150c5,235 55,250 100,350l-260,0c45,-100 95,-115 100,-350a10,10 0 0 0 -20,0a210,210 0 1 1 -74,-201a10,10 0 0 0 14,-14a230,230 0 1 1 220,0a10,10 0 0 0 14,14a210,210 0 1 1 -74,201a10,10 0 0 0 -20,0z" stroke="null"/>
+    </symbol>
+    <symbol id="svg_224" viewBox="-500 -500 1000 1000" preserveAspectRatio="xMinYMid" stroke="null">
+     <path id="svg_260" d="m-265,-320l0,-140l530,0c-130,260 -355,560 -355,920" stroke-width="80" stroke-linecap="square" stroke-miterlimit="1.5" fill="none" stroke="black"/>
+    </symbol>
+   </defs>
+   <rect id="svg_261" width="134.72711" height="188.84344" x="536.20744" y="47.57163" rx="12" ry="12" fill="white" stroke="black"/>
+   <use id="svg_262" xlink:href="#svg_224" height="32" width="32" x="530.32332" y="-69.09941" href="#svg_224" transform="matrix(0.563712 0 0 0.563712 240.133 93.0065)" stroke="null"/>
+   <use id="svg_263" xlink:href="#svg_223" height="26.769" width="26.769" x="532.93932" y="-32.09941" fill="black" href="#svg_223" transform="matrix(0.563712 0 0 0.563712 240.133 93.0065)" stroke="null"/>
+   <use id="svg_264" xlink:href="#svg_223" height="70" width="70" x="557.22232" y="-48.68741" href="#svg_223" transform="matrix(0.563712 0 0 0.563712 240.133 93.0065)" stroke="null"/>
+   <use id="svg_265" xlink:href="#svg_223" height="70" width="70" x="662.22432" y="-48.68741" href="#svg_223" transform="matrix(0.563712 0 0 0.563712 240.133 93.0065)" stroke="null"/>
+   <use id="svg_266" xlink:href="#svg_223" height="70" width="70" x="557.22232" y="51.90059" href="#svg_223" transform="matrix(0.563712 0 0 0.563712 240.133 93.0065)" stroke="null"/>
+   <use id="svg_267" xlink:href="#svg_223" height="70" width="70" x="662.22432" y="51.90059" href="#svg_223" transform="matrix(0.563712 0 0 0.563712 240.133 93.0065)" stroke="null"/>
+   <use id="svg_268" xlink:href="#svg_223" height="70" width="70" x="609.72332" y="1.60659" href="#svg_223" transform="matrix(0.563712 0 0 0.563712 240.133 93.0065)" stroke="null"/>
+   <g id="svg_269" transform="matrix(-0.563712 0 0 -0.563712 1037.37 603.555)" stroke="null">
+    <use id="svg_270" xlink:href="#svg_224" height="32" width="32" x="655.13603" y="662.79086" href="#svg_224" stroke="null"/>
+    <use id="svg_271" xlink:href="#svg_223" height="26.769" width="26.769" x="657.75203" y="699.79086" fill="black" href="#svg_223" stroke="null"/>
+    <use id="svg_272" xlink:href="#svg_223" height="70" width="70" x="682.03503" y="683.20286" href="#svg_223" stroke="null"/>
+    <use id="svg_273" xlink:href="#svg_223" height="70" width="70" x="787.03703" y="683.20286" href="#svg_223" stroke="null"/>
+   </g>
+  </g>
+  <g transform="rotate(-15.4348 1357.42 3.53136)" id="svg_355" stroke="null">
+
+   <rect id="svg_342" width="134.72711" height="188.84344" x="1290.05594" y="-90.89035" rx="12" ry="12" fill="white" stroke="black"/>
+   <use id="svg_343" xlink:href="#svg_224" height="32" width="32" x="1867.61687" y="-314.72476" href="#svg_224" transform="matrix(0.563712 0 0 0.563712 240.133 93.0065)" stroke="null"/>
+   <use id="svg_344" xlink:href="#svg_223" height="26.769" width="26.769" x="1870.23287" y="-277.72476" fill="black" href="#svg_223" transform="matrix(0.563712 0 0 0.563712 240.133 93.0065)" stroke="null"/>
+   <use id="svg_345" xlink:href="#svg_223" height="70" width="70" x="1894.51587" y="-294.31276" href="#svg_223" transform="matrix(0.563712 0 0 0.563712 240.133 93.0065)" stroke="null"/>
+   <use id="svg_346" xlink:href="#svg_223" height="70" width="70" x="1999.51787" y="-294.31276" href="#svg_223" transform="matrix(0.563712 0 0 0.563712 240.133 93.0065)" stroke="null"/>
+   <use id="svg_347" xlink:href="#svg_223" height="70" width="70" x="1894.51587" y="-193.72476" href="#svg_223" transform="matrix(0.563712 0 0 0.563712 240.133 93.0065)" stroke="null"/>
+   <use id="svg_348" xlink:href="#svg_223" height="70" width="70" x="1999.51787" y="-193.72476" href="#svg_223" transform="matrix(0.563712 0 0 0.563712 240.133 93.0065)" stroke="null"/>
+   <use id="svg_349" xlink:href="#svg_223" height="70" width="70" x="1947.01687" y="-244.01876" href="#svg_223" transform="matrix(0.563712 0 0 0.563712 240.133 93.0065)" stroke="null"/>
+   <g id="svg_354" transform="matrix(-0.563712 0 0 -0.563712 1037.37 603.555)" stroke="null">
+    <use id="svg_350" xlink:href="#svg_224" height="32" width="32" x="-682.15754" y="908.41621" href="#svg_224" stroke="null"/>
+    <use id="svg_351" xlink:href="#svg_223" height="26.769" width="26.769" x="-679.54154" y="945.41621" fill="black" href="#svg_223" stroke="null"/>
+    <use id="svg_352" xlink:href="#svg_223" height="70" width="70" x="-655.25854" y="928.82821" href="#svg_223" stroke="null"/>
+    <use id="svg_353" xlink:href="#svg_223" height="70" width="70" x="-550.25654" y="928.82821" href="#svg_223" stroke="null"/>
+   </g>
+  </g>
+  <g transform="rotate(22.8505 1323.56 154.897)" stroke="null" id="svg_370">
+
+   <rect stroke="black" id="svg_361" width="99.08055" height="138.87859" x="1274.01603" y="85.45755" rx="12" ry="12" fill="white"/>
+   <use stroke="null" id="svg_362" xlink:href="#svg_6" height="164.8" width="164.8" x="697.32959" y="131.83183" href="#svg_6" transform="matrix(0.414563 0 0 0.414563 1000.31 66.0843)"/>
+   <use stroke="null" id="svg_363" xlink:href="#svg_6" height="32" width="32" x="665.32959" y="58.23183" href="#svg_6" transform="matrix(0.414563 0 0 0.414563 1000.31 66.0843)"/>
+   <use stroke="black" id="svg_364" xlink:href="#svg_5" height="26.769" width="26.769" x="667.94559" y="95.23183" stroke-width="100" stroke-linejoin="round" stroke-linecap="round" href="#svg_5" transform="matrix(0.414563 0 0 0.414563 1000.31 66.0843)"/>
+   <use stroke="null" id="svg_365" xlink:href="#svg_5" height="26.769" width="26.769" x="667.94559" y="95.23183" fill="#000000" href="#svg_5" transform="matrix(0.414563 0 0 0.414563 1000.31 66.0843)"/>
+   <g stroke="null" id="svg_369" transform="matrix(-0.414563 0 0 -0.414563 1385.47 162.878)">
+    <use stroke="null" id="svg_366" xlink:href="#svg_6" height="32" width="32" x="34.95846" y="-136.74803" href="#svg_6"/>
+    <use stroke="black" id="svg_367" xlink:href="#svg_5" height="26.769" width="26.769" x="37.57446" y="-99.74803" stroke-width="100" stroke-linejoin="round" stroke-linecap="round" href="#svg_5"/>
+    <use stroke="null" id="svg_368" xlink:href="#svg_5" height="26.769" width="26.769" x="37.57446" y="-99.74803" fill="#000000" href="#svg_5"/>
+   </g>
+  </g>
+  <g transform="rotate(-8.90896 1577.85 16.8259)" stroke="null" id="svg_405">
+
+   <rect stroke="black" fill="white" ry="12" rx="12" y="-72.31763" x="1514.25167" height="178.28704" width="127.19583" id="svg_389"/>
+   <use stroke="null" transform="matrix(0.5322 0 0 0.5322 454.255 -1.60949)" href="#svg_59" y="-121.35999" x="1996.82713" width="32" height="32" xlink:href="#svg_59" id="svg_390"/>
+   <use stroke="black" transform="matrix(0.5322 0 0 0.5322 454.255 -1.60949)" href="#svg_58" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="-84.35999" x="1999.44313" width="26.769" height="26.769" xlink:href="#svg_58" id="svg_391"/>
+   <use stroke="null" transform="matrix(0.5322 0 0 0.5322 454.255 -1.60949)" href="#svg_58" fill="#000000" y="-84.35999" x="1999.44313" width="26.769" height="26.769" xlink:href="#svg_58" id="svg_392"/>
+   <use stroke="null" transform="matrix(0.5322 0 0 0.5322 454.255 -1.60949)" href="#svg_58" y="-100.86099" x="2023.72613" width="70" height="70" xlink:href="#svg_58" id="svg_393"/>
+   <use stroke="null" transform="matrix(0.5322 0 0 0.5322 454.255 -1.60949)" href="#svg_58" y="-100.86099" x="2128.72813" width="70" height="70" xlink:href="#svg_58" id="svg_394"/>
+   <use stroke="null" transform="matrix(0.5322 0 0 0.5322 454.255 -1.60949)" href="#svg_58" y="-50.60999" x="2076.22713" width="70" height="70" xlink:href="#svg_58" id="svg_395"/>
+   <use stroke="null" transform="matrix(0.5322 0 0 0.5322 454.255 -1.60949)" href="#svg_58" y="-0.35999" x="2023.72613" width="70" height="70" xlink:href="#svg_58" id="svg_396"/>
+   <use stroke="null" transform="matrix(0.5322 0 0 0.5322 454.255 -1.60949)" href="#svg_58" y="-0.35999" x="2128.72813" width="70" height="70" xlink:href="#svg_58" id="svg_397"/>
+   <g stroke="null" transform="matrix(-0.5322 0 0 -0.5322 1147.89 234.332)" id="svg_404">
+    <use stroke="null" href="#svg_59" y="252.69324" x="-922.29375" width="32" height="32" xlink:href="#svg_59" id="svg_398"/>
+    <use stroke="black" href="#svg_58" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="289.69324" x="-919.67775" width="26.769" height="26.769" xlink:href="#svg_58" id="svg_399"/>
+    <use stroke="null" href="#svg_58" fill="#000000" y="289.69324" x="-919.67775" width="26.769" height="26.769" xlink:href="#svg_58" id="svg_400"/>
+    <use stroke="null" href="#svg_58" y="273.19224" x="-895.39475" width="70" height="70" xlink:href="#svg_58" id="svg_401"/>
+    <use stroke="null" href="#svg_58" y="273.19224" x="-790.39275" width="70" height="70" xlink:href="#svg_58" id="svg_402"/>
+    <use stroke="null" href="#svg_58" y="323.44324" x="-842.89375" width="70" height="70" xlink:href="#svg_58" id="svg_403"/>
+   </g>
+  </g>
+  <g transform="rotate(15.646 1647.43 193.237)" stroke="null" id="svg_457">
+
+   <rect stroke="black" fill="white" ry="12" rx="12" y="119.90122" x="1595.10923" height="146.67229" width="104.64083" id="svg_445"/>
+   <use stroke="null" transform="matrix(0.437828 0 0 0.437828 563.338 23.6471)" href="#svg_51" y="231.34475" x="2361.66891" width="32" height="32" xlink:href="#svg_51" id="svg_446"/>
+   <use stroke="black" transform="matrix(0.437828 0 0 0.437828 563.338 23.6471)" href="#svg_50" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="268.34475" x="2364.28491" width="26.769" height="26.769" xlink:href="#svg_50" id="svg_447"/>
+   <use stroke="null" transform="matrix(0.437828 0 0 0.437828 563.338 23.6471)" href="#svg_50" fill="#000000" y="268.34475" x="2364.28491" width="26.769" height="26.769" xlink:href="#svg_50" id="svg_448"/>
+   <use stroke="null" transform="matrix(0.437828 0 0 0.437828 563.338 23.6471)" href="#svg_50" y="251.84375" x="2388.56791" width="70" height="70" xlink:href="#svg_50" id="svg_449"/>
+   <use stroke="null" transform="matrix(0.437828 0 0 0.437828 563.338 23.6471)" href="#svg_50" y="251.84375" x="2493.56991" width="70" height="70" xlink:href="#svg_50" id="svg_450"/>
+   <g stroke="null" transform="matrix(-0.437828 0 0 -0.437828 906.303 131.645)" id="svg_456">
+    <use stroke="null" href="#svg_51" y="-296.67824" x="-1807.13567" width="32" height="32" xlink:href="#svg_51" id="svg_451"/>
+    <use stroke="black" href="#svg_50" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" y="-259.67824" x="-1804.51967" width="26.769" height="26.769" xlink:href="#svg_50" id="svg_452"/>
+    <use stroke="null" href="#svg_50" fill="#000000" y="-259.67824" x="-1804.51967" width="26.769" height="26.769" xlink:href="#svg_50" id="svg_453"/>
+    <use stroke="null" href="#svg_50" y="-276.17924" x="-1780.23667" width="70" height="70" xlink:href="#svg_50" id="svg_454"/>
+    <use stroke="null" href="#svg_50" y="-276.17924" x="-1675.23467" width="70" height="70" xlink:href="#svg_50" id="svg_455"/>
    </g>
   </g>
  </g>

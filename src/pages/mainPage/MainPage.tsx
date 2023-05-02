@@ -14,7 +14,9 @@ export function MainPage() {
     }, []);
     return (
         <>
-         {loading && <LoadingSpinner />}
+        {/* <img className={style.deskImage} src="./texture2-min.jpg"/> */}
+        <div className={style.deskImage}></div>
+         {/* {loading && <LoadingSpinner />} */}
             <div className={style.desk}>
                 <Board />
                 <Sound />

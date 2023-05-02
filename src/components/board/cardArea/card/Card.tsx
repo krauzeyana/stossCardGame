@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { Sprite, useTick } from "@pixi/react";
 import cardBack from "../../../../assets/images/cards/1B.svg";
-import { Ticker } from "pixi.js";
-
+import { Texture, Ticker } from "pixi.js";
+import * as PIXI from "pixi.js";
+import { imgList } from "../../../../utils/cacheImg";
 interface ICardProps {
     cardName: string;
     isAnimated: boolean;
@@ -18,7 +19,8 @@ export function Card({ cardName, isAnimated, position, flipBefore, moveSpeed }: 
     const [ticker, setTicker] = useState<Ticker | null>(null);
     const [width, setWidth] = useState(80);
     const [isCollapse, setIsCollapse] = useState(true);
-
+    const backTexture = PIXI.Texture.from(cardBack);
+    const [texture, setTexture] = useState<Texture>(PIXI.Texture.from(imgList.get(`./assets/images/cards/1B.svg`)!));
     const getCardIcon = async () => {
         const icon = (await import(`../../../../assets/images/cards/${cardName}.svg`)).default;
         setCard(icon);
@@ -57,22 +59,29 @@ export function Card({ cardName, isAnimated, position, flipBefore, moveSpeed }: 
             }
         }
 
-        if (cardName) {
-            getCardIcon();
-        } else {
-            setCard("");
-            setIsOpen(false);
+        // if (cardName) {
+        //     getCardIcon();
+        // } else {
+        //     setCard("");
+        //     setIsOpen(false);
+        // }
+        //setTexture(PIXI.Texture.from(`../../../../assets/images/cards/${cardName}.svg`))
+        if (cardName !== "" && cardName !== "1B") {
+            //setTexture(PIXI.Texture.from(`./assets/images/cards/${cardName}.svg`));
+            setTexture(PIXI.Texture.from(imgList.get(`./assets/images/cards/${cardName}.svg`)!));
+            //  import( `../../../../assets/images/cards/${cardName}.svg`).then(val => setTexture(PIXI.Texture.from(val.default)));
         }
     }, [cardName]);
 
     return (
         <>
-            {isOpen && (
+            {cardName && (
                 <Sprite
                     position={{ x: X, y: Y }}
                     width={width}
                     height={112}
-                    image={flipBefore && isCollapse ? cardBack : card}
+                    // image={flipBefore && isCollapse ? cardBack : card}
+                    texture={flipBefore && isCollapse ? backTexture : texture}
                     zIndex={isAnimated ? 5 : 0}
                 />
             )}

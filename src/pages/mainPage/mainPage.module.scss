@@ -1,10 +1,27 @@
 .desk {
-    display: flex;    
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
     height: calc(100vh - 70px);
     width: 100%;
-    background-image: url("../../assets/images/texture2.jpg");
+    // background-image: url("../../assets/images/texture2.jpg");
     background-size: cover;
+}
+
+.deskImage {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    z-index: -2;
+    height: 100%;
+    // background: repeating-linear-gradient(
+    //     67deg,
+    //     rgba(212, 149, 97, 1) 0%,
+    //     rgba(241, 221, 204, 1) 43%,
+    //     rgba(255, 255, 255, 1) 50%,
+    //     rgba(249, 220, 199, 1) 58%,
+    //     rgba(247, 210, 183, 1) 100%
+    // );
+    background: linear-gradient(180deg,#f3984d,#d49561 45%, #f5cfae 90%,#fff 100%);
 }

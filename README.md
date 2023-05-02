@@ -1,5 +1,7 @@
 # Stoss
 
+Link to the deployed game - [Stoss](https://stoss-yankra.surge.sh/).
+
 ## General Information
 
 Stoss is a single player card game. In France, the game has been known since 1688 under the name Faro. It was also widespread in the German states during the 19th century.

@@ -1,7 +1,7 @@
 import React from "react";
-import { useCallback, useEffect, useState } from "react";
 import { ChipValueType } from "../../../../common/gameInfo";
 import style from "./chip.module.scss";
+import { ChipListIcons } from "../../../../utils/chipsListIcons";
 
 interface IChipProps {
     value: ChipValueType;
@@ -9,20 +9,11 @@ interface IChipProps {
 }
 
 export const Chip = React.memo(({ value, onClick }: IChipProps) => {
-    const [chip, setChip] = useState();
-    
-    const getChipIcon = useCallback(async () => {
-        const icon = (await import(`../../../../assets/images/chips/${value}.svg`)).default;
-        setChip(icon);
-    }, [value, setChip]);
-
-    useEffect(() => {
-        getChipIcon();
-    }, [value, getChipIcon]);
+    const ChipIcon = ChipListIcons[value];
 
     return (
-        <div onClick={onClick} className={style.chip}>
-            <img src={chip}  className="" alt="chip" />
+        <div className={style.chip} onClick={onClick}>
+            <ChipIcon  />
         </div>
     );
 });
