@@ -1,0 +1,67 @@
+.red {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    //height: 100%;
+    height: calc(100vh - 150px);
+    width: 100%;
+    background-size: cover;
+   
+    @media screen and (min-width: 768px) {
+        border-bottom-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+    }
+
+    @media screen and (max-width: 767px) {
+        border-bottom-right-radius: 150px;
+        border-bottom-left-radius: 150px;
+    }
+    @media screen and (max-width: 576px) {
+        border-bottom-right-radius: 75px;
+        border-bottom-left-radius: 75px;
+    }
+    //background-image: url("../../assets/images/deskTexture5.jpg");
+    box-shadow: inset black 0px -5px 20px 15px;
+    //box-shadow: inset black 3px 3px 20px 15px;
+    padding-bottom: 15px;
+    background-size: cover;
+}
+
+
+.amounts{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    @media screen and (max-width: 576px) {
+        flex-direction: column;
+    }
+    @media screen and (min-width: 577px) {
+    }
+}
+
+.boardImage{
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    z-index: -1;
+    
+
+    @media screen and (min-width: 768px) {
+        border-bottom-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+    height: calc(100vh - 140px);
+    }
+
+    @media screen and (max-width: 767px) {
+        border-bottom-right-radius: 150px;
+        border-bottom-left-radius: 150px;
+        height: calc(100vh - 140px);
+    }
+    @media screen and (max-width: 576px) {
+        border-bottom-right-radius: 75px;
+        border-bottom-left-radius: 75px;
+        height: calc(100vh - 150px);
+    }
+}

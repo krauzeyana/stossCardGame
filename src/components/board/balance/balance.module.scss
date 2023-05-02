@@ -1,0 +1,15 @@
+.balance {
+    font-family: "Belleza-Regular";
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    @media screen and (max-width: 576px) {
+        width: calc(100% - 20px);
+        margin-left: 20px;
+        line-height: 0px;
+    }
+    @media screen and (min-width: 577px) {
+        width: 250px;
+    }
+    
+}

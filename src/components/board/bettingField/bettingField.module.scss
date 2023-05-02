@@ -1,0 +1,30 @@
+.betField {
+    @media screen and (max-width: 576px) {
+        flex-grow: 1;
+        width: 85%;
+    }
+    @media screen and (min-width: 577px) {
+        flex-grow: 2; //3
+        width: 60%; //60
+    }
+
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+
+    :nth-child(odd) {
+        grid-row: 1;
+    }
+
+    :nth-child(even) {
+        grid-row: 2;
+    }
+    @for $i from 1 to 14 {
+        :nth-child(#{$i}) {
+            grid-column-start: calc(#{$i});
+            grid-column-end: calc(#{$i} + 2);
+        }
+    }
+}

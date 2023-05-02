@@ -1,0 +1,44 @@
+<svg width="501" height="402" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <defs transform="translate(0 1) translate(0 1) translate(0 0.5) translate(-1 1) translate(1 0) translate(1 0) translate(1 0) translate(1 0) translate(1 0) translate(1 0) translate(1 0) translate(1 0) translate(-3 0) translate(-1 0) translate(-1 0) translate(-1 0) translate(-1 0) translate(-1 0) translate(-1 0) translate(-1 0) translate(12 -2) translate(-101 1) translate(250.5 0) translate(0 201)">
+   <symbol preserveAspectRatio="xMinYMid" viewBox="-600 -600 1200 1200" id="svg_1">
+    <path d="m0,-300c0,-100 100,-200 200,-200c100,0 200,100 200,250c0,250 -400,650 -400,750c0,-100 -400,-500 -400,-750c0,-150 100,-250 200,-250c100,0 200,100 200,200z"/>
+   </symbol>
+   <symbol preserveAspectRatio="xMinYMid" viewBox="-500 -500 1000 1000" id="svg_2">
+    <path fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" stroke="black" d="m170,-460l-345,0l-35,345c0,0 10,-85 210,-85c100,0 255,120 255,320c0,200 -75,340 -275,340c-200,0 -235,-175 -235,-175"/>
+   </symbol>
+  </defs>
+  <rect transform="rotate(-14.935 158.5 203.5)" stroke="black" fill="white" ry="12" rx="12" y="36" x="39" height="335" width="239"/>
+  <use transform="rotate(-14.935 27.3428 93.5894)" xlink:href="#svg_2" y="77.58937" x="11.34279" width="32" height="32"/>
+  <use transform="rotate(-14.935 36.205 126.812)" href="#svg_1" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" stroke="black" y="113.42769" x="22.82047" width="26.769" height="26.769" xlink:href="#svg_1"/>
+  <use transform="rotate(-14.935 36.205 126.812)" href="#svg_1" fill="#000000" y="113.42769" x="22.82047" width="26.769" height="26.769" xlink:href="#svg_1"/>
+  <use transform="rotate(-14.935 81.8711 119.925)" href="#svg_1" y="84.92479" x="46.87108" width="70" height="70" xlink:href="#svg_1"/>
+  <use transform="rotate(-14.935 183.326 92.8633)" href="#svg_1" y="57.86331" x="148.32598" width="70" height="70" xlink:href="#svg_1"/>
+  <use transform="rotate(-14.935 158.5 203.5)" href="#svg_1" y="168.5" x="123.5" width="70" height="70" xlink:href="#svg_1"/>
+  <g transform="rotate(165.065 114.158 98.3486)">
+   <use href="#svg_2" y="-170.67851" x="-15.98604" width="32" height="32" xlink:href="#svg_2"/>
+   <use href="#svg_1" stroke-linecap="round" stroke-linejoin="round" stroke-width="100" stroke="black" y="-133.67851" x="-13.37004" width="26.769" height="26.769" xlink:href="#svg_1"/>
+   <use href="#svg_1" fill="#000000" y="-133.67851" x="-13.37004" width="26.769" height="26.769" xlink:href="#svg_1"/>
+   <use href="#svg_1" y="-150.17951" x="10.91296" width="70" height="70" xlink:href="#svg_1"/>
+   <use href="#svg_1" y="-150.17951" x="115.91496" width="70" height="70" xlink:href="#svg_1"/>
+  </g>
+  <defs transform="translate(0 1) translate(0 1) translate(-1 0) translate(-1 0) translate(-1 0) translate(-1 0) translate(-1 0) translate(-1 0) translate(-1 0) translate(-1 0) translate(3 0) translate(1 0) translate(1 0) translate(0 1) translate(0 -5) translate(0 0.5) translate(0 1) translate(-29 1) translate(121 2) translate(250.5 0) translate(0 201)">
+   <symbol preserveAspectRatio="xMinYMid" viewBox="-500 -500 1000 1000" id="svg_4">
+    <path fill="none" stroke-miterlimit="1.5" stroke-linecap="square" stroke-width="80" stroke="black" d="m-270,460l160,0m-90,-10l200,-910l200,910m-90,10l160,0m-390,-330l240,0"/>
+   </symbol>
+   <symbol preserveAspectRatio="xMinYMid" viewBox="-600 -600 1200 1200" id="svg_3">
+    <path d="m0,-500c100,250 355,400 355,685a150,150 0 0 1 -300,0a10,10 0 0 0 -20,0c0,200 50,215 95,315l-260,0c45,-100 95,-115 95,-315a10,10 0 0 0 -20,0a150,150 0 0 1 -300,0c0,-285 255,-435 355,-685z"/>
+   </symbol>
+  </defs>
+  <rect transform="rotate(15 338.5 203.5)" stroke="black" fill="white" ry="12" rx="12" y="36" x="219" height="335" width="239"/>
+  <use transform="rotate(15 339.5 203.5)" href="#svg_3" y="121.1" x="257.1" width="164.8" height="164.8" xlink:href="#svg_3"/>
+  <use transform="rotate(15 280.688 42.8026)" href="#svg_4" y="26.80259" x="264.68757" width="32" height="32" xlink:href="#svg_4"/>
+  <use transform="rotate(15 271.789 76.0156)" href="#svg_3" fill="black" y="62.63109" x="258.40418" width="26.769" height="26.769" xlink:href="#svg_3"/>
+  <g transform="rotate(195 276.699 57.6866)">
+   <use href="#svg_4" y="-222.90424" x="63.89941" width="32" height="32" xlink:href="#svg_4"/>
+   <use href="#svg_3" fill="black" y="-185.90424" x="66.51541" width="26.769" height="26.769" xlink:href="#svg_3"/>
+  </g>
+ </g>
+
+</svg>

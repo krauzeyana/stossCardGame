@@ -1,0 +1,37 @@
+.chip {
+    cursor: pointer;
+    @media screen and (max-width: 576px) {
+        width: 42px;
+        height: 42px;
+    }
+    @media screen and (min-width: 577px) {
+        width: 50px;
+        height: 50px;
+    }
+    img {
+        @media screen and (max-width: 576px) {
+            width: 42px;
+            height: 42px;
+        }
+        @media screen and (min-width: 577px) {
+            width: 50px;
+            height: 50px;
+        }
+    }
+    svg text{
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+     }
+    svg {
+        //display: inline-block;
+       
+        // @media screen and (max-width: 576px) {
+        //     scale: 0.55;
+        // }
+        // @media screen and (min-width: 577px) {
+        //     scale: 0.66;
+        // }
+    }
+}
