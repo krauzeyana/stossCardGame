@@ -35,7 +35,7 @@ export class BankStore {
             unselectBet: action.bound,
             clearDeltaAmount: action.bound,
         });
-        autoSave(this, ["maxBetsCount","balance"]);
+        autoSave(this, ["maxBetsCount","balance","totalBet","betList"]);
     }
 
     get nonEmptyBetsCount() {
@@ -110,6 +110,8 @@ export class BankStore {
         for (arr in this.betList) {
             this.betList[arr] = [];
         }
+        this.balance += this.totalBet;
+        this.totalBet = 0;
         this.selectedBet = null;
     }
 }
