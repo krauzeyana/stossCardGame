@@ -1,8 +1,8 @@
 import { useCallback } from "react";
 import { Chip } from "../../chipsList/chip";
 import { CardValueType, ChipValueType } from "../../../../common/gameInfo";
-import style from "./bet.module.scss";
 import { Sound } from "../../../sound";
+import style from "./bet.module.scss";
 
 interface IBetProps {
     betValue: CardValueType;
@@ -17,7 +17,7 @@ export const Bet = ({ betValue, chipsList, selectBet, removeBet, isSelected }: I
     }, [betValue, selectBet]);
 
     const onRemoveBet = useCallback(() => {
-        if (isSelected) {         
+        if (isSelected) {
             Sound.playSound("removeBet");
             removeBet(betValue);
         }

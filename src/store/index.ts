@@ -22,11 +22,11 @@ export class RootStore {
         makeAutoObservable(this, { checkBets: action.bound, resetWin: action.bound });
     }
 
-    resetWin = () =>{
+    resetWin = () => {
         this.isLose = false;
         this.isWin = false;
         this.bankStore.clearDeltaAmount();
-    }
+    };
 
     checkBets = () => {
         const { openCards } = this.playingStore;
@@ -52,7 +52,7 @@ export class RootStore {
 
             if (plus > 0 && openCards[0].value !== openCards[1].value) {
                 plus *= 2;
-                Sound.playSound("win")
+                Sound.playSound("win");
                 changeBalance(plus);
             }
         }
@@ -63,10 +63,9 @@ export const RootStoreContext = React.createContext<RootStore | null>(null);
 export const rootStore = new RootStore();
 
 export function useStore<K extends StoreType>(name: K) {
-        const context = React.useContext(RootStoreContext);
-        if (!context) {
-            throw new Error("Wrap element with context first!");
-        }
-        return (context[name]);
+    const context = React.useContext(RootStoreContext);
+    if (!context) {
+        throw new Error("Wrap element with context first!");
     }
-    
+    return context[name];
+}

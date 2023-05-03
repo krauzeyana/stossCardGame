@@ -6,16 +6,19 @@ import { useCallback } from "react";
 import { Sound } from "../../sound";
 import style from "./chipsList.module.scss";
 
-export const ChipsList = observer(() =>{
+export const ChipsList = observer(() => {
     const { makeBet } = useStore("bankStore");
 
-    const onClickHandle = useCallback((value: ChipValueType) => { 
-        return () => {     
-            Sound.playSound("addBet");
-            makeBet(value);
-        }
-    }, [makeBet]);
-    
+    const onClickHandle = useCallback(
+        (value: ChipValueType) => {
+            return () => {
+                Sound.playSound("addBet");
+                makeBet(value);
+            };
+        },
+        [makeBet]
+    );
+
     return (
         <div className={style.chipsList}>
             {chipsList.map((chip) => (

@@ -3,17 +3,17 @@ import { Card } from "./card/Card";
 import { CardDeck } from "./cardDeck";
 import { PositionLabel } from "./positionLabel";
 import { RootStoreContext, rootStore, useStore } from "../../../store";
-import style from "./cardArea.module.scss";
 import { Container, Stage } from "@pixi/react";
 import { OpenCardDeck } from "./openCardDeck";
+import style from "./cardArea.module.scss";
 
 interface ICardAreaProps {
-    isMobile: boolean
+    isMobile: boolean;
 }
-export const CardArea = observer(({ isMobile}: ICardAreaProps) => {
-    const { openCards} = useStore("playingStore");
-
+export const CardArea = observer(({ isMobile }: ICardAreaProps) => {
+    const { openCards } = useStore("playingStore");
     const { isLose, isWin } = useStore("rootStore");
+
     return (
         <div className={style.cardArea}>
             <Stage
@@ -22,8 +22,6 @@ export const CardArea = observer(({ isMobile}: ICardAreaProps) => {
                 options={{
                     backgroundAlpha: 0,
                     antialias: true,
-                    // autoDensity:true,
-                    //          resizeTo: cardAreaRef.current ? cardAreaRef.current : undefined
                 }}
             >
                 <RootStoreContext.Provider value={rootStore}>

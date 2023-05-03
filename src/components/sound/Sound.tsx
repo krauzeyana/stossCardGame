@@ -1,10 +1,10 @@
 import React, { createRef } from "react";
 import { createTypedObjectFromEntries } from "../../utils/objectFromEntries";
-import { SoundListType, SoundValue, SoundValueType } from "../../common/gameInfo";
+import { SoundListType, soundValue, SoundValueType } from "../../common/gameInfo";
 
 export class Sound extends React.Component {
     static soundList: SoundListType = createTypedObjectFromEntries(
-        SoundValue.map((key) => [key, null])
+        soundValue.map((key) => [key, null])
     );
 
     constructor(props: React.PropsWithChildren) {
