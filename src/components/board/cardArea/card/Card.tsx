@@ -55,7 +55,7 @@ export function Card({ cardName, isAnimated, position, flipBefore, moveSpeed }: 
         if (cardName !== "" && cardName !== "1B") {
             setTexture(PIXI.Texture.from(imgList.get(`./assets/images/cards/${cardName}.svg`)!));
         }
-    },[position, isAnimated, cardName, flipBefore, ticker]);
+    },[cardName]);
 
     return (
         <>
