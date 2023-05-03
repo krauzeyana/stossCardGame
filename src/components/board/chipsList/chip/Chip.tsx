@@ -1,7 +1,7 @@
 import React from "react";
 import { ChipValueType } from "../../../../common/gameInfo";
-import style from "./chip.module.scss";
 import { ChipListIcons } from "../../../../utils/chipsListIcons";
+import style from "./chip.module.scss";
 
 interface IChipProps {
     value: ChipValueType;
@@ -13,7 +13,7 @@ export const Chip = React.memo(({ value, onClick }: IChipProps) => {
 
     return (
         <div className={style.chip} onClick={onClick}>
-            <ChipIcon  />
+            <ChipIcon />
         </div>
     );
 });

@@ -63,7 +63,7 @@ export class PlayingStore {
     openNewCards() {
         this.rootStore.resetWin();
         if (this.openCards && this.openCards.length === 2) {
-            const temp:Card = this.openCards.pop()!      
+            const temp: Card = this.openCards.pop()!;
             this.openedCardDeck.push(this.openCards.pop()!);
             this.openedCardDeck.push(temp);
         }

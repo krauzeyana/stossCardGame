@@ -33,7 +33,7 @@ export const SettingPage = observer(() => {
     }, [deckCount, updateDeckCount, upateMaxBetsCount, remixDeck]);
 
     const resetBalanceHandle = useCallback(() => {
-        resetBalance(true);
+        resetBalance();
     }, [resetBalance]);
 
     return (

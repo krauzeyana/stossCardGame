@@ -35,7 +35,7 @@ export class BankStore {
             unselectBet: action.bound,
             clearDeltaAmount: action.bound,
         });
-        autoSave(this, ["maxBetsCount"]);
+        autoSave(this, ["maxBetsCount","balance"]);
     }
 
     get nonEmptyBetsCount() {
@@ -99,8 +99,8 @@ export class BankStore {
         this.maxBetsCount = newCount;
     }
 
-    resetBalance(isCheck: boolean) {
-        if (!isCheck || (isCheck && this.balance === 0 && this.nonEmptyBetsCount === 0)) {
+    resetBalance() {
+        if (this.balance === 0 && this.nonEmptyBetsCount === 0) {
             this.balance = defBalance;
         }
     }

@@ -1,5 +1,4 @@
 import { Link, NavLink } from "react-router-dom";
-import { useEffect, useState } from "react";
 import { Game } from "./game";
 import { Statistic } from "./statistic";
 import { Settings } from "./settings";

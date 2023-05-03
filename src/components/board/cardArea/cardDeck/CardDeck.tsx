@@ -37,7 +37,7 @@ export const CardDeck = observer(({ isMobile }: ICardDeckProps) => {
     useEffect(() => {
         const deckJSXArr: JSX.Element[] = [];
         if (isEmptyDeck) {
-            deckJSXArr.push(<Card cardName="refresh" isAnimated={false} key="refresh"/>);
+            deckJSXArr.push(<Card cardName="refresh" isAnimated={false} key="refresh" />);
             for (let i = 0; i < 4; i++) {
                 deckJSXArr.push(
                     <Card

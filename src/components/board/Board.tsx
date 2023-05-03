@@ -4,12 +4,11 @@ import { BettingField } from "./bettingField";
 import { CardArea } from "./cardArea";
 import { ChipsList } from "./chipsList";
 import { useStore } from "../../store";
-import style from "./board.module.scss";
 import { useWindowWidth } from "../../utils/useWindowWidth";
-//import { LazyLoadImage } from "react-lazy-load-image-component"
 import { useEffect, useState } from "react";
 import { LoadingSpinner } from "../loadingSpinner";
-import { cacheImg } from "../../utils/cacheImg";
+import { cacheImg, generateImageSet, imgList } from "../../utils/cacheImg";
+import style from "./board.module.scss";
 
 export const Board: React.FC = observer(() => {
     const { totalBet, balance, deltaAmount } = useStore("bankStore");
@@ -18,16 +17,35 @@ export const Board: React.FC = observer(() => {
 
     useEffect(() => {
         setLoading(true);
-        cacheImg(["./assets/images/deskTexture.jpg"], () => {setLoading(false)});
+        const loadDeskImage = () => {
+            cacheImg(
+                ["./assets/images/deskTexture.jpg"],
+                () => {
+                    setLoading(false);
+                },
+                false
+            );
+        };
+        if (imgList.size !== 54) {
+            const cardImgList: string[] = [];
+            generateImageSet(cardImgList);
+            cacheImg(
+                cardImgList,
+                () => {
+                    loadDeskImage();
+                },
+                true
+            );
+        } else loadDeskImage();
     }, []);
-//require("../../assets/images/deskTexture5-min-min.jpg")
+
     return (
         <>
             {loading && <LoadingSpinner />}
-            <img className={style.boardImage} src={"./assets/images/deskTexture.jpg"} /> 
+            <img className={style.boardImage} src={"./assets/images/deskTexture.jpg"} alt="board"/>
 
             <div className={style.red}>
-                <CardArea isMobile={isMobile} />
+                {!loading && <CardArea isMobile={isMobile} />}
                 <BettingField />
                 <ChipsList />
             </div>
